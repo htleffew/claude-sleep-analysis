@@ -28,9 +28,17 @@ import json
 import math
 import os
 import re
+import sys
 import warnings
 from collections import Counter, defaultdict
 from datetime import datetime
+
+# Use the improved V2 extractor for quote-span and transcript detection
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from quote_extractor_v2 import (
+    extract_quote_spans_v2 as _extract_quote_spans_v2,
+    has_transcript_structure_v2 as _has_transcript_structure_v2,
+)
 
 import numpy as np
 import pandas as pd
@@ -657,7 +665,7 @@ def build_post_features(df):
     for idx, row in df.iterrows():
         body = clean_for_features(row["body"])
         relevant = bool(RELEVANCE_PREFILTER.search(body))
-        quoted, narration, sources = extract_quote_spans(body)
+        quoted, narration, sources = _extract_quote_spans_v2(body)
 
         # Record extracted quote spans
         for method, span in sources:
@@ -717,7 +725,7 @@ def build_post_features(df):
 
         # Structural
         cratio = code_prose_ratio(body)
-        transcript = has_transcript_structure(body)
+        transcript = _has_transcript_structure_v2(body)
 
         rows.append({
             "post_idx": idx,

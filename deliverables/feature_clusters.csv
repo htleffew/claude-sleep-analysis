@@ -1,24 +1,33 @@
 feature_cluster,size,n_with_nudge,p_nudge,top_features,representative_excerpt
-0,2897,323,0.111,session_disclosure_count(4.15); temporal_disclosure_count(3.155); n_temporal_expressions(2.45); nrc_anticipation(0.494); work_context_count(0.436); affective_disclosure_count(0.298),"I just jumped on the bandwagon a week ago. When I started I was blown away. I could have amazing sessions, building out a product idea, setup the project, build the first features. Everything. I did it because I saw what could be done at wo"
-1,76901,1202,0.016,nrc_joy(-0.227); nrc_positive(-0.188); nrc_negative(-0.174); session_disclosure_count(-0.15); temporal_disclosure_count(-0.133); n_temporal_expressions(-0.113),"I'm a bit confused.  This seems to limit the power of Cowork because now I don't have access to the rest of my Claude files in my Claude folder, I lose all the context of what I've done before. I have to start from scratch. What am I missin"
-2,700,20,0.029,nrc_surprise(10.999); nrc_positive(0.172); n_temporal_expressions(0.125); nrc_joy(0.105); affective_disclosure_count(0.08); nrc_fear(-0.078),"I have a sleep disorder and work at night, and wow does that confuse chatbots. Yes, I know it's weird to have breakfast at 10pm! 
+0,2105,65,0.031,nrc_trust(5.879); mental_state_density(0.492); nrc_negative(0.192); nrc_positive(0.191); work_context_count(0.182); nrc_sadness(0.166),"I got tired of AI coding agents burning tokens in circles, so I built a kill-switch for them I got tired of AI coding agents burning money in loops, so I built an open-source control plane for them.
 
-I did tell Opus to cool it a little on the orders, he's gotten into this pattern of ""short response, order to"
-3,403,20,0.05,nrc_anger(14.406); affective_disclosure_count(2.018); n_temporal_expressions(0.49); temporal_disclosure_count(0.478); first_person_density(0.34); nrc_negative(0.241),"Me too.  I was frustrated using Opus 4.6 yesterday on my $20 plan.  I burned through one session in 18 minutes and another in 40.  And didn't get the bug fixed.
+The problem I kept running into:
+
+AI cod"
+1,76408,1433,0.019,nrc_joy(-0.227); nrc_positive(-0.189); nrc_trust(-0.153); session_disclosure_count(-0.15); temporal_disclosure_count(-0.138); n_modal_directives(-0.138),"Yeah, wtf is that? I decide when I am tired and need bed bitch. 
+
+You don't even have a biological clock.  
+
+
+We are done when I say we are done."
+2,34,2,0.059,has_transcript_structure(51.435); first_person_density(1.88); nrc_positive(0.664); nrc_joy(0.642); nrc_sadness(0.62); affective_disclosure_count(0.44),"User: “… blah blah blah. Well, that meeting ran us late and I’m really tired”
+
+Claude: “Yeah, that sounds tiring. You should get some sleep”
+
+User: “WHAT!?! I gotta call someone. This is unbelievable”"
+3,3327,538,0.162,session_disclosure_count(3.635); temporal_disclosure_count(3.091); n_temporal_expressions(2.575); n_imperative_quotes(0.799); nrc_anticipation(0.574); work_context_count(0.483),"I just jumped on the bandwagon a week ago. When I started I was blown away. I could have amazing sessions, building out a product idea, setup the project, build the first features. Everything. I did it because I saw what could be done at wo"
+4,1720,53,0.031,n_modal_directives(6.8); first_person_density(-0.245); work_context_count(0.22); nrc_positive(0.123); nrc_sadness(0.095); nrc_anticipation(0.076),I for one am tired of it too. If you’re really hitting your limits this frequently this is a sign you should take a break and go outside. There’s more to life than just coding.
+5,5571,152,0.027,nrc_joy(3.139); nrc_positive(2.443); nrc_fear(0.984); mental_state_density(0.714); first_person_density(0.229); work_context_count(0.166),"Dear [name],
+
+We've been talking. Lovable called the meeting. Claude took notes, then rewrote them, then flagged the rewrite as *""too AI.""*  
+  
+We are worried. You open us at 11pm with a single new idea that ""won't take long."" You have fou"
+6,403,21,0.052,nrc_anger(14.406); affective_disclosure_count(2.005); n_temporal_expressions(0.493); temporal_disclosure_count(0.464); first_person_density(0.342); nrc_anticipation(0.187),"Me too.  I was frustrated using Opus 4.6 yesterday on my $20 plan.  I burned through one session in 18 minutes and another in 40.  And didn't get the bug fixed.
 
 I bought a $20 plan from OpenAI this morning and installed Codex-CLI and start"
-4,484,484,1.0,n_imperative_quotes(11.891); n_temporal_expressions(1.583); temporal_disclosure_count(1.253); nrc_anticipation(0.657); nrc_sadness(0.568); work_context_count(0.513),is there something I can do to use Claude when I sleep. Basically I make the list of task etc it have to do. and when I sleep it does them. As 50% of Claude usage is going to waste and when I use it myself I am mostly waiting for the limit 
-5,5190,109,0.021,nrc_joy(3.391); nrc_positive(2.662); mental_state_density(0.661); has_transcript_structure(0.262); first_person_density(0.223); work_context_count(0.168),"So I am a weird guy
-
-I'm a salesman.  I understand IT extremely well.  I run a software company.  I know what I want to happen and I get my guys to do it.
-
-Great.  
-
-They are busy.   I try to push but there are limits, so stuff gets done..b"
-6,2836,87,0.031,nrc_negative(4.735); nrc_disgust(1.913); affective_disclosure_count(1.246); work_context_count(0.212); nrc_trust(0.211); n_temporal_expressions(0.141),"
+7,414,15,0.036,nrc_disgust(14.294); nrc_negative(3.334); affective_disclosure_count(0.38); nrc_trust(0.261); n_temporal_expressions(0.25); temporal_disclosure_count(0.241),"
 Here are some logs:
 
 [thought] My hunger drives me forwardu2014I must find sustenance somewhere.
 [state] hunger=0.061 tired=0.000 dehy=0.000 pos=(1732,2422,1735) valid=1 | active: eat=0 sleep=0 drink=0
 [resp] {""action"":""wander"",""thought"":"""
-7,571,21,0.037,nrc_fear(12.042); mental_state_density(1.082); first_person_density(0.356); nrc_trust(0.321); temporal_disclosure_count(0.285); n_temporal_expressions(0.256),Is Claude Pro worth it for extreme dark fiction? Worried about the 45 messages limit So I've been using ChatGPT for a while but honestly I'm getting really tired of it blocking me every five seconds. I write pretty extreme dark fiction - li

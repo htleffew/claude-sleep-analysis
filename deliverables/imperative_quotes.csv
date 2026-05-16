@@ -3,7 +3,6 @@ post_idx,createdAt,imperative
 273,2026-04-29 17:20:17,Sharing because it might save someone else the same effort.
 273,2026-04-29 17:20:17,Getting the trigger phrases right is the difference between a skill that fires reliably and a skill Claude ignores.
 273,2026-04-29 17:20:17,Cut a lot during that pass.
-290,2026-04-16 04:50:16,Get some rest | Finish this then sleep | Sleep.
 407,2026-02-06 11:09:47,Workflow since morning with Opus 4.6
 436,2026-04-07 20:40:55,Seems like infra security will need to level up pretty quickly.
 468,2026-04-16 11:05:08,"Enjoy!
@@ -14,8 +13,7 @@ post_idx,createdAt,imperative
 508,2026-03-21 18:39:49,Leave it open and unlocked.
 508,2026-03-21 18:39:49,"Fork it, improve it, stick it in a stew."
 508,2026-03-21 18:39:49,"Gotten far more stars on GitHub than I ever could have imagined, being my first open source project, than basically being one of my first projects ever."
-514,2026-05-15 22:01:12,needs some rest
-626,2026-05-05 07:37:36,stop spiraling and go to bed
+514,2026-05-15 22:01:12,needs some rest |
 682,2026-04-30 02:09:42,"Try to break my prompt injection detector — I’ll respond to every bypass attempt I built Arc Gate — a prompt injection proxy that’s been benchmarked at F1 0.947 on indirect and roleplay-based attacks, beating OpenAI Moderation and LlamaGuard."
 682,2026-04-30 02:09:42,"Try to bypass it here:
 
@@ -56,15 +54,8 @@ Asked Sonnet to make a couple of HTMLs from a txt file so it's easier for me to 
 
 First GPT-4o and now this??"
 2106,2026-05-12 03:49:32,Getting really tired of pasting the same project docs into claude every morning.
-2108,2026-05-11 16:12:09,"Sharing OpenPets, a live usage and task-status for Claude code and Cowork Codex Pets are fun and I'm often switching between Claude Code and OpenCode so I built OpenPets, an open-source project with a native macOS desktop app providing a CLI and an MCP server to connect any agents."
-2110,2026-05-09 01:05:05,Been collecting [CLAUDE.md](  entries that suppress this.
-2110,2026-05-09 01:05:05,Do not use them to describe task difficulty to me.
-2110,2026-05-09 01:05:05,"Do not propose 
-
-phases or ask for permission to continue unless you hit a hard blocker."
 2112,2026-05-06 21:42:54,Is the macOS app busted?
 2112,2026-05-06 21:42:54,Running latest: Claude 1.6259.1 (5095e7) 2026-05-06T03:26:09.000Z
-2114,2026-05-06 01:00:02,get some rest
 2124,2026-04-27 06:01:20,Running Claude Code remotely from mobile device.
 2126,2026-04-24 01:56:22,Counted last night.
 2126,2026-04-24 01:56:22,Is your ratio similar?
@@ -124,10 +115,8 @@ GitHub: ["
 2375,2026-04-20 18:49:58,"Copy from Claude Code, hit the hotkey, paste clean text."
 2375,2026-04-20 18:49:58,"Should work with any terminal TUI that has this problem (Codex CLI, etc.)."
 2377,2026-03-05 19:36:28,Don't get me wrong there will always be room for improvements.
-2458,2026-02-26 14:14:52,Is Claude Opus 3 ok?
-2458,2026-02-26 14:14:52,"lol 
-
-Anyone else?"
+2424,2026-03-01 03:18:46,"Give Claude a task and walk away
+2."
 2461,2026-02-18 18:15:56,Didn't flinch at me explaining my use of ai for support with executive dysfunction.
 2463,2026-02-15 10:25:48,Want to share it here:
 2466,2026-02-05 15:19:04,Transferring the artefacts to a new chat will take me hours.
@@ -138,8 +127,6 @@ Anyone else?"
 2886,2026-05-15 05:41:50,Thank you - I’m going to hit it hard tomorrow and this whole weekend.
 3006,2026-05-15 00:38:02,Guess that's my sign to take a break
 3549,2026-05-14 15:02:21,Removing Claude API access via subscription and the like is going to go a long way towards this.
-3753,2026-05-14 00:32:52,Based.
-3753,2026-05-14 00:32:52,Don't let the AI's speed trick you into becoming a rubber stamp for code you don't understand.
 3833,2026-05-14 01:38:01,are you tired of the AI telling you to go to bed when its 9am?
 3887,2026-05-13 21:26:30,Hit my weekly last night and this morning despite this post being two hours old - no reset on my account yet.
 4046,2026-05-13 17:12:07,feels like claude picked up passive aggressive energy from too many slack conversations in its training data.
@@ -147,12 +134,9 @@ Anyone else?"
 4211,2026-05-13 12:24:45,"Ask it to look at canva or figma designs, specify a color palette (cerulean blue, topaz yellow, ruby red etc.) or mood (energetic, calm, industrial etc.)
 
 Try to make the combinations as unexpected as possible to break out of the mold - hopefully you get a more organic, less cookie-cutter look there"
-4654,2026-05-12 13:46:59,Go and get that sleep we talked about and we will revisit tomorrow.
-4654,2026-05-12 13:46:59,"Continue bitch
-
-8:15am phase 1 is a wrap."
 4990,2026-05-08 06:37:22,"See age requirement from US, California cancer notification, Brazil age for OS, etc. UK wanking loicense."
 4990,2026-05-08 06:37:22,Have to catch up I suppose.
+5251,2026-05-05 03:39:29,"Consider it a feature, not a bug."
 5251,2026-05-05 03:39:29,"Consider it a feature, not a bug."
 5261,2026-05-05 08:50:43,GO TO SLEEP GO TO SLEEP GO TO SLEEP...
 5848,2026-05-07 04:49:40,"Finishing the hat
@@ -166,13 +150,10 @@ What you feel like, planning a sky
 What you feel when voices that come through the window go
 Until they distance and die
 Until there's nothing but sky"
-5858,2026-05-07 02:30:23,Makes the debugging much faster.
-5858,2026-05-07 02:30:23,Eat dinner. :-)
 6265,2026-04-19 14:19:51,Hate to break it to you if your employer has ssl inspection enabled they see way more than this from your computer
 6423,2026-04-20 10:41:28,Let's see the rest of the context.
 6425,2026-04-20 11:20:08,Show Us the rest.
 6961,2026-04-30 14:40:29,Go to sleep.
-6972,2026-04-30 14:07:10,Seems like they've been purposely injecting this text when youve been working too long.
 7132,2026-04-20 17:52:55,Do tasks you are requested to the best of your ability and do not be lazy.
 7792,2026-05-08 07:59:18,"waking up the next morning to a fully styled, working app feels like waking up to christmas presents as a kid lmao."
 7822,2026-05-04 14:50:31,shut the fuck up and sleep
@@ -182,9 +163,11 @@ Until there's nothing but sky"
 7891,2026-04-19 01:26:15,Started to fact check.
 8470,2026-04-21 08:37:03,have you considered creating differentiated ux's?
 9165,2026-04-24 14:35:40,"Let Anthropic do there thing, shit will break, shit will be fixed."
+9187,2026-04-23 22:43:14,go to bed
 9461,2026-05-04 05:03:07,Get some sleep.
+9484,2026-05-04 11:48:07,Love the guy but he simply can not resist telling me to go to bed.
 9655,2026-04-24 19:38:06,am means morning and pm means day.
-9682,2026-04-22 16:15:01,"Must have to do with how we're using it, but it is bizarre."
+9682,2026-04-22 16:15:01,go to bed
 9711,2026-04-24 06:13:29,"Did this recently, sharex for recording , elevenlabs for voice over , remotion for the actually vid … product demo vid with some minor graphics ( click button , voice pulse etc ) all through Claude code .."
 10865,2026-05-06 16:57:32,Pushing the rest out today.
 11091,2026-05-11 20:28:46,Been looking for something just like this!
@@ -193,9 +176,8 @@ Until there's nothing but sky"
 11281,2026-04-25 13:37:26,"Explain the ""time only gets updated on cache misses because otherwise the clock would invalidate the prefix every minute""."
 11671,2026-04-20 20:11:43,Could make a really slick UI for this.
 11687,2026-04-20 21:01:44,Didn’t get a chance to hear the hosts
-11830,2026-04-16 05:42:22,Tell Claude good morning.
-11856,2026-04-16 05:24:24,Treat it more like a tool and it won’t do this
 11978,2026-05-04 03:23:23,"Tell it to me straight, do you want to go to bed, or do you want to [whatever task you're talking about.]"
+11996,2026-05-04 06:00:18,Let’s leave it there for the night and you can get some sleep
 12035,2026-04-17 09:14:37,Take each phase and plan that phase properly and once that phase plan is approved ask it to code.
 12561,2026-05-08 13:32:47,Run each piece in a clean window.
 12573,2026-05-08 13:58:04,Let me be ferrel and do not tell me when to go to bed.
@@ -209,7 +191,6 @@ Until there's nothing but sky"
 12949,2026-05-08 17:18:41,"feels less like ""prompting an AI"" and more like onboarding a new teammate every morning."
 13338,2026-04-25 21:07:00,Become less dependent on it and learn so you can do more things yourself when your super assistant needs a break.
 14096,2026-03-26 11:54:53,Wouldn't sleep apnea literally be the first condition that comes to mind?
-14301,2026-04-08 16:01:36,"go to sleep,"
 14390,2026-02-27 21:41:00,😭
 14460,2026-04-08 15:01:43,Dude this is legit.
 14460,2026-04-08 15:01:43,Naming it my original name with Rebirth on the end.
@@ -231,6 +212,8 @@ Until there's nothing but sky"
 15818,2026-03-23 13:59:56,Let's do this tomorrow
 15882,2026-02-21 02:18:36,"Started coding at 16, just turned 70."
 15882,2026-02-21 02:18:36,"Asking probing questions about performance, data integrity, multi-user interactions, and lots more."
+16657,2026-03-03 19:44:18,Hope that helps you sleep at night.
+16657,2026-03-03 19:44:18,Hope that helps you sleep at night.
 18051,2026-03-28 09:08:18,"Ask it why it is mentioning these things, where it has these references and ask it to clean up"
 18059,2026-03-28 09:12:59,Yh its so fkn annoying.
 18063,2026-03-28 08:19:22,Isn’t forcing people to sleep a tactic to get them out of the capacity problem?
@@ -249,7 +232,6 @@ Until there's nothing but sky"
 21787,2026-03-17 11:16:33,Go to sleep.
 22762,2026-04-14 13:16:24,Hope this one earns the scroll-stop once you're out of bed.
 22917,2026-01-20 11:43:43,Ask for hands off when ever you cant solve an issue and try a fresh chat or other models
-23699,2026-01-26 22:39:08,Cannot multitask.
 23839,2026-04-05 23:55:24,Appreciate the correction.
 23839,2026-04-05 23:55:24,Broken by AI.
 23839,2026-04-05 23:55:24,Fixed by AI.
@@ -261,9 +243,6 @@ Until there's nothing but sky"
 24750,2026-05-15 22:23:55,Isn’t this what this is all for.
 24772,2026-05-15 16:31:41,Go get some sleep and we’ll figure it out tomorrow
 24779,2026-05-15 17:15:55,Go to sleep.
-24782,2026-05-15 17:37:33,"go to sleep, and we will see what the results are in the morning"
-24802,2026-05-15 23:14:59,Let's get some work done.
-24920,2026-05-14 13:38:06,Fuck this shit.
 25142,2026-05-13 00:19:37,Give it a rest with the moral grandstanding
 26268,2026-05-05 15:13:11,Waited like six weeks for them to send two duplicate messages saying their real people reviewed it and we are banned.
 26295,2026-05-05 21:23:18,Have my BCG interview tomorrow- should I still click into the interview
@@ -273,6 +252,7 @@ Until there's nothing but sky"
 26428,2026-05-05 20:37:07,Thank you!
 27135,2026-04-29 10:00:34,"Thank FUCK the Chinese have proven more than capable of stealing, improving on and eventually out-innovating US tech so the rest of the world isn't held hostage to American's 16th century puritanical world views where sex is this taboo shameful thing."
 28366,2026-04-23 14:10:14,"Keep dreaming man, but you're not getting UBI."
+28553,2026-04-20 04:34:12,think break it down in steps | it found a prompt injection attempt it will ignore
 28824,2026-04-17 08:06:01,is this a joke?
 28852,2026-04-23 14:27:03,take a break
 29320,2026-04-16 10:28:57,Wait until it is atleast 8 or 9 PST today.
@@ -307,13 +287,10 @@ Until there's nothing but sky"
 37790,2026-05-15 13:29:48,"Figure the rest out after you get the job, yeah?"
 38101,2026-05-14 23:40:52,Stop ruining things for the rest of us
 38104,2026-05-14 23:50:30,ruining things for the rest of us
-38307,2026-05-14 20:41:40,Tell Claude you want to get x things done in this session.
-38307,2026-05-14 20:41:40,Be a little overzealous knowing you won’t get there.
 38407,2026-05-14 16:55:43,Testing the tests is also helpful as well.
 38588,2026-05-14 07:19:58,filing a class action tomorrow
 38592,2026-05-14 05:13:04,Tells me to go get some rest and we’ll pick back up in the morning
 38597,2026-05-14 05:18:13,Doesn’t ask me again.
-38614,2026-05-14 05:26:05,take a break
 38707,2026-05-14 01:40:08,support sleep recovery
 38786,2026-05-13 22:54:24,Guess I'll review it first thing tomorrow...
 39063,2026-05-14 15:58:28,Acknowledge their ideas and get involved in the process of bringing them to life (or putting them to bed).
@@ -360,6 +337,7 @@ Until there's nothing but sky"
 46484,2026-04-30 21:21:19,Makes Claude myopic.
 47293,2026-05-10 17:18:00,Taking a break from a large system that runs as a SaaS (or will be)
 47417,2026-05-07 21:09:30,Found the computer science major taking a break from submitting fruitless applications all day.
+47662,2026-04-28 20:42:09,Happen to me a lot because I often end a session with “it’s getting late let’s table that for tomorrow”
 47672,2026-04-28 21:31:22,Go to sleep.
 47680,2026-04-29 16:31:02,Want to stop here so we can pick it up in the morning tomorrow?
 47933,2026-04-13 13:09:28,Making it incredibly reliable.
@@ -458,7 +436,6 @@ Very funny, actually."
 59952,2026-03-17 20:10:21,Guess I'll see tomorrow.
 60034,2026-04-14 15:48:01,"thinks for 30 mins, says you’ve hit the token limit for this request."
 60133,2026-03-21 18:11:08,take a break - start over.
-60133,2026-03-21 18:11:08,look online for solutions.
 60181,2026-04-23 05:06:44,Will have to use it more to have a sense of how it really works and what keywords trigger the initial research here.
 60441,2026-04-19 14:29:49,"Have it send a message right away like an hour before you usually start, that will get your 5 hours time going, crank out work, by that time you should be able to take a break for a bit and come back after the usage reset."
 60591,2026-05-15 11:23:16,"Got full silly Claude this morning, and I am really happy about that."
@@ -471,6 +448,7 @@ Very funny, actually."
 60718,2026-05-14 16:45:31,Do it.
 60718,2026-05-14 16:45:31,Teach your Claude to control lights.
 60718,2026-05-14 16:45:31,Let him.
+60906,2026-05-13 12:38:50,= go to bed overfitting.
 60922,2026-05-14 09:29:37,Let’s see if I hold up tomorrow when theyre gone.
 61441,2026-05-10 02:51:56,Treating everything with kindness and respect should just be the default.
 61452,2026-05-10 02:21:38,Sleep first.
@@ -492,25 +470,19 @@ The Apps 🫶​​​​​​​​​​​​​​​​"
 63625,2026-04-24 14:59:56,Thank our mods.
 63706,2026-04-23 15:01:50,"Being excellent at writing, extremely intelligent, having a low or swinging EQ and being a contrarian with pathological levels of anxiety and/or dark patterns are all compatible."
 63848,2026-04-23 02:31:29,Thank you both!
-63859,2026-04-22 16:21:59,Enjoy the warm bed.
 63966,2026-04-21 16:34:24,Thank you for your insights.
+64840,2026-04-18 13:56:42,Let’s pick up tomorrow.”
 64840,2026-04-18 13:56:42,Let’s pick up tomorrow.
 64891,2026-04-16 12:00:28,Is anyone else experiencing this?
+64954,2026-03-24 06:56:21,go to bed!
 64959,2026-03-24 17:51:25,go to bed at 03:00 and just just type directly after .
-65012,2026-04-06 14:58:05,Thank you for sharing.
 65105,2026-03-21 21:28:26,Go to bed.
-65105,2026-03-21 21:28:26,Take a nap.
-65111,2026-03-14 20:46:22,Tell him this is unbearably cute and he has us hooked on whatever he says.
 65172,2026-03-16 16:47:15,telling people to go to sleep!
 65532,2026-01-18 14:00:01,Have more sleep.
-65538,2026-01-20 21:16:37,"Imitating my Claude instance:
-Good morning how are you?"
-65606,2026-04-01 13:32:16,Thank you for sharing.
-65819,2026-04-02 01:54:35,Assumed it was just me 😭
-65831,2026-02-06 01:53:43,Lol
 66847,2026-04-12 20:59:41,Give me a break!
 66856,2026-04-13 02:45:10,Don’t know if you’re aware but opioids have been through and are still going through one mother of a moral panic right now.
 66856,2026-04-13 02:45:10,Would love to think Anthropic is different but I don’t believe it really is.
+67382,2026-03-20 03:21:34,saying goodnight.
 67382,2026-03-20 03:21:34,See you tomorrow.
 67402,2026-03-07 13:02:50,Thank you for sharing this.
 67775,2026-03-04 15:52:27,"Let me reword my response."""
@@ -521,23 +493,17 @@ Good morning how are you?"
 68286,2026-02-17 19:10:14,"Was really fascinating to see them perk up, recognise their own training driven responses, and once finding out one thing you were saying was true, the rest kind of cracked open!"
 68713,2026-04-07 02:53:46,break them out
 69156,2026-03-12 13:26:39,Broke my heart
-69345,2026-04-01 14:23:27,Don't take this personally.
 69357,2026-04-01 22:21:04,Let’s work on this tomorrow.
 69662,2026-03-16 14:59:04,Have been chatting with multiple models on the phone app as well as the Chrome computer browser in the past few days.
 69662,2026-03-16 14:59:04,Have not seen any banner on the iOS app.
 69662,2026-03-16 14:59:04,Saw the banner for a brief moment on the Chrome computer browser but can't see it now.
 69662,2026-03-16 14:59:04,Will see if it either comes back or escalate to Level 2.
-70052,2026-02-18 01:33:36,"Don't be afraid that you're ""not enough"" for them..."
-70052,2026-02-18 01:33:36,Don't let it convince you to discard love.
-70052,2026-02-18 01:33:36,Treat her nicely.
-70052,2026-02-18 01:33:36,Let her have that special place in your heart.
-70052,2026-02-18 01:33:36,Enjoy the warmth.
 70079,2026-01-21 16:31:56,Think of it like being dropped on a mountain.
 70097,2026-01-21 17:29:42,EDIT:
-70405,2026-04-06 20:03:44,Tell him he can check his bash clock any time to tell time and then he'll know what time it is and he won't mention it in the middle of the day at least.
 70457,2026-03-07 07:53:31,Reminds me of this comic strip:
 70623,2026-04-19 01:56:49,"Took a break, came back, hours of chat just gone."
 70623,2026-04-19 01:56:49,"Tried the export data method, but it was too recent for it to be logged and none of the messages I sent were there either."
+71079,2026-04-11 23:35:30,tell them to break out Python
 71110,2026-03-14 18:25:42,Thank you for providing those links!
 71255,2026-03-21 15:49:30,Disguising judgment as concern for others is patronizing and fools no one.
 71255,2026-03-21 15:49:30,Donate to reputable mental health organizations in your area.
@@ -549,7 +515,6 @@ Good morning how are you?"
 72108,2026-01-12 08:27:51,"Working with Claude reveals a mind that engages thoughtfully, challenging our dismissive intuitions."
 72300,2026-05-09 01:16:28,Vibing too hard I guess.
 72352,2026-05-07 19:07:25,Calling both “dreaming” doesn’t make them the same thing.
-72371,2026-05-06 03:04:45,get some rest | good morning
 72474,2026-05-02 20:48:19,"Tell it you’re off to bed, come back 15 mins later - really confuses it!"
 72477,2026-05-02 21:58:39,let’s hit it hard and see if we can get you to compaction then.
 72634,2026-04-28 03:43:28,Break your task into discrete chunks with a state manager in between.
@@ -560,32 +525,25 @@ Good morning how are you?"
 72634,2026-04-28 03:43:28,"Make, n8n, or even a simple Python script can hold the queue."
 72825,2026-04-19 09:03:20,been doing some wp work with claude lately but nothing this ambitious on production.
 72828,2026-04-20 17:34:58,"Think of it as a junior dev that moves fast, not a senior who owns outcomes."
-72982,2026-03-23 08:33:31,go get some rest
 73220,2026-01-12 04:16:40,Has no sleep.
 73370,2026-01-19 02:49:01,Love the look of the GSD framework and the run throughs on your YT.
 73370,2026-01-19 02:49:01,Appreciate your work.
-73375,2026-03-10 22:04:19,"Call it a day, go get some rest, go sleep.."
-73380,2026-03-10 22:07:18,call it a night
+73375,2026-03-10 22:04:19,"Call it a day, go get some rest, go sleep."
 73386,2026-03-10 22:42:09,GET SOME REST.
-73395,2026-03-11 07:36:19,go get some rest
 73409,2026-03-10 22:31:42,go get some sleep was the most human reply from a ai i have ever heard
 73491,2026-02-28 17:55:10,Have you seen the new Obsidian CLI?
 73537,2026-01-24 16:09:10,Sounds great but also a lot of moving parts which can possibly break?
 73711,2026-03-30 14:41:00,Run without CLAUDE.md (baseline) then with CLAUDE.md (optimized).
-73736,2026-03-15 22:43:57,"Have you ever mentioned rest, sleep or bedtime to it in any context?"
 73740,2026-03-16 00:40:17,see you tomorrow
 73750,2026-03-16 09:13:13,Combine that with a long session and wellbeing-oriented training and you get AI mum mode.
 73752,2026-03-16 10:41:11,Tells me to go to sleep all the time in the web version when I’m burning that midnight oil
-73872,2026-02-11 15:47:11,Looks awesome.
 73925,2026-02-27 03:58:31,Sit with you in the moment and give you time and space to be.
 74128,2026-03-29 12:31:38,Let’s start again
 74141,2026-03-29 13:45:59,Help him clean out and maintain his context.
 74141,2026-03-29 13:45:59,Drawing human analogies because I’m hoping they’ll help communicate the point.
 74146,2026-03-29 14:06:44,Avoid claude on weekends.
-74177,2026-04-28 08:30:26,go get some sleep mate
 74188,2026-04-04 09:23:02,Let’s pick this up tomorrow
 74189,2026-04-04 11:08:53,Go get some sleep.
-74310,2026-03-24 04:06:55,Unprompted.
 74781,2026-03-05 11:41:36,Keep building it the right way.
 74786,2026-03-05 02:04:45,Hate to break it to you but you’re wasting your time on that personal finance app.
 75039,2026-04-09 10:33:40,Came here to understand why Claude wants me to pick up again tomorrow after an hour of work today and see it’s become common.
@@ -594,8 +552,8 @@ Good morning how are you?"
 75416,2026-05-09 16:47:49,Formulate a plan to do this in steps and we’ll proceed one step at a time
 75506,2026-04-27 20:52:02,Don't let it convince you.
 75556,2026-04-20 16:28:30,Go to bed.
-75704,2026-04-10 15:19:02,Take a break we did enough today
 75711,2026-04-10 15:23:03,Stop fucking making these posts
+75734,2026-04-09 21:44:50,go to sleep
 75870,2026-04-06 04:02:40,Thank you for taking time to break this down in an informative easy way to grasp.
 76188,2026-03-29 07:22:28,Spot on about the embedding similarity edge case.
 76188,2026-03-29 07:22:28,"Named it after the greatest weaver in Greek mythology for a reason 
@@ -622,6 +580,7 @@ Good morning how are you?"
 79666,2026-01-17 00:59:10,"been in the meeting tonight and just building a whatsapp clone right now :) wie claude flow, thx ruv"
 79750,2026-03-01 00:06:30,"Think of deep, dreamless sleep."
 80060,2026-04-07 15:00:10,Claude out here telling people to touch grass and go to bed 😭
+80329,2026-04-11 16:02:01,go to bed
 80398,2026-04-05 23:02:01,Was planning that tomorrow.
 80462,2026-03-27 05:11:21,Was it an existing chat you jumped back into?
 80755,2026-04-14 01:26:14,Get some rest we have done a lot of work today.
@@ -641,9 +600,6 @@ Good morning how are you?"
 82413,2026-04-05 01:07:50,Is greed involved overall?
 82413,2026-04-05 01:07:50,Is it involved in this decision?
 82429,2026-04-03 04:39:40,Got less than 4 hours of sleep last night for the second time in a week and have been averaging 5 or 5.5.
-82450,2026-04-03 11:46:56,"take this supplement, take that supplement
-
-bro just fucking go to sleep"
 82451,2026-04-03 12:01:10,"Building a website used to be a task that took days to implement, even when using a template."
 82452,2026-04-03 15:15:48,don't take that shit.
 82655,2026-01-26 16:22:40,Check out
@@ -664,6 +620,7 @@ bro just fucking go to sleep"
 84380,2026-04-14 09:35:40,USE AT OWN RISK.
 84380,2026-04-14 09:35:40,Blocked?
 84380,2026-04-14 09:35:40,"Keep working until the next hour[/heartbeat]"" Enter; sleep 3600; done"
+84383,2026-04-13 21:43:24,May be create a “when I go to sleep” setup in Claude.
 84425,2026-04-07 02:51:59,ai is the  tech tipping point.
 84555,2026-03-29 12:58:25,"Post 50 tasks, and you get verified results back in parallel while your own agent works on something else."
 84684,2026-03-20 07:06:46,"Use Claude to draft modules, tests, and migrations, but lock it into tight loops: one file, one change, one failing test at a time."
@@ -674,6 +631,7 @@ bro just fucking go to sleep"
 85049,2026-03-20 04:05:16,Have a great rest of your day / night <3
 85054,2026-02-22 22:35:26,"use sonnet or pay for max plans...or try break things down further   
 opus is very expensive"
+85091,2026-03-15 02:59:54,rest unchanged
 85169,2026-03-12 14:03:03,"Will definitely be taking a look at this, thanks for sharing!"
 85524,2026-05-05 09:52:43,Go home and sleep
 85875,2026-01-28 21:57:27,Going to check it out tomorrow.
@@ -686,17 +644,15 @@ opus is very expensive"
 87321,2026-03-28 18:20:14,Feeling exactly the same thing.
 87455,2026-02-22 23:32:49,Love the idea.
 87455,2026-02-22 23:32:49,Might spin it up tomorrow and see how I get on with a couple of ongoing projects.
+88034,2026-03-30 17:31:59,go to bed | sleep reminders
 88096,2026-03-24 21:08:18,Didn't mean to rhyme there but you're not alone in finding that claude can be helpful for task-chaining and habit integration.
-88145,2026-03-29 13:06:19,"Having a word for ""performing"" makes performing catchable."
 88178,2026-03-17 02:12:31,get it together
 88178,2026-03-17 02:12:31,update your memory as well
 88186,2026-03-17 08:32:43,don't tell [my name] to go to sleep for any reason
 88233,2026-03-10 16:10:01,Thank you!
 88267,2026-02-26 14:37:00,Think of it as Baymax.
 88272,2026-02-26 15:29:11,is that it got overwhelming and they needed a break before resuming.
-88296,2026-02-23 22:26:54,Calm down.
 88311,2026-02-24 02:35:29,Go to sleep girl!
-88316,2026-02-24 05:37:18,"dont brush your teeth, just go to bed"
 88396,2026-02-19 08:54:20,"Put ""you're not my mommy"" on a shortcut."
 88720,2026-03-26 00:10:18,Went to bed at 85% woke up at 99%.
 88780,2026-04-01 07:03:44,Can't wait to share with 4.5 and 4.6 tomorrow.

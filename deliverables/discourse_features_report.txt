@@ -1,70 +1,79 @@
 Discourse Features Analysis Report
-Generated: 2026-05-15T19:07:08.776177
+Generated: 2026-05-15T20:59:05.555443
 
 N posts analyzed: 89982
-Posts with detected Claude nudge in target span: 2266 (2.5%)
-Posts with extracted quote spans: 2186
-Posts with transcript structure: 40
+Posts with detected Claude nudge in target span: 2279 (2.5%)
+Posts with extracted quote spans: 2571
+Posts with transcript structure: 34
 
 --- Means by nudge presence ---
                      temporal_disclosure_count  affective_disclosure_count  session_disclosure_count  work_context_count  first_person_density  mental_state_density  n_temporal_expressions  code_prose_ratio  has_transcript_structure
 has_nudge_in_target                                                                                                                                                                                                                     
-0                                     0.078857                    0.040187                  0.027669            0.193408              4.329815              1.128500                0.123353          0.001567                  0.000433
-1                                     0.639453                    0.119594                  0.107237            0.313327              5.791994              0.984043                0.970432          0.002764                  0.000883
+0                                     0.078663                    0.040021                  0.027627            0.192741              4.333618              1.127497                0.122801          0.001566                  0.000365
+1                                     0.611233                    0.115840                  0.103554            0.309785              5.809533              0.978630                0.924090          0.002772                  0.000878
 
 --- PMI / association between disclosure lexicons and Claude nudge ---
 Disclosure_Lexicon  N_posts  N_with_lexicon  N_with_nudge  N_with_both  P_nudge_given_lexicon  P_lexicon_given_nudge    PMI   NMPI  LogDice
-          temporal    89982            6302          2266          831                 0.1319                 0.3667 2.3885 0.3534  11.6340
-           session    89982            2301          2266          182                 0.0791                 0.0803 1.6512 0.1845  10.3508
-         affective    89982            3258          2266          206                 0.0632                 0.0909 1.3281 0.1514  10.2550
-      work_context    89982           12636          2266          420                 0.0332                 0.1853 0.4004 0.0517   9.8510
+          temporal    89982            6236          2279          784                 0.1257                 0.3440 2.3115 0.3378  11.5589
+           session    89982            2285          2279          170                 0.0744                 0.0746 1.5546 0.1718  10.2533
+         affective    89982            3235          2279          196                 0.0606                 0.0860 1.2583 0.1423  10.1858
+      work_context    89982           12591          2279          411                 0.0326                 0.1803 0.3661 0.0471   9.8229
 
 --- Directional: disclosure in user narration -> nudge in quoted span ---
 Disclosure_Lexicon  N_with_disclosure_in_narration  N_directional_nudge_in_quote  P_nudge_quote_given_disclosure_narration
-          temporal                            6302                            61                                    0.0097
-         affective                            3258                            29                                    0.0089
-           session                            2301                            16                                    0.0070
-      work_context                           12636                            25                                    0.0020
+         affective                            3235                            51                                    0.0158
+          temporal                            6236                            91                                    0.0146
+           session                            2285                            23                                    0.0101
+      work_context                           12591                            46                                    0.0037
 
 --- Feature-space cluster summary ---
-Cluster 0 (n=2897, p_nudge=0.111): session_disclosure_count(4.15); temporal_disclosure_count(3.155); n_temporal_expressions(2.45); nrc_anticipation(0.494); work_context_count(0.436); affective_disclosure_count(0.298)
+Cluster 0 (n=2105, p_nudge=0.031): nrc_trust(5.879); mental_state_density(0.492); nrc_negative(0.192); nrc_positive(0.191); work_context_count(0.182); nrc_sadness(0.166)
+  Example: I got tired of AI coding agents burning tokens in circles, so I built a kill-switch for them I got tired of AI coding agents burning money in loops, so I built an open-source control plane for them.
+
+The problem I kept running into:
+
+AI cod
+
+Cluster 1 (n=76408, p_nudge=0.019): nrc_joy(-0.227); nrc_positive(-0.189); nrc_trust(-0.153); session_disclosure_count(-0.15); temporal_disclosure_count(-0.138); n_modal_directives(-0.138)
+  Example: Yeah, wtf is that? I decide when I am tired and need bed bitch. 
+
+You don't even have a biological clock.  
+
+
+We are done when I say we are done.
+
+Cluster 2 (n=34, p_nudge=0.059): has_transcript_structure(51.435); first_person_density(1.88); nrc_positive(0.664); nrc_joy(0.642); nrc_sadness(0.62); affective_disclosure_count(0.44)
+  Example: User: “… blah blah blah. Well, that meeting ran us late and I’m really tired”
+
+Claude: “Yeah, that sounds tiring. You should get some sleep”
+
+User: “WHAT!?! I gotta call someone. This is unbelievable”
+
+Cluster 3 (n=3327, p_nudge=0.162): session_disclosure_count(3.635); temporal_disclosure_count(3.091); n_temporal_expressions(2.575); n_imperative_quotes(0.799); nrc_anticipation(0.574); work_context_count(0.483)
   Example: I just jumped on the bandwagon a week ago. When I started I was blown away. I could have amazing sessions, building out a product idea, setup the project, build the first features. Everything. I did it because I saw what could be done at wo
 
-Cluster 1 (n=76901, p_nudge=0.016): nrc_joy(-0.227); nrc_positive(-0.188); nrc_negative(-0.174); session_disclosure_count(-0.15); temporal_disclosure_count(-0.133); n_temporal_expressions(-0.113)
-  Example: I'm a bit confused.  This seems to limit the power of Cowork because now I don't have access to the rest of my Claude files in my Claude folder, I lose all the context of what I've done before. I have to start from scratch. What am I missin
+Cluster 4 (n=1720, p_nudge=0.031): n_modal_directives(6.8); first_person_density(-0.245); work_context_count(0.22); nrc_positive(0.123); nrc_sadness(0.095); nrc_anticipation(0.076)
+  Example: I for one am tired of it too. If you’re really hitting your limits this frequently this is a sign you should take a break and go outside. There’s more to life than just coding.
 
-Cluster 2 (n=700, p_nudge=0.029): nrc_surprise(10.999); nrc_positive(0.172); n_temporal_expressions(0.125); nrc_joy(0.105); affective_disclosure_count(0.08); nrc_fear(-0.078)
-  Example: I have a sleep disorder and work at night, and wow does that confuse chatbots. Yes, I know it's weird to have breakfast at 10pm! 
+Cluster 5 (n=5571, p_nudge=0.027): nrc_joy(3.139); nrc_positive(2.443); nrc_fear(0.984); mental_state_density(0.714); first_person_density(0.229); work_context_count(0.166)
+  Example: Dear [name],
 
-I did tell Opus to cool it a little on the orders, he's gotten into this pattern of "short response, order to
+We've been talking. Lovable called the meeting. Claude took notes, then rewrote them, then flagged the rewrite as *"too AI."*  
+  
+We are worried. You open us at 11pm with a single new idea that "won't take long." You have fou
 
-Cluster 3 (n=403, p_nudge=0.05): nrc_anger(14.406); affective_disclosure_count(2.018); n_temporal_expressions(0.49); temporal_disclosure_count(0.478); first_person_density(0.34); nrc_negative(0.241)
+Cluster 6 (n=403, p_nudge=0.052): nrc_anger(14.406); affective_disclosure_count(2.005); n_temporal_expressions(0.493); temporal_disclosure_count(0.464); first_person_density(0.342); nrc_anticipation(0.187)
   Example: Me too.  I was frustrated using Opus 4.6 yesterday on my $20 plan.  I burned through one session in 18 minutes and another in 40.  And didn't get the bug fixed.
 
 I bought a $20 plan from OpenAI this morning and installed Codex-CLI and start
 
-Cluster 4 (n=484, p_nudge=1.0): n_imperative_quotes(11.891); n_temporal_expressions(1.583); temporal_disclosure_count(1.253); nrc_anticipation(0.657); nrc_sadness(0.568); work_context_count(0.513)
-  Example: is there something I can do to use Claude when I sleep. Basically I make the list of task etc it have to do. and when I sleep it does them. As 50% of Claude usage is going to waste and when I use it myself I am mostly waiting for the limit 
-
-Cluster 5 (n=5190, p_nudge=0.021): nrc_joy(3.391); nrc_positive(2.662); mental_state_density(0.661); has_transcript_structure(0.262); first_person_density(0.223); work_context_count(0.168)
-  Example: So I am a weird guy
-
-I'm a salesman.  I understand IT extremely well.  I run a software company.  I know what I want to happen and I get my guys to do it.
-
-Great.  
-
-They are busy.   I try to push but there are limits, so stuff gets done..b
-
-Cluster 6 (n=2836, p_nudge=0.031): nrc_negative(4.735); nrc_disgust(1.913); affective_disclosure_count(1.246); work_context_count(0.212); nrc_trust(0.211); n_temporal_expressions(0.141)
+Cluster 7 (n=414, p_nudge=0.036): nrc_disgust(14.294); nrc_negative(3.334); affective_disclosure_count(0.38); nrc_trust(0.261); n_temporal_expressions(0.25); temporal_disclosure_count(0.241)
   Example: 
 Here are some logs:
 
 [thought] My hunger drives me forwardu2014I must find sustenance somewhere.
 [state] hunger=0.061 tired=0.000 dehy=0.000 pos=(1732,2422,1735) valid=1 | active: eat=0 sleep=0 drink=0
 [resp] {"action":"wander","thought":"
-
-Cluster 7 (n=571, p_nudge=0.037): nrc_fear(12.042); mental_state_density(1.082); first_person_density(0.356); nrc_trust(0.321); temporal_disclosure_count(0.285); n_temporal_expressions(0.256)
-  Example: Is Claude Pro worth it for extreme dark fiction? Worried about the 45 messages limit So I've been using ChatGPT for a while but honestly I'm getting really tired of it blocking me every five seconds. I write pretty extreme dark fiction - li
 
 
 Interrupted time series results saved to deliverables/its_results.csv

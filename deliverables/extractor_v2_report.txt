@@ -1,0 +1,31 @@
+Quote Extractor V2 vs V1 Comparison
+==================================================
+Corpus size: 89982 rows
+
+V1 extractor (in discourse_features_analysis.py): 2601 spans
+V2 extractor: 3051 spans
+Net gain: +450 spans (+17.3%)
+
+V2 method breakdown:
+  attribution                      1168
+  blockquote                       1051
+  inline_quote                      347
+  nudge_rescue_low_conf             296
+  speaker_label                     153
+  reported_speech                    25
+  inline_single_quote                11
+
+Posts with transcript structure (V2 detection): 34
+Posts with detected nudge in any extracted quoted text (V2): 689
+
+Nudge capture rate test:
+  Posts containing literal nudge phrases: 377
+  V2 captured with nudge in extracted quote: 319 (84.6%)
+  V1 baseline rate on this slice: 30.4% (see prior diagnostic)
+
+==================================================
+Method confidence notes:
+  speaker_label, blockquote, attribution = high confidence
+  inline_quote, inline_single_quote     = medium confidence
+  reported_speech                       = medium confidence
+  nudge_rescue_low_conf                 = low confidence; user-voice guarded

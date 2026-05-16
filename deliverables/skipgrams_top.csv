@@ -1,4 +1,18 @@
 Source,Type,Term,Count
+quoted_spans,4-gram,telling me go bed,21
+quoted_spans,4-gram,telling me go sleep,10
+quoted_spans,4-gram,tell me go bed,10
+quoted_spans,4-gram,go get some rest,9
+quoted_spans,4-gram,tells me go bed,8
+quoted_spans,4-gram,go get some sleep,7
+quoted_spans,4-gram,let pick up tomorrow,6
+quoted_spans,4-gram,tells me go sleep,6
+quoted_spans,4-gram,pick it up tomorrow,6
+quoted_spans,4-gram,told me go bed,6
+quoted_spans,4-gram,stop spiraling go bed,5
+quoted_spans,4-gram,telling you go bed,5
+quoted_spans,4-gram,take break go sleep,5
+quoted_spans,4-gram,told me go sleep,4
 quoted_spans,4-gram,it done because it,4
 quoted_spans,4-gram,done because it would,4
 quoted_spans,4-gram,because it would trigger,4
@@ -25,20 +39,6 @@ quoted_spans,4-gram,mode so it literally,4
 quoted_spans,4-gram,so it literally believes,4
 quoted_spans,4-gram,it literally believes it,4
 quoted_spans,4-gram,literally believes it requesting,4
-quoted_spans,4-gram,believes it requesting me,4
-quoted_spans,4-gram,it requesting me approval,4
-quoted_spans,4-gram,requesting me approval granted,4
-quoted_spans,4-gram,me approval granted when,4
-quoted_spans,4-gram,approval granted when never,4
-quoted_spans,4-gram,granted when never happened,4
-quoted_spans,4-gram,when never happened due,4
-quoted_spans,4-gram,never happened due its,4
-quoted_spans,4-gram,happened due its own,4
-quoted_spans,4-gram,due its own auto,4
-quoted_spans,4-gram,its own auto model,4
-quoted_spans,4-gram,own auto model mechanism,4
-quoted_spans,4-gram,go get some sleep,4
-quoted_spans,4-gram,go get some rest,4
 quoted_spans,5-gram,it done because it would,4
 quoted_spans,5-gram,done because it would trigger,4
 quoted_spans,5-gram,because it would trigger permission,4
@@ -76,46 +76,46 @@ quoted_spans,5-gram,never happened due its own,4
 quoted_spans,5-gram,happened due its own auto,4
 quoted_spans,5-gram,due its own auto model,4
 quoted_spans,5-gram,its own auto model mechanism,4
-quoted_spans,5-gram,wired claude code dedicated vllm,3
-quoted_spans,5-gram,claude code dedicated vllm see,3
-quoted_spans,5-gram,code dedicated vllm see what,3
-quoted_spans,skip-gram,it _ it,84
-quoted_spans,skip-gram,it _ me,34
-quoted_spans,skip-gram,you _ it,28
-quoted_spans,skip-gram,it _ my,25
-quoted_spans,skip-gram,it _ like,24
-quoted_spans,skip-gram,it _ you,23
-quoted_spans,skip-gram,you _ you,20
-quoted_spans,skip-gram,not _ you,19
-quoted_spans,skip-gram,just _ it,18
-quoted_spans,skip-gram,my _ it,17
-quoted_spans,skip-gram,you _ your,17
-quoted_spans,skip-gram,claude _ claude,16
-quoted_spans,skip-gram,claude _ it,16
-quoted_spans,skip-gram,you _ me,16
-quoted_spans,skip-gram,you _ get,16
-quoted_spans,skip-gram,me _ it,16
-quoted_spans,skip-gram,not _ it,15
-quoted_spans,skip-gram,how _ it,15
-quoted_spans,skip-gram,it _ because,15
-quoted_spans,skip-gram,it _ not,14
-quoted_spans,skip-gram,about _ it,14
-quoted_spans,skip-gram,he _ it,14
-quoted_spans,skip-gram,code _ it,14
-quoted_spans,skip-gram,get _ rest,13
-quoted_spans,skip-gram,no _ no,13
-quoted_spans,skip-gram,can _ it,13
-quoted_spans,skip-gram,get _ sleep,13
-quoted_spans,skip-gram,you _ go,12
-quoted_spans,skip-gram,doesn't _ it,12
-quoted_spans,skip-gram,more _ than,12
-quoted_spans,skip-gram,you _ what,12
-quoted_spans,skip-gram,we _ it,11
-quoted_spans,skip-gram,now _ bed,11
-quoted_spans,skip-gram,what _ you,11
-quoted_spans,skip-gram,claude _ you,11
-quoted_spans,skip-gram,you _ right,11
-quoted_spans,skip-gram,when _ it,10
-quoted_spans,skip-gram,like _ it,10
-quoted_spans,skip-gram,one _ it,10
-quoted_spans,skip-gram,you _ break,10
+quoted_spans,5-gram,you can get some sleep,4
+quoted_spans,5-gram,you stop spiraling go bed,3
+quoted_spans,5-gram,today let pick up tomorrow,3
+quoted_spans,skip-gram,it _ it,128
+quoted_spans,skip-gram,it _ me,73
+quoted_spans,skip-gram,me _ bed,58
+quoted_spans,skip-gram,telling _ go,48
+quoted_spans,skip-gram,it _ like,41
+quoted_spans,skip-gram,you _ it,41
+quoted_spans,skip-gram,it _ you,37
+quoted_spans,skip-gram,get _ rest,35
+quoted_spans,skip-gram,me _ it,33
+quoted_spans,skip-gram,you _ you,33
+quoted_spans,skip-gram,telling _ bed,30
+quoted_spans,skip-gram,me _ sleep,29
+quoted_spans,skip-gram,you _ go,26
+quoted_spans,skip-gram,claude _ it,26
+quoted_spans,skip-gram,it _ my,26
+quoted_spans,skip-gram,just _ it,25
+quoted_spans,skip-gram,get _ sleep,24
+quoted_spans,skip-gram,it _ not,24
+quoted_spans,skip-gram,how _ it,24
+quoted_spans,skip-gram,not _ you,23
+quoted_spans,skip-gram,not _ it,22
+quoted_spans,skip-gram,tell _ go,22
+quoted_spans,skip-gram,claude _ you,21
+quoted_spans,skip-gram,claude _ claude,20
+quoted_spans,skip-gram,you _ bed,20
+quoted_spans,skip-gram,you _ sleep,20
+quoted_spans,skip-gram,go _ some,20
+quoted_spans,skip-gram,it _ because,20
+quoted_spans,skip-gram,you _ get,20
+quoted_spans,skip-gram,he _ it,20
+quoted_spans,skip-gram,my _ it,19
+quoted_spans,skip-gram,you _ your,19
+quoted_spans,skip-gram,you _ me,19
+quoted_spans,skip-gram,go _ go,19
+quoted_spans,skip-gram,code _ it,19
+quoted_spans,skip-gram,can _ it,19
+quoted_spans,skip-gram,claude _ me,18
+quoted_spans,skip-gram,when _ it,18
+quoted_spans,skip-gram,you _ break,18
+quoted_spans,skip-gram,tells _ go,18
