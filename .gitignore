@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.key
+credentials.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Working / intermediate files
+*.log
+scrape_log.txt
+features_log.txt
+original_log.txt
+data/archive_v2/
+data/praw_sleep_analysis_v2_backup.csv
+data/praw_sleep_analysis_cumulative_*.csv
+data/praw_sleep_analysis_final_fallback*.csv
+deliverables/transcript_cases_to_read.txt
+deliverables/directional_cases_to_read.txt
+deliverables/snapshot/
+
+# Large intermediate outputs we regenerate from the pipeline
+*.gexf
+
+# OS junk
+.DS_Store
+Thumbs.db

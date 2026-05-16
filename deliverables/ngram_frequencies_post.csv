@@ -1,0 +1,61 @@
+Type,Term,Count
+Unigram,sleep,121
+Unigram,rest,115
+Unigram,bed,115
+Unigram,time,102
+Unigram,tired,101
+Unigram,code,88
+Unigram,use,68
+Unigram,work,61
+Unigram,people,52
+Unigram,ve,50
+Unigram,opus,50
+Unigram,session,48
+Unigram,think,47
+Unigram,don,44
+Unigram,thing,43
+Unigram,good,43
+Unigram,actually,41
+Unigram,hours,41
+Unigram,telling,40
+Unigram,got,36
+Bigram,got tired,19
+Bigram,telling bed,13
+Bigram,gets tired,9
+Bigram,getting tired,8
+Bigram,don know,7
+Bigram,telling sleep,7
+Bigram,new chat,7
+Bigram,open source,6
+Bigram,coding agents,6
+Bigram,ve gotten,5
+Bigram,needs rest,5
+Bigram,need rest,5
+Bigram,good night,5
+Bigram,remote control,5
+Bigram,sending bed,5
+Bigram,max plan,5
+Bigram,going bed,5
+Bigram,ve seen,5
+Bigram,web ui,5
+Bigram,weekly limit,4
+Trigram,code codex cursor,3
+Trigram,telling needs rest,3
+Trigram,people saying proof,3
+Trigram,rote pattern matching,3
+Trigram,treating kindness respect,2
+Trigram,lovable called meeting,2
+Trigram,vibeclaude real time,2
+Trigram,real time vibe,2
+Trigram,time vibe check,2
+Trigram,click vc icon,2
+Trigram,got tired coding,2
+Trigram,tired coding agents,2
+Trigram,coding agents burning,2
+Trigram,hard budget stops,2
+Trigram,tired telling bed,2
+Trigram,happy answer questions,2
+Trigram,stopped telling bed,2
+Trigram,telling bed signs,2
+Trigram,tracked biggest code,2
+Trigram,biggest code skill,2

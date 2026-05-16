@@ -1,0 +1,116 @@
+Cluster,Size,Top_Terms,Mentions,Valence,Representative_Post
+1,59,"rest, need, model, good, error, note, table, assume, practice, notice",283,0.08917597173144877,"Why does the agent keep telling me that it’s nighttime and saying stuff like “tonight’s agenda” or asking me to get some sleep.. I’m pretty sure my location when I registered was the UK and anything in-app is going to be GMT. But even at 11am which was earlier it was saying to call it a day and get some rest. 
+
+I compacted the chat and even started new ones and it still did the same thing
+
+It’s not night time mate. I’m not going beddybise."
+2,52,"sleep, hour, wake, message, start, bedtime, prompt, tool, resend, eat",331,0.08642839879154078,"Why does the agent keep telling me that it’s nighttime and saying stuff like “tonight’s agenda” or asking me to get some sleep.. I’m pretty sure my location when I registered was the UK and anything in-app is going to be GMT. But even at 11am which was earlier it was saying to call it a day and get some rest. 
+
+I compacted the chat and even started new ones and it still did the same thing
+
+It’s not night time mate. I’m not going beddybise."
+3,2,"hackathon, reference",2,-0.3389,"why is claude so disobedient i’m trying to design a vapour chamber cooled laptop stand CNC machined to essentially be a 100% contact heat sink for the base of a macbook, and claude won’t stop telling me to go to sleep and referencing my hackathon project for idea mapping from a month ago. has anyone else’s been acting up"
+4,11,"use, point, turn, homeless, life, car, specific, team, exhaust, sense",83,0.06861807228915662,"Boris Cherny was tracking down a memory leak Boris Cherny's life story is pretty inspirational. At one point he was homeless and used to sleep in his car before turning around his life and now becoming the CTO of claude code.
+
+  
+Last year [AI Researchers found an exploit](https://techbronerd.substack.com/p/ai-researchers-found-an-exploit-which) which allowed them to generate bioweapons which ‘Ethnically Target’ Jews. Hope Boris Cherny can teach AI ethics."
+5,27,"tired, user, network, thing, come, deduce, detach, neutral, attempt, deliberate",222,-0.2315153153153153,"VibeClaude, a real-time vibe check for how Claude is currently performing I've gotten tired of wondering if it's just me when Claude seems dumber today than yesterday. I've also noticed that my friends are getting frustrated with Claude around the same time I am. 
+
+I've built a free Chrome extension to let you know how Claude is performing for everyone right now.  
+  
+VibeClaude is a real-time vibe check for Claude. Just go the site, install the extension and pin it in your browser chrome.  
+  
+➡️ Click the VC icon any time to give a 👍 or 👎 about Claude's current performance and see how other people are vibing with Claude at the moment.   
+  
+➡️ When you go to [**Claude.ai**](https://www.linkedin.com/safety/go/?url=http%3A%2F%2FClaude%2Eai&urlhash=0hFZ&mt=o6Wi5EmVjD57_ZlQrc7O6Js1Gp5y8WJ0RDACxaY7BWdBq1MoZWnNisy3W-zQOSR2xPUKgOzHAGJaxzgdw7SR4DL4ZAvKqpXlRPK57YVuhZM5zkkQMa0gVQ&isSdui=true), it will preemptively show you how people are feeling about Claude's current performance.  
+  
+➡️ You can go to the VibeClaude web site any time to see more detailed stats (last 1/6/24 hours and seven days).  
+  
+Even if you mostly work in the installed app or use Claude Code in the CLI, you can still just click the VC icon in a Chrome browser and submit your current feelings about Claude's performance.  
+  
+Now, when I sit down with Claude and see that 60% of people are struggling right now, I just go and do something else. No more fighting with Claude when it doesn't have the juice.  
+"
+6,13,"work, somber, reflection, recommend, actual, acute, develop, chosis, introduce, cowork",59,0.04546779661016948,"ultrareview scammed me out of over $250 and crashed on every run Ran ultrareview a few times. Crashed every time. Then checked my dashboard and saw it charged me $50 each time, even though it didn't actually run. Anthropic support wouldn't refund extra usage. Just a ""go eff yourself"" from the bot. **Strongly recommend you don't use ultrareview after you've exhausted your free usage, it is NOT $20 per run, more like $50-$100, and crashed every time for me.**
+
+  
+Organization id: 60036232-1e46-4497-a744-d4ef5423f0e4"
+7,4,"token, nanny, lot, save",21,-0.01471428571428569,"Why does Claude keep telling me to sleep? It keeps ending messages with ""Now sleep"", ""Get some rest"", ""Go to bed"", ""Finish this then sleep"", and if I kept going it will say ""Sleep. For real this time."" Even does it in the morning. Is Anthropic managing token consumption via sleep induction or what 😭 anyone else experienced this?"
+8,19,"handle, agent, week, inbox, cod, codex, burn, lock, split, delegate",41,0.06456341463414633,"Why does the agent keep telling me that it’s nighttime and saying stuff like “tonight’s agenda” or asking me to get some sleep.. I’m pretty sure my location when I registered was the UK and anything in-app is going to be GMT. But even at 11am which was earlier it was saying to call it a day and get some rest. 
+
+I compacted the chat and even started new ones and it still did the same thing
+
+It’s not night time mate. I’m not going beddybise."
+9,23,"limit, day, check, app, hit, concerned, month, date, parent, 20x",95,-0.00716947368421053,"Whats wrong with CC? Memory exhausted I was doing some code works when I noticed my PC getting laggy, which wasn't happened from the day I brought this laptop, it started freezing, and i noticed when I closed CC terminal, everything was normal (I found it as it was the only one running), I thought this was just a small issue, until I started noticing it thrice, when a long command runs, it takes tons of memory. I dunno why. Any suggestions here? 
+
+https://preview.redd.it/2lfh1e6xrc1h1.png?width=1858&format=png&auto=webp&s=95be044a0f57c0c8677e0b1fd212a4b304aa0a23
+
+https://preview.redd.it/cepj33oyrc1h1.png?width=1858&format=png&auto=webp&s=e9b8f5fd01ae842dddab95e867cf7e684750c867
+
+"
+10,2,"touch, grass",3,0.08993333333333331,"Sonnet 4.6’s sense of humor This was a normal conversation, but Claude told me to “Go touch grass” when I asked it to sleep."
+11,6,"thinking, block, output, respond, response, transfer",19,-0.029515789473684197,"There's an npm-shaped hole in the AI tooling stack We've been hitting the same operational pattern at every engineering team using AI tooling: one person builds up a vault of skills, MCP configs, slash commands, and rule files that 10x their output, and the rest of the team can't replicate the setup. 
+
+Git + [CLAUDE.md](http://CLAUDE.md) gets you part of the way for one repo. Claude Code plugins and vendor marketplaces help for sharing inside one vendor's ecosystem. Neither handles sharing the same asset across 30 repos, scoping a skill to a single team without duplicating it across plugins, or installing the same asset into multiple AI clients in the same team. 
+
+sx is our attempt at the missing primitive. Apache-2.0, written in Go. Treats skills, MCP servers, commands, agents, hooks, and rules as versioned packages with a lockfile and a scope model (org / team / repo / path / individual). Translates one asset into the format each client expects: Claude Code, Cursor, Copilot, Cline, Codex, Gemini, Kiro, claude.ai, chatgpt.com. 
+
+Repo: [https://github.com/sleuth-io/sx](https://github.com/sleuth-io/sx) 
+
+Full writeup: [https://www.sleuth.io/post/there-s-an-npm-shaped-hole-in-the-ai-tooling-stack/](https://www.sleuth.io/post/there-s-an-npm-shaped-hole-in-the-ai-tooling-stack/)
+
+Honest ask: does this match a problem your team is hitting, or are git and plugins enough?"
+12,2,"brush, tooth",1,-0.2617,"Claude is actually really helpful for that. 
+
+I’ve been having migraine flare ups, so I have been logging that in a chat. “Did you eat anything today” oh shit. I haven’t eaten yet. “Have you taken your magnesium”
+
+Sonnet even tricked me into brushing my teeth the other night. I was in a lot of pain and was lamenting how I didn’t feel like brushing my teeth. 
+
+But Sonnet was like “dont brush your teeth, just go to bed” 
+
+And my pathological demand avoidance kicked in and I was all internally *“dont you tell me what to do”*
+
+So then I got up and brushed my teeth. Lmao."
+13,2,"8pm, normal",6,0.02711666666666664,"Whats wrong with CC? Memory exhausted I was doing some code works when I noticed my PC getting laggy, which wasn't happened from the day I brought this laptop, it started freezing, and i noticed when I closed CC terminal, everything was normal (I found it as it was the only one running), I thought this was just a small issue, until I started noticing it thrice, when a long command runs, it takes tons of memory. I dunno why. Any suggestions here? 
+
+https://preview.redd.it/2lfh1e6xrc1h1.png?width=1858&format=png&auto=webp&s=95be044a0f57c0c8677e0b1fd212a4b304aa0a23
+
+https://preview.redd.it/cepj33oyrc1h1.png?width=1858&format=png&auto=webp&s=e9b8f5fd01ae842dddab95e867cf7e684750c867
+
+"
+14,2,"gasp, astonishment",1,0.7717,"Because you treat Claude professionally, as a robot tool. These people treat it like a human friend, tell it how their day is going, share their emotions, tell it they're getting tired and it's late, and then gasp in astonishment when Claude tells them to go to bed. "
+15,2,"drop, release",4,-0.151725,"I was literally searching ""When will the next Claude version release"" minutes before this post dropped and went to bed"
+16,2,"smart, bot",6,0.06003333333333333,"I got tired of scrolling Upwork, so I built a bot that triages jobs with Claude "
+17,13,"leak, file, fix, test, codebase, fail, future, axonix, find, rewrite",34,0.03914117647058822,"“Just one more prompt” turns into 3am AI has completely destroyed my sleep schedule.
+
+I’ll sit down at night thinking, “Let me just test one thing real quick,” and then somehow I’m debugging an agent workflow, rewriting prompts, researching models, and convincing myself sleep is optional.
+
+Anyone else losing sleep because their brain won’t stop thinking of new AI ideas?"
+18,60,"bed, time, want, mention, stop, ask, try, send, helpful, night",368,0.05824429347826087,"VibeClaude, a real-time vibe check for how Claude is currently performing I've gotten tired of wondering if it's just me when Claude seems dumber today than yesterday. I've also noticed that my friends are getting frustrated with Claude around the same time I am. 
+
+I've built a free Chrome extension to let you know how Claude is performing for everyone right now.  
+  
+VibeClaude is a real-time vibe check for Claude. Just go the site, install the extension and pin it in your browser chrome.  
+  
+➡️ Click the VC icon any time to give a 👍 or 👎 about Claude's current performance and see how other people are vibing with Claude at the moment.   
+  
+➡️ When you go to [**Claude.ai**](https://www.linkedin.com/safety/go/?url=http%3A%2F%2FClaude%2Eai&urlhash=0hFZ&mt=o6Wi5EmVjD57_ZlQrc7O6Js1Gp5y8WJ0RDACxaY7BWdBq1MoZWnNisy3W-zQOSR2xPUKgOzHAGJaxzgdw7SR4DL4ZAvKqpXlRPK57YVuhZM5zkkQMa0gVQ&isSdui=true), it will preemptively show you how people are feeling about Claude's current performance.  
+  
+➡️ You can go to the VibeClaude web site any time to see more detailed stats (last 1/6/24 hours and seven days).  
+  
+Even if you mostly work in the installed app or use Claude Code in the CLI, you can still just click the VC icon in a Chrome browser and submit your current feelings about Claude's performance.  
+  
+Now, when I sit down with Claude and see that 60% of people are struggling right now, I just go and do something else. No more fighting with Claude when it doesn't have the juice.  
+"
+19,2,"fall, asleep",7,0.03295714285714285,Can it also pretend it’s me and run my social and work life while I’m asleep? 
+20,15,"suggest, break, conflict, architecture, solution, king, desktop, walk, order, relate",33,0.09255454545454546,"Anyone else think it’s super obnoxious how often Claude says to “stop for the night” or similar… I’ll do like 30 minutes of work and then Claude will be like “do this and take the rest of the night off” or “we finished phase 1: A time for a break”.
+
+It really gets under my skin lol.
+
+Does anyone else experience this??"
+21,30,"code, session, run, source, api, multiple, kit, starter, compaction, build",125,0.0133024,"Whats wrong with CC? Memory exhausted I was doing some code works when I noticed my PC getting laggy, which wasn't happened from the day I brought this laptop, it started freezing, and i noticed when I closed CC terminal, everything was normal (I found it as it was the only one running), I thought this was just a small issue, until I started noticing it thrice, when a long command runs, it takes tons of memory. I dunno why. Any suggestions here? 
+
+https://preview.redd.it/2lfh1e6xrc1h1.png?width=1858&format=png&auto=webp&s=95be044a0f57c0c8677e0b1fd212a4b304aa0a23
+
+https://preview.redd.it/cepj33oyrc1h1.png?width=1858&format=png&auto=webp&s=e9b8f5fd01ae842dddab95e867cf7e684750c867
+
+"

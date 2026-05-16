@@ -1,0 +1,61 @@
+Type,Term,Count
+Unigram,sleep,182
+Unigram,bed,136
+Unigram,rest,128
+Unigram,time,128
+Unigram,code,124
+Unigram,tired,101
+Unigram,work,76
+Unigram,don,65
+Unigram,think,63
+Unigram,know,61
+Unigram,people,56
+Unigram,use,56
+Unigram,day,54
+Unigram,ve,53
+Unigram,lol,47
+Unigram,good,47
+Unigram,way,45
+Unigram,ll,44
+Unigram,telling,43
+Unigram,want,43
+Bigram,got tired,17
+Bigram,telling bed,12
+Bigram,telling sleep,10
+Bigram,boris cherny,9
+Bigram,don think,9
+Bigram,going sleep,8
+Bigram,rest api,7
+Bigram,open source,7
+Bigram,don know,7
+Bigram,time bed,6
+Bigram,need sleep,6
+Bigram,trying bed,5
+Bigram,going bed,5
+Bigram,point homeless,5
+Bigram,homeless sleep,5
+Bigram,sleep car,5
+Bigram,car turning,5
+Bigram,turning life,5
+Bigram,getting tired,5
+Bigram,tired code,5
+Trigram,point homeless sleep,5
+Trigram,homeless sleep car,5
+Trigram,sleep car turning,5
+Trigram,car turning life,5
+Trigram,boris cherny life,4
+Trigram,cherny life story,4
+Trigram,life story pretty,4
+Trigram,story pretty inspirational,4
+Trigram,pretty inspirational point,4
+Trigram,inspirational point homeless,4
+Trigram,turning life cto,4
+Trigram,life cto code,4
+Trigram,got tired code,4
+Trigram,tired code forgetting,3
+Trigram,code forgetting compaction,3
+Trigram,menu bar app,3
+Trigram,multiple code sessions,3
+Trigram,line project forgets,2
+Trigram,project forgets conventions,2
+Trigram,forgets conventions breaks,2

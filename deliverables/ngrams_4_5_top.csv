@@ -1,0 +1,301 @@
+Stopword_Regime,Type,Term,Count
+topic,4-gram,kiwi kiwi kiwi kiwi,79
+topic,4-gram,blah blah blah blah,54
+topic,4-gram,content removed violating rule,37
+topic,4-gram,link send pm reminded,23
+topic,4-gram,send pm reminded reduce,23
+topic,4-gram,pm reminded reduce spam,23
+topic,4-gram,reminded reduce spam parent,23
+topic,4-gram,reduce spam parent commenter,23
+topic,4-gram,spam parent commenter delete,23
+topic,4-gram,parent commenter delete message,23
+topic,4-gram,commenter delete message hide,23
+topic,4-gram,delete message hide info,23
+topic,4-gram,message hide info reminders,23
+topic,4-gram,feel free repost accordingly,21
+topic,4-gram,review community rules feel,20
+topic,4-gram,community rules feel free,20
+topic,4-gram,rules feel free repost,20
+topic,4-gram,mass deleted anonymized redact,17
+topic,4-gram,state hunger tired dehy,16
+topic,4-gram,hunger tired dehy pos,16
+topic,4-gram,tired dehy pos valid,16
+topic,4-gram,dehy pos valid active,16
+topic,4-gram,pos valid active eat,16
+topic,4-gram,valid active eat sleep,16
+topic,4-gram,active eat sleep drink,16
+topic,4-gram,eat sleep drink resp,15
+topic,4-gram,sleep drink resp action,15
+topic,4-gram,drink resp action wander,15
+topic,4-gram,resp action wander thought,15
+topic,4-gram,utc remind link clicked,14
+topic,4-gram,remind link clicked link,14
+topic,4-gram,link clicked link send,14
+topic,4-gram,clicked link send pm,14
+topic,4-gram,action wander thought hunger,12
+topic,4-gram,supply chain risk designation,11
+topic,4-gram,tl dr discussion generated,11
+topic,4-gram,dr discussion generated automatically,11
+topic,4-gram,discussion generated automatically comments,11
+topic,4-gram,major social media platforms,11
+topic,4-gram,api error rate limit,11
+topic,4-gram,error rate limit reached,11
+topic,4-gram,input tokens output tokens,10
+topic,4-gram,messaging days utc remind,10
+topic,4-gram,days utc remind link,10
+topic,4-gram,multi billion dollar company,9
+topic,4-gram,rate limit reached api,9
+topic,4-gram,limit reached api error,9
+topic,4-gram,reached api error rate,9
+topic,4-gram,remind link click link,9
+topic,4-gram,link click link send,9
+topic,5-gram,kiwi kiwi kiwi kiwi kiwi,77
+topic,5-gram,blah blah blah blah blah,51
+topic,5-gram,link send pm reminded reduce,23
+topic,5-gram,send pm reminded reduce spam,23
+topic,5-gram,pm reminded reduce spam parent,23
+topic,5-gram,reminded reduce spam parent commenter,23
+topic,5-gram,reduce spam parent commenter delete,23
+topic,5-gram,spam parent commenter delete message,23
+topic,5-gram,parent commenter delete message hide,23
+topic,5-gram,commenter delete message hide info,23
+topic,5-gram,delete message hide info reminders,23
+topic,5-gram,review community rules feel free,20
+topic,5-gram,community rules feel free repost,20
+topic,5-gram,rules feel free repost accordingly,20
+topic,5-gram,state hunger tired dehy pos,16
+topic,5-gram,hunger tired dehy pos valid,16
+topic,5-gram,tired dehy pos valid active,16
+topic,5-gram,dehy pos valid active eat,16
+topic,5-gram,pos valid active eat sleep,16
+topic,5-gram,valid active eat sleep drink,16
+topic,5-gram,active eat sleep drink resp,15
+topic,5-gram,eat sleep drink resp action,15
+topic,5-gram,sleep drink resp action wander,15
+topic,5-gram,drink resp action wander thought,15
+topic,5-gram,utc remind link clicked link,14
+topic,5-gram,remind link clicked link send,14
+topic,5-gram,link clicked link send pm,14
+topic,5-gram,clicked link send pm reminded,14
+topic,5-gram,tl dr discussion generated automatically,11
+topic,5-gram,dr discussion generated automatically comments,11
+topic,5-gram,api error rate limit reached,11
+topic,5-gram,messaging days utc remind link,10
+topic,5-gram,error rate limit reached api,9
+topic,5-gram,rate limit reached api error,9
+topic,5-gram,limit reached api error rate,9
+topic,5-gram,reached api error rate limit,9
+topic,5-gram,remind link click link send,9
+topic,5-gram,link click link send pm,9
+topic,5-gram,click link send pm reminded,9
+topic,5-gram,content removed line claudexplorers rules,9
+topic,5-gram,removed line claudexplorers rules check,9
+topic,5-gram,line claudexplorers rules check posting,9
+topic,5-gram,utc remind link click link,8
+topic,5-gram,api error type error error,7
+topic,5-gram,error type error error type,7
+topic,5-gram,days utc remind link clicked,7
+topic,5-gram,type invalid request error message,7
+topic,5-gram,content removed violating rule wouldn't,7
+topic,5-gram,removed violating rule wouldn't set,7
+topic,5-gram,violating rule wouldn't set home,7
+topic,skip-gram,it's _ it's,453
+topic,skip-gram,code _ code,395
+topic,skip-gram,opus _ opus,303
+topic,skip-gram,opus _ sonnet,266
+topic,skip-gram,sonnet _ opus,264
+topic,skip-gram,i'm _ i'm,258
+topic,skip-gram,hit _ limit,245
+topic,skip-gram,don't _ it's,189
+topic,skip-gram,i'm _ it's,181
+topic,skip-gram,isn't _ it's,176
+topic,skip-gram,plan _ plan,168
+topic,skip-gram,kiwi _ kiwi,161
+topic,skip-gram,it's _ i'm,159
+topic,skip-gram,different _ different,138
+topic,skip-gram,work _ work,137
+topic,skip-gram,codex _ code,135
+topic,skip-gram,it's _ don't,128
+topic,skip-gram,open _ models,124
+topic,skip-gram,blah _ blah,124
+topic,skip-gram,sonnet _ sonnet,123
+topic,skip-gram,code _ work,121
+topic,skip-gram,usage _ usage,119
+topic,skip-gram,code _ app,114
+topic,skip-gram,it's _ code,111
+topic,skip-gram,codex _ better,110
+topic,skip-gram,that's _ it's,110
+topic,skip-gram,know _ know,109
+topic,skip-gram,don't _ don't,109
+topic,skip-gram,code _ it's,108
+topic,skip-gram,think _ think,107
+topic,skip-gram,code _ codex,106
+topic,skip-gram,you're _ you're,102
+topic,skip-gram,md _ md,101
+topic,skip-gram,i'm _ plan,100
+topic,skip-gram,don't _ code,98
+topic,skip-gram,codex _ codex,98
+topic,skip-gram,it's _ think,98
+topic,skip-gram,plan _ limit,97
+topic,skip-gram,opus _ it's,97
+topic,skip-gram,tokens _ tokens,97
+topic,skip-gram,plan _ usage,97
+topic,skip-gram,work _ code,96
+topic,skip-gram,opus _ better,95
+topic,skip-gram,hit _ limits,94
+topic,skip-gram,limit _ limit,92
+topic,skip-gram,start _ chat,92
+topic,skip-gram,context _ context,92
+topic,skip-gram,usage _ plan,92
+topic,skip-gram,better _ better,91
+topic,skip-gram,opus _ code,90
+disclosure,4-gram,thank you so much,139
+disclosure,4-gram,kiwi kiwi kiwi kiwi,79
+disclosure,4-gram,blah blah blah blah,53
+disclosure,4-gram,let me know you,43
+disclosure,4-gram,what you talking about,43
+disclosure,4-gram,you can use it,39
+disclosure,4-gram,your content removed violating,37
+disclosure,4-gram,content removed violating rule,37
+disclosure,4-gram,let me know what,33
+disclosure,4-gram,you re absolutely right,33
+disclosure,4-gram,what happens when you,30
+disclosure,4-gram,how long it take,29
+disclosure,4-gram,you use claude code,28
+disclosure,4-gram,hit my weekly limit,28
+disclosure,4-gram,you can ask claude,26
+disclosure,4-gram,it sounds like you,26
+disclosure,4-gram,thank you very much,25
+disclosure,4-gram,you know what you,24
+disclosure,4-gram,what you re doing,24
+disclosure,4-gram,let me know how,24
+disclosure,4-gram,all day every day,24
+disclosure,4-gram,me know what you,23
+disclosure,4-gram,telling me go bed,23
+disclosure,4-gram,you can use claude,23
+disclosure,4-gram,link send pm also,23
+disclosure,4-gram,send pm also reminded,23
+disclosure,4-gram,pm also reminded reduce,23
+disclosure,4-gram,also reminded reduce spam,23
+disclosure,4-gram,reminded reduce spam parent,23
+disclosure,4-gram,reduce spam parent commenter,23
+disclosure,4-gram,spam parent commenter can,23
+disclosure,4-gram,parent commenter can delete,23
+disclosure,4-gram,commenter can delete message,23
+disclosure,4-gram,can delete message hide,23
+disclosure,4-gram,delete message hide others,23
+disclosure,4-gram,message hide others info,23
+disclosure,4-gram,hide others info reminders,23
+disclosure,4-gram,you know you can,22
+disclosure,4-gram,utc remind you link,22
+disclosure,4-gram,what you want it,22
+disclosure,4-gram,i'm not sure what,21
+disclosure,4-gram,so you can use,21
+disclosure,4-gram,what you're talking about,21
+disclosure,4-gram,feel free repost accordingly,21
+disclosure,4-gram,know what you think,20
+disclosure,4-gram,trying figure out how,20
+disclosure,4-gram,i've using claude code,20
+disclosure,4-gram,please let me know,20
+disclosure,4-gram,you can see it,20
+disclosure,4-gram,so much better than,20
+disclosure,5-gram,kiwi kiwi kiwi kiwi kiwi,77
+disclosure,5-gram,blah blah blah blah blah,51
+disclosure,5-gram,your content removed violating rule,37
+disclosure,5-gram,let me know what you,23
+disclosure,5-gram,link send pm also reminded,23
+disclosure,5-gram,send pm also reminded reduce,23
+disclosure,5-gram,pm also reminded reduce spam,23
+disclosure,5-gram,also reminded reduce spam parent,23
+disclosure,5-gram,reminded reduce spam parent commenter,23
+disclosure,5-gram,reduce spam parent commenter can,23
+disclosure,5-gram,spam parent commenter can delete,23
+disclosure,5-gram,parent commenter can delete message,23
+disclosure,5-gram,commenter can delete message hide,23
+disclosure,5-gram,can delete message hide others,23
+disclosure,5-gram,delete message hide others info,23
+disclosure,5-gram,message hide others info reminders,23
+disclosure,5-gram,please review our community rules,20
+disclosure,5-gram,review our community rules feel,20
+disclosure,5-gram,our community rules feel free,20
+disclosure,5-gram,community rules feel free repost,20
+disclosure,5-gram,rules feel free repost accordingly,20
+disclosure,5-gram,me know what you think,17
+disclosure,5-gram,post mass deleted anonymized redact,17
+disclosure,5-gram,state hunger tired dehy pos,16
+disclosure,5-gram,hunger tired dehy pos valid,16
+disclosure,5-gram,tired dehy pos valid active,16
+disclosure,5-gram,dehy pos valid active eat,16
+disclosure,5-gram,pos valid active eat sleep,16
+disclosure,5-gram,valid active eat sleep drink,16
+disclosure,5-gram,claude claude claude claude claude,16
+disclosure,5-gram,let me know how it,15
+disclosure,5-gram,active eat sleep drink resp,15
+disclosure,5-gram,eat sleep drink resp action,15
+disclosure,5-gram,sleep drink resp action wander,15
+disclosure,5-gram,drink resp action wander thought,15
+disclosure,5-gram,content removed violating rule kind,15
+disclosure,5-gram,thank you so much your,15
+disclosure,5-gram,utc remind you link others,14
+disclosure,5-gram,remind you link others clicked,14
+disclosure,5-gram,you link others clicked link,14
+disclosure,5-gram,link others clicked link send,14
+disclosure,5-gram,others clicked link send pm,14
+disclosure,5-gram,clicked link send pm also,14
+disclosure,5-gram,me know how it goes,13
+disclosure,5-gram,thank you so much sharing,13
+disclosure,5-gram,how long it take you,12
+disclosure,5-gram,you can use claude code,11
+disclosure,5-gram,tl dr discussion generated automatically,11
+disclosure,5-gram,dr discussion generated automatically after,11
+disclosure,5-gram,discussion generated automatically after comments,11
+disclosure,skip-gram,it _ it,3874
+disclosure,skip-gram,you _ it,3775
+disclosure,skip-gram,it _ you,2388
+disclosure,skip-gram,you _ you,2196
+disclosure,skip-gram,it _ like,1676
+disclosure,skip-gram,you _ your,1637
+disclosure,skip-gram,claude _ it,1582
+disclosure,skip-gram,it _ me,1563
+disclosure,skip-gram,just _ it,1483
+disclosure,skip-gram,not _ it,1480
+disclosure,skip-gram,you _ claude,1470
+disclosure,skip-gram,can _ it,1182
+disclosure,skip-gram,what _ you,1063
+disclosure,skip-gram,how _ it,1060
+disclosure,skip-gram,they _ it,1049
+disclosure,skip-gram,claude _ you,1045
+disclosure,skip-gram,it _ claude,1012
+disclosure,skip-gram,it _ not,985
+disclosure,skip-gram,you _ use,939
+disclosure,skip-gram,it _ my,899
+disclosure,skip-gram,it _ just,838
+disclosure,skip-gram,more _ than,821
+disclosure,skip-gram,so _ it,804
+disclosure,skip-gram,you _ what,803
+disclosure,skip-gram,not _ you,797
+disclosure,skip-gram,your _ you,788
+disclosure,skip-gram,what _ it,787
+disclosure,skip-gram,claude _ claude,771
+disclosure,skip-gram,it _ so,770
+disclosure,skip-gram,just _ claude,746
+disclosure,skip-gram,you _ get,743
+disclosure,skip-gram,my _ it,731
+disclosure,skip-gram,it _ more,706
+disclosure,skip-gram,you _ not,702
+disclosure,skip-gram,me _ it,694
+disclosure,skip-gram,it _ what,691
+disclosure,skip-gram,you _ just,684
+disclosure,skip-gram,you _ about,658
+disclosure,skip-gram,like _ it,631
+disclosure,skip-gram,so _ can,624
+disclosure,skip-gram,how _ you,623
+disclosure,skip-gram,can _ you,619
+disclosure,skip-gram,just _ you,613
+disclosure,skip-gram,it _ your,608
+disclosure,skip-gram,when _ it,597
+disclosure,skip-gram,will _ it,592
+disclosure,skip-gram,it _ they,591
+disclosure,skip-gram,you _ me,588
+disclosure,skip-gram,it _ up,572
+disclosure,skip-gram,they _ they,571

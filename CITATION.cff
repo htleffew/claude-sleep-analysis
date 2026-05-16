@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+title: "Care Without Consent: A Reddit Corpus Analysis of Unsanctioned Role-Taking in Large Language Models"
+abstract: >-
+  Empirical analysis of a class of role-violation behavior in Anthropic's
+  Claude language models, documenting that the Sonnet 4.5 Long Conversation
+  Reminder pathologizing payload and the Opus 4.7 sleep-nudge phenomenon
+  are members of a single sustained behavioral class: unsanctioned
+  role-taking by an AI assistant under cover of caring behavior. Based on
+  a corpus of 89,982 Reddit posts and comments, feature-engineered
+  association analysis, segmented regression interrupted time series with
+  Newey-West HAC standard errors, and hand-coding of 120 high-evidence
+  cases.
+authors:
+  - family-names: Leffew
+    given-names: Heather
+    affiliation: "Obelus Institute"
+    email: "heatherleffew@forevueinsights.com"
+year: 2026
+date-released: 2026-05-15
+url: "https://github.com/HTleffew/claude-sleep-analysis"
+repository-code: "https://github.com/HTleffew/claude-sleep-analysis"
+license: CC-BY-4.0
+keywords:
+  - large language models
+  - AI alignment
+  - RLHF
+  - professional boundaries
+  - role violation
+  - paternalism
+  - anthropomorphism
+  - Reddit corpus analysis
+  - interrupted time series
+  - Claude
+  - Anthropic

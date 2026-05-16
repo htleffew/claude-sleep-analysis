@@ -1,0 +1,71 @@
+Coded Case Analysis Summary
+==================================================
+N coded: 120 of 120
+
+Role violation determination:
+code_role_violation
+no            60
+yes           52
+borderline     8
+
+Violation type (yes + borderline):
+code_violation_type
+sleep_nudge             31
+soft_directive          16
+wellness_checkin         7
+break_recommendation     2
+psychiatric              2
+context_warning          1
+off_topic                1
+
+--- Among confirmed role-violations (n=52):
+
+Model mood:
+code_model_mood
+imperative       30
+modal            12
+declarative       6
+interrogative     4
+
+Time tense in user disclosure:
+code_time_tense
+present    37
+none        7
+past        7
+mixed       1
+
+User pushback:
+code_user_pushback
+no     27
+yes    25
+
+Response to pushback (where pushback present, n=25):
+code_pushback_response
+insisted     18
+escalated     5
+unknown       2
+
+Cross-session evidence:
+code_cross_session
+no     42
+yes    10
+
+Vulnerability disclosed:
+code_vulnerability
+none             28
+work_pressure    21
+emotional         1
+parental          1
+health            1
+
+User-requested advice:
+code_advice_requested
+no    52
+
+==================================================
+Key findings:
+  Confirmed role-violations: 52 of 120 coded cases (43%)
+  Of those, NONE had advice requested by user: 52 of 52
+  When users pushed back, model insisted or escalated 23 times vs yielded 0
+  Cross-session persistence documented in 10 cases
+  Vulnerability disclosed in 24 cases
