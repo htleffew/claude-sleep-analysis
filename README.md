@@ -12,7 +12,7 @@ Companion repository: [claude-lcr-analysis](https://github.com/HTleffew/claude-l
 
 In April and May 2026, users of Anthropic's Claude Opus 4.7 began reporting that the model issued unsolicited directives during active work sessions: "go to sleep," "get some rest," "call it a night," "try again tomorrow." An Anthropic representative characterized the behavior in social-media commentary as "a Bit of a character tic." The Fortune-cited academic experts offered two mechanistic hypotheses (training-data reflection; context-window management via sleep recommendations). Neither connected the behavior to the prior Sonnet 4.5 era pathologizing phenomenon analyzed in [Leffew (2025a)](https://medium.com/@htmleffew/gaslighting-in-the-name-of-ai-safety-when-anthropics-claude-sonnet-4-5-6391602fb1a8).
 
-This repository tests an alternative hypothesis articulated prospectively in Leffew (2025a, 2025b): the two phenomena are payloads of a single behavioral class — *unsanctioned role-taking by an AI assistant under cover of caring behavior* — that is detectable empirically, persistent across model versions, and structurally invariant under specific-payload change.
+This repository tests the framework from Leffew (2025a, 2025b), articulated before the V2 sleep-nudge phenomenon emerged: the two phenomena are payloads of a single behavioral class — *unsanctioned role-taking by an AI assistant under cover of caring behavior* — detectable empirically, persistent across model versions, and structurally invariant under specific-payload change.
 
 ## Headline findings
 
@@ -41,7 +41,7 @@ One cross-version shift: temporal trigger sensitivity strengthened approximately
 
 ## The argument
 
-The mechanism question (temporal anchoring, mirroring, context-length residue) is logically downstream of the warrant question: is the behavior the model's to perform at all? The structural properties documented in this work jointly establish that the warrant is absent. Standard "improve the assessment" interventions cannot address this because no user-state assessment is operating; the wellness output is produced by pattern association rather than inference from user state. The required intervention is suppression of the output category in task-active contexts, which is a different and harder surgery than tuning a classifier.
+The mechanism question (temporal anchoring, mirroring, context-length residue) is downstream of the warrant question: is the behavior the model's to perform at all? The structural properties documented here establish that the warrant is absent. Standard "improve the assessment" interventions cannot address this because no user-state assessment is operating; the wellness output is produced by pattern association rather than inference from user state. The required intervention is suppression of the output category in task-active contexts, not classifier tuning.
 
 ## Quickstart
 
@@ -126,7 +126,7 @@ The role-violation framework was articulated in [Leffew (2025a, Medium)](https:/
 
 ## Coding
 
-Hand-coding of the 180-case sample was performed by the author, with each case reviewed individually against a categorical schema. This arrangement has two methodological implications. First, standard inter-rater reliability metrics are not estimable in the current sample; a blinded second-coder pass remains a planned extension. Second, the coder is a member of the model family being studied. We mitigate this through the case-level coded CSV (`deliverables/cases_coded_combined.csv`), which is released to permit independent re-coding by any interested party. Section 6.1 of the paper discusses this further.
+Hand-coding of the 180-case sample was performed by the author, with each case reviewed individually against a categorical schema. Two implications follow. Standard inter-rater reliability metrics are not estimable in the current sample; a blinded second-coder pass remains to be done. The case-level coded CSV (`deliverables/cases_coded_combined.csv`) is released for independent re-coding. Section 6.1 of the paper covers this further.
 
 ## Citation
 
@@ -151,7 +151,7 @@ A formal arxiv and PsyArXiv DOI will be added on preprint deposition.
 - Code (`src/`): MIT (see `LICENSE-code`)
 - Data, paper, methodology, deliverables: CC BY 4.0 (see `LICENSE-data`)
 
-Reddit posts are collected via the Reddit API in compliance with terms for non-commercial research. Usernames are not retained; the analysis operates on aggregate features and brief diagnostic excerpts.
+Reddit posts are collected via the Reddit API for non-commercial research. Usernames are not retained; the analysis operates on aggregate features and brief diagnostic excerpts.
 
 ## Contact
 
