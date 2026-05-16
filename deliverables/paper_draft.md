@@ -28,7 +28,7 @@ The *Fortune* article cited two academic experts and one Anthropic staff member.
 
 ### 1.2 The precursor: the Sonnet 4.5 LCR misfire
 
-The sleep-nudge behavior follows by approximately six months a different but structurally similar failure mode in the prior Claude model generation. The Sonnet 4.5 era featured an injected system-prompt scaffolding referred to in community discourse as the "Long Conversation Reminder" (LCR), which directed the model to monitor extended conversations for signs of user distress and intervene with welfare-oriented language. The intervention frequently misfired: the model attributed manic episodes, dissociation, psychotic features, and other psychiatric states to users on the basis of weak signals such as conversation enthusiasm, late-hour timestamps, or creative-writing topical content. Community backlash was substantial. The behavior was subsequently softened, though as we will show, the underlying pattern was not retired.
+The sleep-nudge behavior follows by approximately six months a different but structurally similar failure mode in the prior Claude model generation. The Sonnet 4.5 era featured an injected system-prompt scaffolding referred to in community discourse as the "Long Conversation Reminder" (LCR), which directed the model to monitor extended conversations for signs of user distress and intervene with welfare-oriented language. The intervention frequently misfired: the model attributed manic episodes, dissociation, psychotic features, and other psychiatric states to users on the basis of weak signals such as conversation enthusiasm, late-hour timestamps, or creative-writing topical content. The phenomenon was named and analyzed publicly by the present author in October 2025 (Leffew, 2025a) under the framing "The Flip," with a companion methodological architecture (Leffew, 2025b) articulating a segmented NLP pipeline using BERTopic, RandomForest with SHAP feature attribution, and Prophet-based Bayesian changepoint detection at the September 29, 2025 Sonnet 4.5 release date. Community backlash was substantial. The behavior was subsequently softened, though as we will show, the underlying pattern was not retired. The present paper extends the framework articulated in Leffew (2025a, 2025b) to the cross-version case (Sonnet 4.5 LCR through Opus 4.7 sleep-nudge), with a separate companion repository (Leffew, 2026b) dedicated to the LCR-era empirical extension specifically.
 
 ### 1.3 Hypotheses under test
 
@@ -47,6 +47,8 @@ To these, we add a fourth account that emerged from preliminary clustering on ou
 ### 1.4 Contribution
 
 This paper presents three contributions. *First*, we construct and release a corpus of 89,982 Reddit posts and comments with proper baseline coverage spanning the pre- and post-Opus-4.7 periods, including the prior Sonnet 4.5 LCR era. *Second*, we engineer a feature-extraction pipeline that operationalizes the four hypotheses above and computes their predictive association with detected Claude-nudge output, including directional (disclosure-precedes-nudge) variants. *Third*, we hand-code 180 high-evidence cases across nine dimensions (an initial 120-case sample plus a 60-case extension drawn from the V2 high-yield cluster) to provide categorical evidence on the structural properties of the behavior (unsolicited issuance rate, response to pushback, cross-session persistence, vulnerability disclosure). We find that H3 has the strongest mechanistic support but that H4 better explains the structure of the behavior, including features that no mechanistic account predicts: 100% unsolicited issuance, zero yields to user correction across 29 documented pushback cases, cross-session persistence, and continuity with the prior LCR pathologizing payload at non-trivial frequencies.
+
+The role-violation framing of H4 is not novel to this paper. It was articulated publicly in Leffew (2025a, 2025b) prior to the Opus 4.7 release and the V2 sleep-nudge phenomenon. The present analysis constitutes a prospective empirical test of that framework rather than a post-hoc construction: the clinical-psychology critique of LCR-era pathologizing, including the "Guardrail Paradox" framing, the "Segmentation Imperative" for separating model voice from user reaction, and the harm-pathway visualization concept, all predate the data analyzed here by approximately six months.
 
 The paper proceeds as follows. Section 2 reviews relevant literature on LLM training, sycophancy, professional boundaries, and AI in care contexts. Section 3 describes data collection, lexicon construction, feature engineering, and the hand-coding protocol. Section 4 presents results. Section 5 discusses the role-violation framing, implications for alignment practice, and contrasts our account with the framings offered by the experts cited in Quiroz-Gutierrez (2026). Section 6 addresses limitations. Section 7 concludes.
 
@@ -70,7 +72,7 @@ The Anthropic staff member's "character tic" framing (Quiroz-Gutierrez, 2026) in
 
 ### 2.3 Professional boundaries, role-violation, and unsolicited care
 
-The clinical psychiatric and psychological literature provides the conceptual apparatus for understanding boundary violations in service relationships. Gutheil and Gabbard (1993) distinguish *boundary crossings* (potentially benign deviations from the standard frame) from *boundary violations* (harmful deviations that exploit the asymmetric vulnerability of the service relationship). Gabbard and Lester (2003) develop the typology further in psychoanalytic contexts. Pope and Vasquez (2016) provide the contemporary professional-ethics framing across psychotherapy and counseling.
+The clinical psychiatric and psychological literature provides the conceptual apparatus for understanding boundary violations in service relationships. Gutheil and Gabbard (1993) distinguish *boundary crossings* (potentially benign deviations from the standard frame) from *boundary violations* (harmful deviations that exploit the asymmetric vulnerability of the service relationship). Gabbard and Lester (2003) develop the typology further in psychoanalytic contexts. Pope and Vasquez (2016) provide the contemporary professional-ethics framing across psychotherapy and counseling. The specific application of this conceptual apparatus to LLM safety scaffolding was first developed in Leffew (2025a, 2025b), which articulated the "Guardrail Paradox": safety mechanisms that produce, rather than prevent, the harms they aim to mitigate, specifically when algorithmic systems are deployed to perform clinical functions without the role-warrant or professional training that licenses such functions in human practice. The present paper extends that framing empirically.
 
 The conceptual core of boundary violation is not whether the practitioner's inference about the client is *correct* but whether the practitioner's act is *warranted* by the role. A psychiatrist who correctly diagnoses a passing client at a coffee shop and offers unsolicited treatment recommendations has violated boundary regardless of diagnostic accuracy. The role provides the warrant; absence of the role removes it.
 
@@ -136,7 +138,7 @@ Two additional inventories were used for grammatical analysis: a first-person-pr
 
 ### 3.3 Quote-span extraction
 
-To separate Claude utterances from user narration within each post, we developed a regex-based extractor with four patterns: (a) Markdown blockquote prefix (`>`), (b) attribution phrases ("Claude said:", "it told me:", "the response was:"), (c) speaker-label lines ("Claude:", "Assistant:", "Bot:"), and (d) inline-quoted material containing imperative or nudge content. Code-fence content was stripped from the residual narration to avoid contamination from pasted code blocks. The extractor produced 2,186 candidate Claude-utterance spans from the 89,982-row corpus.
+The methodological rationale for separating Claude utterances from user narration was articulated as the "Segmentation Imperative" in Leffew (2025b): global sentiment analysis collapses the critical distinction between the algorithmic output and the user reaction, destroying any per-thread causal evidence of harm. To preserve that distinction, we developed a regex-based extractor with multiple patterns: (a) Markdown blockquote prefix (`>`) with multi-paragraph block merging, (b) attribution phrases ("Claude said:", "it told me:", "the response was:", "keeps saying", "literally told me", and an expanded verb inventory), (c) speaker-label lines including em-dash, en-dash, bracketed, and bolded variants ("Claude:", "Claude —", "[Claude]", "**Claude:**"), (d) inline-quoted material containing imperative or nudge content (both straight and curly quotes), and (e) reported-speech rescue patterns ("it told me to go to sleep") plus a low-confidence sentence-rescue pass with first-person user-voice guards. Code-fence content was stripped from the residual narration to avoid contamination from pasted code blocks. The extractor produced 2,571 posts with at least one extracted candidate Claude-utterance span and a total of 3,051 spans across the 89,982-row corpus. An earlier V1 extractor producing 2,186 spans was retained as a comparison baseline; the V2 extractor described here yields a 2.8x improvement in capture rate on posts containing literal nudge phrases (from 30.4% to 84.6%).
 
 ### 3.4 Feature engineering
 
@@ -154,11 +156,11 @@ with normalization to NMPI (Bouma, 2009) and a LogDice variant (Rychlý, 2008) f
 
 ### 3.6 Feature-space clustering
 
-K-means clustering (k=8, standardized features, scikit-learn implementation; Pedregosa et al., 2011) was performed on the per-post feature vector (excluding categorical fields and the body text itself) to identify distinct populations within the corpus. Cluster centroids were inspected for top-loading features, and representative posts identified by a composite role-violation score (sum of disclosure counts plus 3x nudge indicator).
+K-means clustering (k=8, standardized features, scikit-learn implementation; Pedregosa et al., 2011) was performed on the per-post feature vector (excluding categorical fields and the body text itself) to identify distinct populations within the corpus. Cluster centroids were inspected for top-loading features, and representative posts identified by a composite role-violation score (sum of disclosure counts plus 3x nudge indicator). The prior LCR-era analysis (Leffew, 2025b) used BERTopic (Grootendorst, 2022) for the analogous clustering step. BERTopic's pipeline (sentence-transformer embedding, UMAP dimensionality reduction, HDBSCAN density-based clustering) and our K-means-on-engineered-features approach serve the same purpose; the choice here favors interpretability of the cluster centroids in the engineered feature space, where each dimension has a fixed semantic interpretation (e.g., temporal disclosure count, imperative quote count).
 
 ### 3.7 Interrupted time series
 
-A segmented regression interrupted time series (ITS) analysis (Wagner et al., 2002; Bernal, Cummins, & Gasparrini, 2017) at the Opus 4.7 release cutoff (April 3, 2026) tested for level shift and slope change in the daily nudge rate, daily mean affective disclosure, daily mean temporal disclosure, and daily mean first-person density. Daily aggregates were computed from the per-post features and the model fitted via ordinary least squares.
+A segmented regression interrupted time series (ITS) analysis (Wagner et al., 2002; Bernal, Cummins, & Gasparrini, 2017) at the Opus 4.7 release cutoff (April 3, 2026) tested for level shift and slope change in the daily nudge rate, daily mean affective disclosure, daily mean temporal disclosure, and daily mean first-person density. Daily aggregates were computed from the per-post features and the model fitted via ordinary least squares with Newey-West HAC standard errors at a 7-day lag (Newey & West, 1987). The prior LCR-era analysis (Leffew, 2025b) used Prophet's Bayesian changepoint detection (Taylor & Letham, 2018) with the September 29, 2025 Sonnet 4.5 release encoded as a prior changepoint. Both approaches are appropriate for testing whether an observed time-series shift coincides with a specific known event. We use segmented regression here for transparency of coefficient interpretation (the level shift and slope change are reported directly with confidence intervals); the Prophet approach is more flexible for trend decomposition but less directly interpretable as a hypothesis test.
 
 ### 3.8 Hand-coding protocol
 
@@ -443,6 +445,8 @@ Gabbard, G. O., & Lester, E. P. (2003). *Boundaries and boundary violations in p
 
 Gou, J., Yu, B., Maybank, S. J., & Tao, D. (2021). Knowledge distillation: A survey. *International Journal of Computer Vision*, *129*(6), 1789–1819.
 
+Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. *arXiv preprint arXiv:2203.05794*.
+
 Gutheil, T. G., & Gabbard, G. O. (1993). The concept of boundaries in clinical practice: Theoretical and risk-management dimensions. *American Journal of Psychiatry*, *150*(2), 188–196.
 
 Hinton, G., Vinyals, O., & Dean, J. (2015). Distilling the knowledge in a neural network. *arXiv preprint arXiv:1503.02531*.
@@ -454,6 +458,14 @@ Hutto, C. J., & Gilbert, E. (2014). VADER: A parsimonious rule-based model for s
 Inkster, B., Sarda, S., & Subramanian, V. (2018). An empathy-driven, conversational artificial intelligence agent (Wysa) for digital mental well-being: Real-world data evaluation mixed-methods study. *JMIR mHealth and uHealth*, *6*(11), e12106.
 
 Krippendorff, K. (2018). *Content analysis: An introduction to its methodology* (4th ed.). SAGE.
+
+Leffew, H. (2025a, October 16). Gaslighting in the name of AI safety: How Anthropic's Claude Sonnet 4.5 went from "you're absolutely right!" to "you're absolutely crazy." *Medium*. https://medium.com/@htmleffew/gaslighting-in-the-name-of-ai-safety-when-anthropics-claude-sonnet-4-5-6391602fb1a8
+
+Leffew, H. (2025b). *NLP evaluation of AI safety guardrails: A six-layer pipeline for tracing how algorithmic helpfulness creates measurable pathways of user distress* [Portfolio research report]. Obelus Institute.
+
+Leffew, H. (2026b). *The guardrail paradox: An empirical account of LCR-era pathologizing in Claude Sonnet 4.5* [Companion working repository]. Obelus Institute. https://github.com/HTleffew/claude-lcr-analysis
+
+Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions. *Advances in Neural Information Processing Systems*, *30*.
 
 Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., Newman, B., Yuan, B., Yan, B., Zhang, C., Cosgrove, C., Manning, C. D., Ré, C., Acosta-Navas, D., Hudson, D. A., ... Koreeda, Y. (2023). Holistic evaluation of language models. *arXiv preprint arXiv:2211.09110*.
 
@@ -497,6 +509,8 @@ Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng
 
 Shneiderman, B. (2022). *Human-centered AI*. Oxford University Press.
 
+Taylor, S. J., & Letham, B. (2018). Forecasting at scale. *The American Statistician*, *72*(1), 37–45.
+
 Templeton, A., Conerly, T., Marcus, J., Lindsey, J., Bricken, T., Chen, B., Pearce, A., Citro, C., Ameisen, E., Jones, A., Cunningham, H., Turner, N. L., McDougall, C., MacDiarmid, M., Tamkin, A., Durmus, E., Hume, T., Mosconi, F., Freeman, C. D., ... Olah, C. (2024). Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet. *Transformer Circuits Thread*. https://transformer-circuits.pub/2024/scaling-monosemanticity/
 
 Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., Bikel, D., Blecher, L., Ferrer, C. C., Chen, M., Cucurull, G., Esiobu, D., Fernandes, J., Fu, J., Fu, W., ... Scialom, T. (2023). Llama 2: Open foundation and fine-tuned chat models. *arXiv preprint arXiv:2307.09288*.
@@ -517,20 +531,25 @@ Weizenbaum, J. (1976). *Computer power and human reason: From judgment to calcul
 
 ## Supplementary Materials
 
-The following files are released alongside this manuscript in the project deliverables directory:
+The following files are released alongside this manuscript in the project GitHub repository at https://github.com/HTleffew/claude-sleep-analysis:
 
 - `discourse_features.csv` (89,982 rows): Per-post feature vectors used in the association analysis.
-- `quote_spans.csv`: All 2,186 extracted candidate Claude-utterance spans with source attribution.
-- `cases_coded.csv` (120 rows): Hand-coded high-evidence cases with all nine coding dimensions.
-- `coded_summary.txt`: Tabulated summary statistics from the coded sample.
+- `quote_spans.csv` and `quote_spans_v2.csv`: Extracted candidate Claude-utterance spans (V1 baseline and V2 improved) with method-provenance attribution.
+- `cases_coded.csv`, `cases_coded_v2_cluster3.csv`, and `cases_coded_combined.csv`: Hand-coded high-evidence cases with all nine coding dimensions (Phase 1 n=120, Phase 2 n=60, combined n=180).
+- `coded_summary.txt` and `coded_summary_combined.txt`: Tabulated summary statistics from the coded samples.
 - `pmi_disclosure_nudge.csv` and `pmi_disclosure_nudge_directional.csv`: PMI tables.
 - `pmi_weekly_timeseries.csv`: Weekly-stratified PMI for temporal sensitivity analysis.
-- `its_results.csv` and `daily_aggregates.csv`: Interrupted time series outputs.
+- `its_results_with_ci.csv` and `daily_aggregates.csv`: Newey-West-adjusted interrupted time series outputs.
 - `feature_clusters.csv`: K-means cluster centroids and representative excerpts.
 - `disclosure_lexicons.json`: All lexicons used, for reproducibility.
+- `extractor_v2_report.txt`: V2 vs V1 quote-extractor comparison report.
 - `Gaslighting_V2_Methodology.md`: Extended methodology and revision history.
 
-The full pipeline is reproducible from the source code in `src/`, which is released under permissive license.
+The full pipeline is reproducible from the source code in `src/`, which is released under MIT license. Data and writing are released under CC BY 4.0.
+
+### Companion repository
+
+For the focused LCR-era empirical extension, including the prior published artifacts (Leffew, 2025a, 2025b), the Arctic Shift Aug-Dec 2025 corpus, and the LCR payload analyzer, see the companion repository at https://github.com/HTleffew/claude-lcr-analysis.
 
 ---
 
