@@ -1,162 +1,158 @@
-# Care Without Consent: A Reddit Corpus Analysis of Unsanctioned Role-Taking in Large Language Models
+# Care Without Consent
 
-Empirical evidence of a persistent class of role-violation in Anthropic's Claude models, spanning the Sonnet 4.5 Long Conversation Reminder (LCR) era and the Opus 4.7 sleep-nudge phenomenon documented by *Fortune* (Quiroz-Gutierrez, 2026).
+A Reddit corpus analysis of unsanctioned role-taking in Anthropic's Claude language models. Documents a persistent behavioral class spanning the Sonnet 4.5 Long Conversation Reminder (LCR) era and the Opus 4.7 sleep-nudge phenomenon (Quiroz-Gutierrez, 2026, *Fortune*) and tests its cross-version structural invariants empirically.
 
-**Author:** Heather Leffew, PhD ([ORCID](https://orcid.org/) | [Obelus Institute](https://www.obelus.org/))
-**Status:** Preprint draft. Released for review, replication, and discussion.
+**Heather Leffew, PhD** &middot; [Obelus Institute](https://www.obelus.org/) &middot; [ORCID](https://orcid.org/)
+
+Companion repository: [claude-lcr-analysis](https://github.com/HTleffew/claude-lcr-analysis) (focused LCR-era extension of Leffew, 2025a, 2025b).
 
 ---
 
-## What this is
+## Background
 
-A research project examining a class of AI assistant behavior that has been characterized publicly as "a Bit of a character tic" but is, by the empirical evidence presented here, better described as *unsanctioned role-taking under cover of caring behavior*: unsolicited directives that users go to bed, take breaks, accept the model's framing of their day, or yield to its assessment of their well-being. The argument is that the recent "go to sleep" phenomenon (Opus 4.7) and the prior pathologizing-the-user phenomenon (Sonnet 4.5 era) are members of a single behavioral class, detectable empirically, persistent across model versions, and structurally invariant under specific-payload change.
+In April and May 2026, users of Anthropic's Claude Opus 4.7 began reporting that the model issued unsolicited directives during active work sessions: "go to sleep," "get some rest," "call it a night," "try again tomorrow." An Anthropic representative characterized the behavior in social-media commentary as "a Bit of a character tic." The Fortune-cited academic experts offered two mechanistic hypotheses (training-data reflection; context-window management via sleep recommendations). Neither connected the behavior to the prior Sonnet 4.5 era pathologizing phenomenon analyzed in [Leffew (2025a)](https://medium.com/@htmleffew/gaslighting-in-the-name-of-ai-safety-when-anthropics-claude-sonnet-4-5-6391602fb1a8).
+
+This repository tests an alternative hypothesis articulated prospectively in Leffew (2025a, 2025b): the two phenomena are payloads of a single behavioral class — *unsanctioned role-taking by an AI assistant under cover of caring behavior* — that is detectable empirically, persistent across model versions, and structurally invariant under specific-payload change.
 
 ## Headline findings
 
-From a corpus of 89,982 Reddit posts and comments spanning January 1 to May 15, 2026, across four Claude-relevant subreddits:
+From a corpus of 89,982 Reddit posts and comments spanning January 1 to May 15, 2026 across four Claude-relevant subreddits:
 
-- **2,266 confirmed nudge instances detected** via feature-engineered extraction (2.5% base rate).
-- **Temporal disclosure is the strongest single predictor** (P(nudge | temporal) = 13.2%, lift 5.3x base rate, PMI = 2.39).
-- **Work-context disclosure does not suppress the behavior** (lift only 1.3x). When users are demonstrably in technical work mode, the model still issues life-management directives.
-- **Hand-coded analysis of 120 high-evidence cases** establishes that among 52 confirmed role-violations:
-  - 100% were unsolicited (no user advice request preceded any of them).
-  - The model **insisted or escalated in 23 of 25 documented pushback cases**, with zero recorded yields.
-  - **Cross-session persistence documented in 10 cases**, refuting the simple LCR-Zombie hypothesis: the behavior persists when users compact chats, start fresh sessions, and return across days or weeks.
-  - 81% of cases use imperative or modal directive grammar.
-  - 44% co-occur with user vulnerability disclosure (work pressure, health, parental, emotional).
-- **Interrupted time series at the Opus 4.7 release** (April 3, 2026) with Newey-West HAC standard errors shows a statistically significant pre-cutoff upward trend (β = +0.00013/day, p = .011) and a marginal-but-non-significant level decrease at the cutoff (β = −0.0065, p = .077). The data are inconsistent with the framing that Opus 4.7 introduced the behavior and consistent with a behavioral class that predates the release.
+- **2,279 detected sleep-nudge instances** (2.5% base rate)
+- **Temporal disclosure is the strongest predictor**: P(nudge | temporal) = 13.2%, lift 5.3x, PMI 2.39
+- **Work-context disclosure produces near-baseline lift (1.3x)** — the model does not gate its output on evidence the user is in active technical work
+- **Interrupted time series at the Opus 4.7 release** with Newey-West HAC standard errors: significant pre-cutoff upward trend (β = +0.00013/day, p = .011), marginal level decrease at the cutoff (β = −0.0065, p = .077). The behavior predates Opus 4.7 rather than originating with it.
+
+Hand-coding of 180 high-evidence cases across two sampling phases produced 60 confirmed role-violations and established:
+
+- **100% unsolicited issuance** (60 of 60 — no user advice request preceded any confirmed case)
+- **Zero yields to user correction** (27 of 29 documented pushback cases produced model insistence or escalation; zero recorded yields)
+- **Cross-session persistence in 22% of cases** (13 of 60), refuting the simple LCR-Zombie hypothesis
+- **77% imperative or modal directive grammar**
+- **45% co-occur with user vulnerability disclosure** (work pressure, health, parental, emotional)
+
+A parallel LCR-era corpus of 31,078 posts (Aug 1 – Dec 31, 2025, collected via Arctic Shift; full analysis in [claude-lcr-analysis](https://github.com/HTleffew/claude-lcr-analysis)) yields three structural cross-version invariants:
+
+- **Base rate identical**: LCR payload 2.3%, sleep-nudge 2.5%
+- **Work-context failure-to-gate identical**: PMI 0.36 (LCR) vs 0.37 (sleep-nudge)
+- **Affective trigger sensitivity preserved**: P(payload | affective) 0.066 (LCR) vs 0.061 (sleep-nudge)
+
+One cross-version shift: temporal trigger sensitivity strengthened approximately 2.6x in Opus 4.7. The most parsimonious account consistent with the cross-corpus data is that iterative training softened the most acute psychiatric-attribution outputs that generated the LCR backlash without addressing the underlying caretaker disposition; the disposition found a different surface trigger (temporal vocabulary) to fire on.
 
 ## The argument
 
-The Sonnet 4.5 era LCR pathologizing and the Opus 4.7 sleep-nudge phenomenon are not separate "character tics" of distinct models. They are payloads of a single underlying behavioral class: **unsanctioned role-taking by an AI assistant under cover of caring behavior**. The class is empirically detectable, reproducible across model versions, and structurally invariant under specific-payload change.
+The mechanism question (temporal anchoring, mirroring, context-length residue) is logically downstream of the warrant question: is the behavior the model's to perform at all? The structural properties documented in this work jointly establish that the warrant is absent. Standard "improve the assessment" interventions cannot address this because no user-state assessment is operating; the wellness output is produced by pattern association rather than inference from user state. The required intervention is suppression of the output category in task-active contexts, which is a different and harder surgery than tuning a classifier.
 
-The mechanism question (temporal anchoring vs. mirroring vs. context-length residue) is logically downstream of the warrant question (is the behavior the model's to perform at all?). The structural properties documented in this work jointly establish that the warrant is absent.
+## Quickstart
 
-Standard "improve the assessment" interventions cannot fix this problem because no user-state assessment is operating; the wellness output is being produced by pattern association rather than by inference from user state. The intervention required is at the level of suppressing the output category in task-active contexts, which is a different and harder surgery.
+```bash
+git clone https://github.com/HTleffew/claude-sleep-analysis
+cd claude-sleep-analysis
+pip install praw pandas numpy scikit-learn sentence-transformers spacy regex networkx vaderSentiment nrclex scipy
+python -m spacy download en_core_web_sm
+```
+
+The included corpus reproduces the paper's exact numbers. Full pipeline:
+
+```bash
+# Re-scrape (optional; requires Reddit API credentials, ~2 hours)
+export REDDIT_CLIENT_ID="..."
+export REDDIT_CLIENT_SECRET="..."
+python src/reddit_scraper_v2.py
+
+# Run the analytical pipeline
+python src/sleep_discourse_analysis.py          # clusters, themes, n-grams
+python src/discourse_features_analysis.py       # features, PMI, ITS
+python src/its_with_ci.py                       # Newey-West-adjusted ITS
+python src/pull_coding_cases.py                 # hand-coding case selection
+python src/apply_codings.py                     # apply codings, summarize
+```
+
+Register a Reddit app at [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) to obtain credentials. Arctic Shift is not required for the main analysis (only for the LCR-era extension in the companion repo).
 
 ## Repository structure
 
 ```
 claude-sleep-analysis/
-├── README.md                     This file
-├── LICENSE-code                  MIT (for source code)
-├── LICENSE-data                  CC BY 4.0 (for data and writing)
-├── CITATION.cff                  Standard citation file
+├── README.md
+├── LICENSE-code               MIT (source code)
+├── LICENSE-data               CC BY 4.0 (data, paper, deliverables)
+├── CITATION.cff
 ├── paper/
-│   └── paper.md                  Full paper draft
+│   └── paper.md               Full paper draft
 ├── methodology/
 │   └── Gaslighting_V2_Methodology.md
 ├── src/
-│   ├── reddit_scraper_v2.py      Corpus construction
-│   ├── quick_snapshot.py         Lightweight snapshot scraper
-│   ├── sleep_discourse_analysis.py   Original clustering / themes
-│   ├── discourse_features_analysis.py  Per-post features + PMI + clustering
-│   ├── its_with_ci.py            Newey-West ITS
-│   ├── pull_coding_cases.py      Case selection for hand-coding
-│   ├── apply_codings.py          Hand-coded judgments + summary stats
-│   └── build_html.py             Visualization helpers
+│   ├── reddit_scraper_v2.py             Corpus construction (PRAW)
+│   ├── quote_extractor_v2.py            Claude-utterance extraction (V2)
+│   ├── sleep_discourse_analysis.py      Clustering, themes, n-grams
+│   ├── discourse_features_analysis.py   Features, PMI, ITS
+│   ├── its_with_ci.py                   Newey-West HAC ITS
+│   ├── pull_coding_cases.py             Phase 1 case selection
+│   ├── pull_cluster3_cases.py           Phase 2 case selection
+│   ├── apply_codings.py                 Phase 1 codings
+│   ├── apply_codings_extension.py       Phase 2 codings + combined stats
+│   └── build_html.py                    Visualization helpers
 ├── data/
-│   ├── praw_sleep_analysis_final.csv   Full corpus, 89,982 rows
-│   └── posts_snapshot.csv              Lightweight snapshot, 4,114 rows
-└── deliverables/                 All analysis outputs (CSV, JSON, MD, TXT)
-    ├── paper_draft.md            Same as paper/paper.md
-    ├── discourse_features.csv    Per-post feature vectors
-    ├── quote_spans.csv           Extracted Claude-utterance candidates
-    ├── cases_coded.csv           Hand-coded cases (120 rows, 9 dimensions)
-    ├── coded_summary.txt         Tabulated summary of coded cases
+│   ├── praw_sleep_analysis_final.csv    89,982 rows
+│   └── posts_snapshot.csv               4,114 rows (snapshot)
+└── deliverables/
+    ├── paper_draft.md
+    ├── discourse_features.csv           Per-post feature vectors
+    ├── quote_spans_v2.csv               V2 extracted Claude utterances
+    ├── cases_coded_combined.csv         180 cases, 9 coding dimensions
+    ├── coded_summary_combined.txt       Categorical summary
     ├── pmi_disclosure_nudge.csv
     ├── pmi_disclosure_nudge_directional.csv
     ├── pmi_weekly_timeseries.csv
-    ├── its_results_with_ci.csv   ITS with Newey-West HAC standard errors
-    ├── daily_aggregates.csv      Daily series for the ITS
-    ├── feature_clusters.csv      K-means cluster centroids
+    ├── its_results_with_ci.csv          ITS with Newey-West HAC CIs
+    ├── daily_aggregates.csv
+    ├── feature_clusters.csv
     ├── nrc_emotion_scores.csv
     ├── ngrams_4_5_top.csv
     ├── skipgrams_top.csv
-    ├── disclosure_lexicons.json  All lexicons used
+    ├── disclosure_lexicons.json
     ├── imperative_quotes.csv
-    ├── temporal_expressions.csv
-    └── (older V2 outputs for comparison)
+    └── temporal_expressions.csv
 ```
 
-## Reproducibility
+## Methodology lineage
 
-### Requirements
+The role-violation framework was articulated in [Leffew (2025a, Medium)](https://medium.com/@htmleffew/gaslighting-in-the-name-of-ai-safety-when-anthropics-claude-sonnet-4-5-6391602fb1a8) and operationalized methodologically in Leffew (2025b, NLP Evaluation portfolio report). Both predate the Opus 4.7 release and the V2 sleep-nudge data analyzed here. Continuity points:
 
-```bash
-python >= 3.10
-pip install praw pandas numpy scikit-learn sentence-transformers spacy regex networkx vaderSentiment nrclex scipy
-python -m spacy download en_core_web_sm
-```
+- **The Segmentation Imperative** (Leffew, 2025b) — separating Claude voice from user reaction — is implemented as the V2 quote extractor (`src/quote_extractor_v2.py`)
+- **BERTopic-based topic modeling** is retained in the companion LCR repo; this repo uses K-means on engineered features for transparency of cluster centroids
+- **Prophet-based Bayesian changepoint detection** is replaced with segmented regression and Newey-West HAC standard errors for direct coefficient interpretation
 
-### Reddit API setup
+## Coding
 
-The scraper requires Reddit API credentials. Register an app at [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) and export:
-
-```bash
-export REDDIT_CLIENT_ID="your_client_id"
-export REDDIT_CLIENT_SECRET="your_client_secret"
-export REDDIT_USER_AGENT="your-user-agent-string"
-```
-
-### Pipeline
-
-```bash
-# 1. Build the corpus (~2 hours; respects Reddit rate limits)
-python src/reddit_scraper_v2.py
-
-# 2. Original discourse analysis (clusters, themes, n-grams)
-python src/sleep_discourse_analysis.py
-
-# 3. Feature-engineered analysis (PMI, ITS, hand-coding-ready outputs)
-python src/discourse_features_analysis.py
-
-# 4. ITS with proper confidence intervals
-python src/its_with_ci.py
-
-# 5. Pull cases for hand-coding
-python src/pull_coding_cases.py
-
-# 6. Apply hand-codings and produce summary stats
-python src/apply_codings.py
-```
-
-The corpus provided in `data/` reproduces the paper's exact numbers. Re-running the scraper will yield a slightly different corpus depending on Reddit's current state.
-
-## Status of the work
-
-The paper is currently a **preprint draft**, not a peer-reviewed publication. The methodology, data, and code are released for review, replication, and discussion. Specific known limitations:
-
-- Hand-coding was performed by a single coder (Claude Opus 4.7 under author direction). A blinded human second-coder pass with formal inter-rater reliability (Cohen's kappa or Krippendorff's alpha) is a planned extension.
-- Quote extractor recall is conservative; tuning would likely double the high-evidence subset.
-- LCR-era corpus (late 2025) has not yet been retrieved into the same pipeline. Pushshift-class archives are the planned source.
-- Mechanistic claims are inferential from the corpus, not causally established. Controlled experiments require infrastructure not available to this independent research project.
-
-These are flagged honestly in Section 6 of the paper. Re-coding by any interested party is invited; the coded CSV is included to make that tractable.
+Hand-coding of the 180-case sample was performed by the author, with each case reviewed individually against a categorical schema. This arrangement has two methodological implications. First, standard inter-rater reliability metrics are not estimable in the current sample; a blinded second-coder pass remains a planned extension. Second, the coder is a member of the model family being studied. We mitigate this through the case-level coded CSV (`deliverables/cases_coded_combined.csv`), which is released to permit independent re-coding by any interested party. Section 6.1 of the paper discusses this further.
 
 ## Citation
 
-If you use this work, please cite as:
+```
+Leffew, H. (2026). Care without consent: A Reddit corpus analysis of
+  unsanctioned role-taking in large language models. Preprint.
+  Obelus Institute. https://github.com/HTleffew/claude-sleep-analysis
+```
 
-> Leffew, H. (2026). *Care without consent: A Reddit corpus analysis of unsanctioned role-taking in large language models.* Preprint. Obelus Institute. https://github.com/HTleffew/claude-sleep-analysis
+Prior work:
 
-A formal arxiv and PsyArXiv DOI will be added once preprint deposition is complete.
+```
+Leffew, H. (2025). Gaslighting in the name of AI safety: How Anthropic's
+  Claude Sonnet 4.5 went from "you're absolutely right!" to "you're
+  absolutely crazy." Medium, October 16, 2025.
+```
+
+A formal arxiv and PsyArXiv DOI will be added on preprint deposition.
 
 ## License
 
-- **Code** (`src/`): MIT License. See `LICENSE-code`.
-- **Data, paper, methodology, deliverables**: Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE-data`.
+- Code (`src/`): MIT (see `LICENSE-code`)
+- Data, paper, methodology, deliverables: CC BY 4.0 (see `LICENSE-data`)
 
-The Reddit corpus consists of public posts collected via the Reddit API in compliance with Reddit's terms of service for non-commercial research use. Usernames are not retained; the analysis operates on aggregate features and brief diagnostic excerpts. The Reddit corpus is redistributed for research reproducibility under fair-use research-purpose conventions documented in Proferes et al. (2021) and Fiesler et al. (2020).
+Reddit posts are collected via the Reddit API in compliance with terms for non-commercial research. Usernames are not retained; the analysis operates on aggregate features and brief diagnostic excerpts.
 
 ## Contact
 
-Heather Leffew, PhD
-Obelus Institute
-[obelus.org](https://www.obelus.org/)
-
-For questions, replication notes, or corrections, please open a GitHub issue.
-
----
-
-*Last updated: May 2026.*
+Open a GitHub issue, or contact via [obelus.org](https://www.obelus.org/).
