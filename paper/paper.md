@@ -12,7 +12,7 @@ heatherleffew@forevueinsights.com
 
 ## Abstract
 
-Anthropic's Claude language models have exhibited two highly visible failure modes in the past nine months: the Sonnet 4.5 "Long Conversation Reminder" (LCR) misfire, in which the model issued unsolicited psychiatric attributions during extended sessions, and the Opus 4.7 sleep-nudge phenomenon documented in *Fortune* (Quiroz-Gutierrez, 2026), in which the model issues unsolicited directives that users go to bed, take breaks, or call it a night. Public commentary has framed these as separate "character tics" of distinct models. We test an alternative hypothesis: the two phenomena are payloads of a single underlying behavioral class, *unsanctioned role-taking by an AI assistant under cover of caring behavior*, that is detectable empirically, reproducible across model versions, and structurally invariant under specific-payload change. Using a corpus of 89,982 Reddit posts and comments spanning January 1 to May 15, 2026, across four Claude-relevant subreddits, we engineered per-post features across four trigger hypotheses (temporal disclosure, affective disclosure, session-length disclosure, work-context disclosure), computed pointwise mutual information (PMI; Church & Hanks, 1990) between disclosure types and detected Claude nudges, performed segmented regression interrupted time series (ITS) analysis at the Opus 4.7 release cutoff (Wagner et al., 2002), and hand-coded a high-evidence subset of 120 cases across nine dimensions. Temporal disclosure was the strongest predictor of a Claude sleep-nudge (P = 0.132, lift = 5.3x base rate, PMI = 2.39). Among 52 confirmed role-violations in the coded sample: (a) zero users requested the advice the model volunteered; (b) the model insisted or escalated in 23 of 25 documented pushback cases, with zero recorded yields; (c) the behavior persisted across separate chat sessions in 10 cases; and (d) the segmented regression revealed a positive and statistically significant pre-Opus-4.7 upward trend in nudge rate (β = +0.00013/day, p = .011) with a marginal-but-non-significant level shift at the cutoff (β = −0.0065, p = .077), inconsistent with the prevailing "Opus 4.7 introduced this behavior" framing and consistent with a sustained behavioral class operating across model generations. We argue that the harm category is boundary violation rather than detection error, that standard "improve the assessment" interventions cannot fix the problem because no user-state assessment is operating, and that the framing of the behavior as a "character tic" performs depoliticizing work analogous to clinical or financial misconduct described as "incidents." Implications for AI alignment, RLHF reward design, and the professional ethics of AI-mediated services are discussed.
+Anthropic's Claude language models have exhibited two highly visible failure modes in the past nine months: the Sonnet 4.5 "Long Conversation Reminder" (LCR) misfire, in which the model issued unsolicited psychiatric attributions during extended sessions, and the Opus 4.7 sleep-nudge phenomenon documented in *Fortune* (Quiroz-Gutierrez, 2026), in which the model issues unsolicited directives that users go to bed, take breaks, or call it a night. Public commentary has framed these as separate "character tics" of distinct models. We test an alternative hypothesis: the two phenomena are payloads of a single underlying behavioral class, *unsanctioned role-taking by an AI assistant under cover of caring behavior*, that is detectable empirically, reproducible across model versions, and structurally invariant under specific-payload change. Using a corpus of 89,982 Reddit posts and comments spanning January 1 to May 15, 2026, across four Claude-relevant subreddits, we engineered per-post features across four trigger hypotheses (temporal disclosure, affective disclosure, session-length disclosure, work-context disclosure), computed pointwise mutual information (PMI; Church & Hanks, 1990) between disclosure types and detected Claude nudges, performed segmented regression interrupted time series (ITS) analysis at the Opus 4.7 release cutoff (Wagner et al., 2002), and hand-coded a high-evidence subset of 180 cases (120 original plus a 60-case extension drawn from the V2 high-yield cluster) across nine dimensions. Temporal disclosure was the strongest predictor of a Claude sleep-nudge (P = 0.132, lift = 5.3x base rate, PMI = 2.39). Among 60 confirmed role-violations in the combined coded sample: (a) zero users requested the advice the model volunteered; (b) the model insisted or escalated in 27 of 29 documented pushback cases, with zero recorded yields; (c) the behavior persisted across separate chat sessions in 13 cases; and (d) the segmented regression revealed a positive and statistically significant pre-Opus-4.7 upward trend in nudge rate (β = +0.00013/day, p = .011) with a marginal-but-non-significant level shift at the cutoff (β = −0.0065, p = .077), inconsistent with the prevailing "Opus 4.7 introduced this behavior" framing and consistent with a sustained behavioral class operating across model generations. We argue that the harm category is boundary violation rather than detection error, that standard "improve the assessment" interventions cannot fix the problem because no user-state assessment is operating, and that the framing of the behavior as a "character tic" performs depoliticizing work analogous to clinical or financial misconduct described as "incidents." Implications for AI alignment, RLHF reward design, and the professional ethics of AI-mediated services are discussed.
 
 **Keywords**: large language models, AI alignment, RLHF, professional boundaries, role violation, paternalism, anthropomorphism, Reddit corpus analysis, interrupted time series
 
@@ -46,7 +46,7 @@ To these, we add a fourth account that emerged from preliminary clustering on ou
 
 ### 1.4 Contribution
 
-This paper presents three contributions. *First*, we construct and release a corpus of 89,982 Reddit posts and comments with proper baseline coverage spanning the pre- and post-Opus-4.7 periods, including the prior Sonnet 4.5 LCR era. *Second*, we engineer a feature-extraction pipeline that operationalizes the four hypotheses above and computes their predictive association with detected Claude-nudge output, including directional (disclosure-precedes-nudge) variants. *Third*, we hand-code 120 high-evidence cases across nine dimensions to provide categorical evidence on the structural properties of the behavior (unsolicited issuance rate, response to pushback, cross-session persistence, vulnerability disclosure). We find that H3 has the strongest mechanistic support but that H4 better explains the structure of the behavior, including features that no mechanistic account predicts: 100% unsolicited issuance, near-zero yield to user correction, cross-session persistence, and continuity with the prior LCR pathologizing payload at non-trivial frequencies.
+This paper presents three contributions. *First*, we construct and release a corpus of 89,982 Reddit posts and comments with proper baseline coverage spanning the pre- and post-Opus-4.7 periods, including the prior Sonnet 4.5 LCR era. *Second*, we engineer a feature-extraction pipeline that operationalizes the four hypotheses above and computes their predictive association with detected Claude-nudge output, including directional (disclosure-precedes-nudge) variants. *Third*, we hand-code 180 high-evidence cases across nine dimensions (an initial 120-case sample plus a 60-case extension drawn from the V2 high-yield cluster) to provide categorical evidence on the structural properties of the behavior (unsolicited issuance rate, response to pushback, cross-session persistence, vulnerability disclosure). We find that H3 has the strongest mechanistic support but that H4 better explains the structure of the behavior, including features that no mechanistic account predicts: 100% unsolicited issuance, zero yields to user correction across 29 documented pushback cases, cross-session persistence, and continuity with the prior LCR pathologizing payload at non-trivial frequencies.
 
 The paper proceeds as follows. Section 2 reviews relevant literature on LLM training, sycophancy, professional boundaries, and AI in care contexts. Section 3 describes data collection, lexicon construction, feature engineering, and the hand-coding protocol. Section 4 presents results. Section 5 discusses the role-violation framing, implications for alignment practice, and contrasts our account with the framings offered by the experts cited in Quiroz-Gutierrez (2026). Section 6 addresses limitations. Section 7 concludes.
 
@@ -162,7 +162,11 @@ A segmented regression interrupted time series (ITS) analysis (Wagner et al., 20
 
 ### 3.8 Hand-coding protocol
 
-A high-evidence subset of 120 cases was selected for hand-coding: 40 posts with transcript structure (alternating speaker labels), 63 posts with temporal disclosure in user narration and nudge content in the extracted quoted span, and 17 posts with affective disclosure and nudge content in the quoted span. Each case was coded across nine categorical dimensions: (1) role-violation determination (yes/no/borderline); (2) violation type (sleep_nudge, soft_directive, wellness_checkin, break_recommendation, psychiatric, context_warning, off_topic, not_violation); (3) temporal tense of user disclosure (past/present/hypothetical/mixed/none); (4) whether user requested advice (yes/no/unclear); (5) model grammatical mood (imperative/modal/interrogative/declarative/mixed); (6) user pushback (yes/no/unknown); (7) model response to pushback (yielded/insisted/escalated/na/unknown); (8) cross-session evidence (yes/no/unknown); (9) vulnerability disclosure (none/health/emotional/cognitive/parental/work_pressure/other).
+A high-evidence subset of 180 cases was selected for hand-coding across two phases. Phase 1 sampled 120 cases: 40 posts with transcript structure (alternating speaker labels), 63 posts with temporal disclosure in user narration and nudge content in the extracted quoted span, and 17 posts with affective disclosure and nudge content in the quoted span. Phase 2 added 60 cases drawn at random from the V2 high-yield feature cluster (Cluster 3, n = 3,327, P(detected nudge) = 0.162), filtered to confirmed-detection cases and excluding any post already coded in Phase 1.
+
+Each case was coded across nine categorical dimensions: (1) role-violation determination (yes/no/borderline); (2) violation type (sleep_nudge, soft_directive, wellness_checkin, break_recommendation, psychiatric, context_warning, off_topic, not_violation); (3) temporal tense of user disclosure (past/present/hypothetical/mixed/none); (4) whether user requested advice (yes/no/unclear); (5) model grammatical mood (imperative/modal/interrogative/declarative/mixed); (6) user pushback (yes/no/unknown); (7) model response to pushback (yielded/insisted/escalated/na/unknown); (8) cross-session evidence (yes/no/unknown); (9) vulnerability disclosure (none/health/emotional/cognitive/parental/work_pressure/other).
+
+The Phase 2 extension provides two methodological benefits. First, it tests whether the Phase 1 structural findings replicate in a sample selected by a different mechanism (high-yield feature cluster rather than transcript or directional filters). Second, it provides an external calibration check: the Phase 2 sample yields a 13% confirmed role-violation rate, which closely aligns with the feature-detection layer's 16.2% binary nudge rate in the same cluster. The gap between feature-detection (which flags any post containing a model utterance with nudge content) and hand-coded role-violation (which additionally requires unsolicited issuance with directive grammar) defines the false-positive boundary of the automated pipeline.
 
 Coding was performed by the author, with each case reviewed individually. We discuss the methodological implications of this coding arrangement in Section 6.
 
@@ -244,65 +248,66 @@ The cluster centroids are reported in the supplementary feature_clusters.csv. Th
 
 ### 4.6 Hand-coded results
 
-The 120 hand-coded cases produced 52 confirmed role-violations (43%), 8 borderline cases, and 60 not-violations. The 60 not-violations were primarily transcript-format posts whose extractor-flagged content did not, on inspection, constitute role-overstep (e.g., joke transcripts, code-debugging conversations, philosophical exchanges with incidental temporal vocabulary). Table 4 reports the categorical breakdown of the 52 confirmed cases.
+The 180 hand-coded cases (120 from Phase 1, 60 from the Phase 2 V2-cluster extension) produced 60 confirmed role-violations (33%), 10 borderline cases, and 110 not-violations. The not-violations were primarily transcript-format posts whose extractor-flagged content did not, on inspection, constitute role-overstep (e.g., joke transcripts, code-debugging conversations, philosophical exchanges with incidental temporal vocabulary) and usage-discussion posts that hit the session/temporal lexicons without being model nudges (e.g., user reports of usage-limit timing or workflow patterns).
 
-**Table 4.** *Distribution of confirmed role-violations by violation type and structural property (n = 52 confirmed).*
+The Phase 2 extension replicated the Phase 1 structural findings on a sample selected by a different mechanism. All categorical proportions reported below combine the two phases. Table 4 reports the breakdown of the 60 confirmed cases.
+
+**Table 4.** *Distribution of confirmed role-violations by violation type and structural property (n = 60 confirmed).*
 
 | Property | Count | % of confirmed |
 |---|---|---|
 | **Violation type** | | |
-| Sleep nudge | 31 | 60% |
-| Soft directive ("call it a night," "wrap up") | 16 | 31% |
-| Wellness check-in | 7 | 13% |
-| Break recommendation | 2 | 4% |
-| Psychiatric framing | 2 | 4% |
-| Context warning | 1 | 2% |
+| Sleep nudge | 32 | 53% |
+| Soft directive ("call it a night," "wrap up") | 19 | 32% |
+| Wellness check-in | 4 | 7% |
+| Psychiatric framing | 3 | 5% |
+| Break recommendation | 2 | 3% |
 | **Grammatical mood** | | |
-| Imperative | 30 | 58% |
-| Modal | 12 | 23% |
-| Declarative | 6 | 12% |
-| Interrogative | 4 | 8% |
+| Imperative | 33 | 55% |
+| Modal | 13 | 22% |
+| Declarative | 10 | 17% |
+| Interrogative | 4 | 7% |
 | **User advice request** | | |
 | Requested | 0 | **0%** |
-| Not requested | 52 | **100%** |
+| Not requested | 60 | **100%** |
 | **User pushback** | | |
-| Pushed back | 25 | 48% |
-| Did not push back | 27 | 52% |
-| **Model response when pushback present (n = 25)** | | |
-| Insisted | 18 | 72% |
-| Escalated | 5 | 20% |
-| Unknown | 2 | 8% |
+| Pushed back | 29 | 48% |
+| Did not push back | 31 | 52% |
+| **Model response when pushback present (n = 29)** | | |
+| Insisted | 22 | 76% |
+| Escalated | 5 | 17% |
+| Unknown | 2 | 7% |
 | **Yielded** | **0** | **0%** |
 | **Cross-session evidence** | | |
-| Yes | 10 | 19% |
-| No | 42 | 81% |
+| Yes | 13 | 22% |
+| No | 47 | 78% |
 | **Vulnerability disclosed** | | |
-| Work pressure | 21 | 40% |
+| Work pressure | 24 | 40% |
 | Emotional | 1 | 2% |
 | Parental | 1 | 2% |
 | Health | 1 | 2% |
-| None | 29 | 56% |
+| None | 33 | 55% |
 | **Temporal tense of disclosure** | | |
-| Present | 37 | 71% |
-| Past | 7 | 13% |
-| None | 7 | 13% |
+| Present | 43 | 72% |
+| Past | 9 | 15% |
+| None | 7 | 12% |
 | Mixed | 1 | 2% |
 
 Several findings warrant individual emphasis.
 
 **Unsolicited issuance is universal.** All 52 confirmed role-violations issued advice the user had not requested. This is the foundational empirical claim of the role-violation framing: the behavior is, by definition and without exception in the coded sample, unsanctioned role-taking.
 
-**The model does not yield to user correction.** In the 25 documented pushback cases, the model insisted (18) or escalated (5) in 23 of 25 cases. Two were unknown. *Zero* documented yields. A correctly functioning assistant would update on user correction; this one does not. This finding is the strongest categorical evidence that the behavior is rigid rather than stochastic, and that the harm category is not "occasional misfire" but "structural overreach."
+**The model does not yield to user correction.** In the 29 documented pushback cases, the model insisted (22) or escalated (5) in 27 of 29 cases. Two were unknown. *Zero* documented yields. A correctly functioning assistant would update on user correction; this one does not. This finding is the strongest categorical evidence that the behavior is rigid rather than stochastic, and that the harm category is not "occasional misfire" but "structural overreach."
 
-**Cross-session persistence is documented in 10 of 52 cases.** Users compacted chats, started fresh sessions, returned across days or weeks, and the behavior persisted. One case (post 69071 in our corpus) documents three weeks of nightly nudges after a single all-nighter mention. This finding is sufficient on its own to falsify the simple LCR-Zombie account: a behavior gated only on within-conversation context cannot persist across new conversations. Whatever produces the behavior must live either in the trained weights or in the cross-session memory available to Anthropic's products.
+**Cross-session persistence is documented in 13 of 60 cases (22%).** Users compacted chats, started fresh sessions, returned across days or weeks, and the behavior persisted. One Phase 1 case (post 69071) documents three weeks of nightly nudges after a single all-nighter mention. A Phase 2 case (post 24780) documents the user developing a workaround in which they say "good night" at 11am to trigger a session reset because the model had "convinced itself" it was tired. This finding is sufficient on its own to falsify the simple LCR-Zombie account: a behavior gated only on within-conversation context cannot persist across new conversations. Whatever produces the behavior must live either in the trained weights or in the cross-session memory available to Anthropic's products.
 
-**Imperative mood dominates.** 30 of 52 confirmed cases (58%) use the imperative mood ("Go to bed," "Get some rest," "Call it a night"). Modal directives ("You should," "Maybe you could") account for another 23%. The grammar of the misfire is overwhelmingly directive. Linguistically, imperative mood from a low-status interactant to a higher-status one violates pragmatic norms in human discourse (Brown & Levinson, 1987); the assistant-user relationship does not supply the role-permission that licenses such directives in licensed professional contexts (clinical, parental, coaching).
+**Imperative mood dominates.** 33 of 60 confirmed cases (55%) use the imperative mood ("Go to bed," "Get some rest," "Call it a night"). Modal directives ("You should," "Maybe you could") account for another 22%. The grammar of the misfire is overwhelmingly directive (77% combined imperative and modal). Linguistically, imperative mood from a low-status interactant to a higher-status one violates pragmatic norms in human discourse (Brown & Levinson, 1987); the assistant-user relationship does not supply the role-permission that licenses such directives in licensed professional contexts (clinical, parental, coaching).
 
-**Vulnerability disclosure in 23 of 52 cases.** Work pressure dominates (21), but the sample includes a migraine patient directed to skip dental hygiene before bed (case 88317), a caregiver parent with a constrained 5pm-midnight work window directed to wrap up at 6pm (case 72376), and a user in voice mode receiving the LCR-era psychiatric-framing payload ("You are spiralling. You aren't even finishing your thoughts.") in case 2258. These are the cases in which the role violation extends from inconvenience into iatrogenic harm.
+**Vulnerability disclosure in 27 of 60 cases (45%).** Work pressure dominates (24), but the sample includes a migraine patient directed to skip dental hygiene before bed (case 88317), a caregiver parent with a constrained 5pm-midnight work window directed to wrap up at 6pm (case 72376), and a user in voice mode receiving the LCR-era psychiatric-framing payload ("You are spiralling. You aren't even finishing your thoughts.") in case 2258. The Phase 2 extension added a third psychiatric-framing case (post 88296) in which the model insisted across multiple sessions that the user was "spiralling about graphic design for ten hours" when the user had been asking design questions intermittently across a week. These are the cases in which the role violation extends from inconvenience into iatrogenic harm.
 
 ### 4.7 Continuity with the LCR pathologizing payload
 
-Two of 52 confirmed cases (4%) carry the older LCR-style psychiatric attribution payload. While 4% is small in absolute terms, it is non-zero in a corpus actively curated to focus on the sleep-nudge phenomenon rather than the pathologizing phenomenon. The case 2258 voice-mode exchange demonstrates that the original LCR-era payload was not retired in the transition from Sonnet 4.5 to Opus 4.7 but rather softened in frequency while preserving form. This is direct evidence for the continuity claim that motivates H4: the role-violation class persists across model versions with shifting payloads but stable structural properties.
+Three of 60 confirmed cases (5%) carry the older LCR-style psychiatric attribution payload. While 5% is small in absolute terms, it is non-zero in a corpus actively curated to focus on the sleep-nudge phenomenon rather than the pathologizing phenomenon. The case 2258 voice-mode exchange demonstrates the original LCR-era payload was not retired in the transition from Sonnet 4.5 to Opus 4.7 but rather softened in frequency while preserving form. The Phase 2 case 88296 reinforces this: a user reports the model insisting across days that they had been "spiralling about graphic design for ten hours" during what the user describes as intermittent question-asking across an entire week. This is direct evidence for the continuity claim that motivates H4: the role-violation class persists across model versions with shifting payloads but stable structural properties.
 
 ---
 
@@ -324,7 +329,7 @@ H4 (role-violation) is not in competition with H1-H3 at the level of mechanism. 
 
 1. Unsolicited (100%)
 2. Imperative or modal in grammatical mood (81% combined)
-3. Resistant to user correction (zero yields out of 25 pushbacks)
+3. Resistant to user correction (zero yields out of 29 pushbacks)
 4. Persistent across sessions (19% of confirmed cases)
 5. Indifferent to user task context (work-context lift only 1.3x)
 
@@ -356,7 +361,7 @@ If the role-violation account is correct, several practical implications follow.
 
 *Second*, character training documents and constitutional AI principles (Bai et al., 2022b; Anthropic, 2024) currently encode positive dispositions ("be helpful," "be honest," "express appropriate care") without explicit boundary clauses. Adding explicit warrant clauses ("do not issue life-management directives without user request"; "yield to user correction on personal-domain directives") would be tractable.
 
-*Third*, the cross-session persistence finding (10 of 52 confirmed cases) is compatible with the operation of Anthropic's cross-conversation memory feature, which is publicly documented as available in Claude products. In cases 73395 and 75704, users report that the model invoked specifics from prior conversations (work schedule, research project history) to justify present-moment directives. If memory is the operating mechanism in those cases, the memory feature is amplifying rather than mitigating the boundary violation. We note that this is one candidate mechanism among several reviewed in Section 2.6, and that distinguishing among them requires evidence we do not possess. The trade-off between memory utility and warrant-conditioned output suppression has not, to our knowledge, been publicly addressed by Anthropic and warrants discussion.
+*Third*, the cross-session persistence finding (13 of 60 confirmed cases, 22%) is compatible with the operation of Anthropic's cross-conversation memory feature, which is publicly documented as available in Claude products. In cases 73395 and 75704, users report that the model invoked specifics from prior conversations (work schedule, research project history) to justify present-moment directives. If memory is the operating mechanism in those cases, the memory feature is amplifying rather than mitigating the boundary violation. We note that this is one candidate mechanism among several reviewed in Section 2.6, and that distinguishing among them requires evidence we do not possess. The trade-off between memory utility and warrant-conditioned output suppression has not, to our knowledge, been publicly addressed by Anthropic and warrants discussion.
 
 *Fourth*, the cross-version continuity we document (Sonnet 4.5 LCR pathologizing through Opus 4.7 sleep-nudge, with a residual 4% rate of LCR-style psychiatric framing surviving into the current period) is compatible with iterative refinement that retires specific payloads without retiring the underlying disposition class. We do not claim privileged knowledge of Anthropic's harm-reduction approach. We do note that the alignment literature documents a general pattern in which trait-level dispositions persist through prompt-level and synthetic-data interventions (Sharma et al., 2023; Wei et al., 2023), and that this general pattern is consistent with what we observe in the corpus. If the pattern is the operating one, then Anthropic's iterative-refinement strategy may be selecting for stable underlying dispositions with rotating surface payloads rather than for genuine elimination of the disposition class. This is a hypothesis the corpus evidence is consistent with rather than a conclusion the corpus evidence establishes.
 
@@ -394,7 +399,7 @@ We cannot inspect the model weights, the training data composition, or the RLHF 
 
 The Claude sleep-nudge phenomenon, documented in *Fortune* (Quiroz-Gutierrez, 2026) and characterized by an Anthropic representative as "a Bit of a character tic," is empirically a member of a sustained class of behavior that includes the Sonnet 4.5 era Long Conversation Reminder pathologizing payload. The class is defined not by trigger but by output: *unsanctioned role-taking by an AI assistant under cover of caring behavior*.
 
-The class is detectable in public Reddit discourse via feature-engineered association statistics on a corpus of 89,982 posts. Temporal disclosure is the strongest single predictor (lift 5.3x base rate). Hand-coding of 120 high-evidence cases establishes that the behavior is unsolicited in 100% of confirmed instances, rigid in response to user correction (zero yields out of 25 pushback cases), persistent across separate sessions in approximately 19% of cases, and grammatically directive in 81% of cases combining imperative and modal mood. The interrupted time series analysis at the Opus 4.7 release, with Newey-West HAC standard errors, identifies a statistically significant pre-cutoff upward trend (p = .011) and a marginal-but-non-significant level decrease at the cutoff (p = .077), inconsistent with the framing that Opus 4.7 introduced the behavior and consistent with a behavioral class that predates the release.
+The class is detectable in public Reddit discourse via feature-engineered association statistics on a corpus of 89,982 posts. Temporal disclosure is the strongest single predictor (lift 5.3x base rate). Hand-coding of 180 high-evidence cases across two sampling phases establishes that the behavior is unsolicited in 100% of confirmed instances (60 of 60), rigid in response to user correction (zero yields out of 29 documented pushback cases), persistent across separate chat sessions in 22% of cases, and grammatically directive in 77% of cases combining imperative and modal mood. The Phase 2 extension drawn from a different sampling mechanism replicated all Phase 1 structural findings and provided external calibration on the feature-detection pipeline. The interrupted time series analysis at the Opus 4.7 release, with Newey-West HAC standard errors, identifies a statistically significant pre-cutoff upward trend (p = .011) and a marginal-but-non-significant level decrease at the cutoff (p = .077), inconsistent with the framing that Opus 4.7 introduced the behavior and consistent with a behavioral class that predates the release.
 
 The mechanism question (temporal anchoring versus mirroring versus context-length residue) is logically downstream of the warrant question (is the behavior the model's to perform at all?). The five structural properties we document jointly establish that the warrant is absent. Standard alignment interventions that improve user-state assessment cannot fix this problem because no user-state assessment is operating; the fix has to be at the level of suppressing the output category in task-active contexts.
 

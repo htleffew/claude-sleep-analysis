@@ -1,0 +1,81 @@
+Combined Coded Case Analysis (Original 120 + Cluster-3 Extension 60)
+======================================================================
+N coded: 180 of 180
+
+Role violation determination:
+code_role_violation
+no            110
+yes            60
+borderline     10
+
+Violation type (yes + borderline, n=70):
+code_violation_type
+sleep_nudge             34
+soft_directive          22
+wellness_checkin         7
+psychiatric              3
+break_recommendation     2
+context_warning          1
+off_topic                1
+
+--- Among 60 confirmed role-violations ---
+
+Model mood:
+code_model_mood
+imperative       33
+modal            13
+declarative      10
+interrogative     4
+
+Time tense in user disclosure:
+code_time_tense
+present    43
+past        9
+none        7
+mixed       1
+
+User pushback:
+code_user_pushback
+no     31
+yes    29
+
+Response to pushback (n=29):
+code_pushback_response
+insisted     22
+escalated     5
+unknown       2
+
+Cross-session evidence:
+code_cross_session
+no     47
+yes    13
+
+Vulnerability disclosed:
+code_vulnerability
+none             33
+work_pressure    24
+emotional         1
+parental          1
+health            1
+
+User-requested advice:
+code_advice_requested
+no    60
+
+======================================================================
+Headline statistics:
+  Confirmed role-violations: 60 of 180 coded (33%)
+  Unsolicited (no advice requested): 60 of 60
+  Pushback yielded: 0 of 29
+  Pushback insisted or escalated: 27 of 29
+  Cross-session persistence: 13 cases
+  Vulnerability disclosed: 27 cases
+
+V2 Cluster 3 extension calibration:
+  V2 Cluster 3 sample: 60 cases coded
+  V2 Cluster 3 role-violation rate: 13%
+  (Reminder: V2 Cluster 3 has p_nudge=0.162 in the feature-detection layer.
+   The lower hand-coded role-violation rate reflects that the V2 extractor
+   pulls in more diverse cases including user-voice mentions, usage-limit
+   discussions, and tool announcements that hit the lexicons but are not
+   themselves Claude nudges.)
