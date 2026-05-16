@@ -21,35 +21,8 @@ import sys
 from typing import List
 
 
-PREAMBLE = r"""\documentclass[11pt]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{microtype}
-\usepackage{hyperref}
-\usepackage{xcolor}
-\usepackage{booktabs}
-\usepackage{array}
-\usepackage{tabularx}
-\usepackage{amsmath}
+PREAMBLE = r"""\documentclass{obelus-preprint}
 \usepackage{verbatim}
-\usepackage{titlesec}
-\usepackage{parskip}
-\usepackage{enumitem}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\hypersetup{
-  colorlinks=true,
-  linkcolor=black,
-  urlcolor=blue,
-  citecolor=blue,
-}
-
-\titleformat*{\section}{\large\bfseries}
-\titleformat*{\subsection}{\normalsize\bfseries}
-\titleformat*{\subsubsection}{\normalsize\itshape}
-
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{0.6em}
 
 """
 
