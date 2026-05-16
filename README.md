@@ -79,7 +79,9 @@ claude-sleep-analysis/
 ├── LICENSE-data               CC BY 4.0 (data, paper, deliverables)
 ├── CITATION.cff
 ├── paper/
-│   └── paper.md               Full paper draft
+│   ├── leffew_2026_care-without-consent.md    Full paper draft
+│   ├── leffew_2026_care-without-consent.tex   LaTeX source
+│   └── leffew_2026_care-without-consent.pdf   Compiled preprint
 ├── methodology/
 │   └── Gaslighting_V2_Methodology.md
 ├── src/
