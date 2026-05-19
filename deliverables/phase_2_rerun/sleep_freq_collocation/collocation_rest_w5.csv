@@ -1,0 +1,17 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+rest,night,7,172,189,7.7296
+rest,world,8,172,486,6.5597
+rest,needs,6,172,425,6.3382
+rest,others,5,172,427,6.0684
+rest,get,13,172,1986,5.2293
+rest,api,6,172,1080,4.9927
+rest,day,5,172,1028,4.8008
+rest,need,5,172,1244,4.5257
+rest,work,8,172,2502,4.1957
+rest,time,7,172,2347,4.0953
+rest,anthropic,7,172,3007,3.7378
+rest,like,10,172,4525,3.6628
+rest,use,6,172,3051,3.4944
+rest,opus,6,172,3306,3.3786
+rest,claude,24,172,16093,3.0953
+rest,code,8,172,5953,2.9451

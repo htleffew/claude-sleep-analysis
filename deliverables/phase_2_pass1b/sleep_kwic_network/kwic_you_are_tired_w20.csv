@@ -1,0 +1,6 @@
+post_id,type,retrieval_provenance,createdAt,subreddit,left_context,keyword,right_context
+1t32rzn,comment,praw:round2_match,2026-05-04 06:19:18,ClaudeAI,considering mention time or that you are tired or that this is getting exhausting claude doesn't give a fuck if,you are tired,because that's it's default state regarding everything it will give appropriate responses anyway because that's what tools do don't tell
+1qvb3ye,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,2026-02-04 01:42:13,claudexplorers,me to say what's up me i was wondering if we could look at this thing claude yes but also,you are tired,go take a break now never tell claude you are tired for any reason claude won't let it go
+1scy9bu,comment,praw:round2_match,2026-04-05 09:03:05,ClaudeCode,it is actually pretty good if,you are tired,of babysitting prs all night
+1t32rzn,comment,praw:round2_match,2026-05-04 06:19:18,ClaudeAI,have you stop considering mention time or that,you are tired,or that this is getting exhausting claude doesn't give a fuck if you are tired because that's it's default state
+1qvb3ye,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,2026-02-04 01:42:13,claudexplorers,could look at this thing claude yes but also you are tired go take a break now never tell claude,you are tired,for any reason claude won't let it go

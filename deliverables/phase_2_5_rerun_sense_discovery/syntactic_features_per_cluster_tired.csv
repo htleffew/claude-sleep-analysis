@@ -1,0 +1,4 @@
+cluster_id,n_contexts,pos_distribution,frac_code_block,frac_imperative,subreddit_distribution,top_subreddit,top_pos
+-1,16,"{""ADJ"": 16}",0.0,0.0,"{""ClaudeCode"": 7, ""ClaudeAI"": 4, ""claudexplorers"": 3, ""Anthropic"": 2}",ClaudeCode,ADJ
+0,105,"{""ADJ"": 104, ""PROPN"": 1}",0.0,0.0286,"{""ClaudeCode"": 41, ""ClaudeAI"": 34, ""claudexplorers"": 19, ""Anthropic"": 11}",ClaudeCode,ADJ
+1,5,"{""ADJ"": 5}",0.0,0.6,"{""Anthropic"": 5}",Anthropic,ADJ

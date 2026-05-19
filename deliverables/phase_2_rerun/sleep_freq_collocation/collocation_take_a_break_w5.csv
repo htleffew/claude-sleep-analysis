@@ -1,0 +1,24 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+take a break,take,12,193,583,6.716
+take a break,rules,6,193,483,5.9874
+take a break,things,15,193,1388,5.7864
+take a break,tell,6,193,613,5.6436
+take a break,changes,5,193,522,5.6124
+take a break,try,5,193,638,5.3229
+take a break,could,9,193,1228,5.2262
+take a break,back,8,193,1451,4.8155
+take a break,prompt,7,193,1355,4.7216
+take a break,full,5,193,1014,4.6544
+take a break,also,7,193,1583,4.4973
+take a break,every,8,193,2141,4.2543
+take a break,work,8,193,2502,4.0295
+take a break,know,6,193,1979,3.9527
+take a break,would,6,193,2004,3.9346
+take a break,time,7,193,2347,3.9291
+take a break,anthropic,7,193,3007,3.5716
+take a break,something,5,193,2331,3.4535
+take a break,use,5,193,3051,3.0652
+take a break,opus,5,193,3306,2.9494
+take a break,claude,24,193,16093,2.9292
+take a break,one,5,193,3616,2.8201
+take a break,code,6,193,5953,2.3639

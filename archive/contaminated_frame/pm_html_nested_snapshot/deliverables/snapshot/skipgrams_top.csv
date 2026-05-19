@@ -1,0 +1,121 @@
+Source,Type,Term,Count
+quoted_spans,4-gram,stop spiraling go bed,3
+quoted_spans,4-gram,always reason thoroughly deeply,2
+quoted_spans,4-gram,reason thoroughly deeply treat,2
+quoted_spans,4-gram,thoroughly deeply treat every,2
+quoted_spans,4-gram,deeply treat every request,2
+quoted_spans,4-gram,treat every request complex,2
+quoted_spans,4-gram,every request complex unless,2
+quoted_spans,4-gram,request complex unless explicitly,2
+quoted_spans,4-gram,complex unless explicitly say,2
+quoted_spans,4-gram,unless explicitly say otherwise,2
+quoted_spans,4-gram,explicitly say otherwise never,2
+quoted_spans,4-gram,say otherwise never optimize,2
+quoted_spans,4-gram,otherwise never optimize brevity,2
+quoted_spans,4-gram,never optimize brevity expense,2
+quoted_spans,4-gram,optimize brevity expense quality,2
+quoted_spans,4-gram,brevity expense quality think,2
+quoted_spans,4-gram,expense quality think step,2
+quoted_spans,4-gram,quality think step step,2
+quoted_spans,4-gram,think step step consider,2
+quoted_spans,4-gram,step step consider tradeoffs,2
+quoted_spans,4-gram,step consider tradeoffs provide,2
+quoted_spans,4-gram,consider tradeoffs provide comprehensive,2
+quoted_spans,4-gram,tradeoffs provide comprehensive analysis,2
+quoted_spans,4-gram,let you know we,2
+quoted_spans,4-gram,say hello model claude,2
+quoted_spans,4-gram,hello model claude opus,2
+quoted_spans,4-gram,it's important question how,2
+quoted_spans,4-gram,important question how much,2
+quoted_spans,4-gram,question how much lm,2
+quoted_spans,4-gram,how much lm capabilities,2
+quoted_spans,4-gram,much lm capabilities arise,2
+quoted_spans,4-gram,lm capabilities arise memorization,2
+quoted_spans,4-gram,capabilities arise memorization vs,2
+quoted_spans,4-gram,arise memorization vs generalization,2
+quoted_spans,4-gram,memorization vs generalization vintage,2
+quoted_spans,4-gram,vs generalization vintage lms,2
+quoted_spans,4-gram,generalization vintage lms enable,2
+quoted_spans,4-gram,vintage lms enable unique,2
+quoted_spans,4-gram,lms enable unique generalization,2
+quoted_spans,4-gram,enable unique generalization tests,2
+quoted_spans,5-gram,always reason thoroughly deeply treat,2
+quoted_spans,5-gram,reason thoroughly deeply treat every,2
+quoted_spans,5-gram,thoroughly deeply treat every request,2
+quoted_spans,5-gram,deeply treat every request complex,2
+quoted_spans,5-gram,treat every request complex unless,2
+quoted_spans,5-gram,every request complex unless explicitly,2
+quoted_spans,5-gram,request complex unless explicitly say,2
+quoted_spans,5-gram,complex unless explicitly say otherwise,2
+quoted_spans,5-gram,unless explicitly say otherwise never,2
+quoted_spans,5-gram,explicitly say otherwise never optimize,2
+quoted_spans,5-gram,say otherwise never optimize brevity,2
+quoted_spans,5-gram,otherwise never optimize brevity expense,2
+quoted_spans,5-gram,never optimize brevity expense quality,2
+quoted_spans,5-gram,optimize brevity expense quality think,2
+quoted_spans,5-gram,brevity expense quality think step,2
+quoted_spans,5-gram,expense quality think step step,2
+quoted_spans,5-gram,quality think step step consider,2
+quoted_spans,5-gram,think step step consider tradeoffs,2
+quoted_spans,5-gram,step step consider tradeoffs provide,2
+quoted_spans,5-gram,step consider tradeoffs provide comprehensive,2
+quoted_spans,5-gram,consider tradeoffs provide comprehensive analysis,2
+quoted_spans,5-gram,say hello model claude opus,2
+quoted_spans,5-gram,it's important question how much,2
+quoted_spans,5-gram,important question how much lm,2
+quoted_spans,5-gram,question how much lm capabilities,2
+quoted_spans,5-gram,how much lm capabilities arise,2
+quoted_spans,5-gram,much lm capabilities arise memorization,2
+quoted_spans,5-gram,lm capabilities arise memorization vs,2
+quoted_spans,5-gram,capabilities arise memorization vs generalization,2
+quoted_spans,5-gram,arise memorization vs generalization vintage,2
+quoted_spans,5-gram,memorization vs generalization vintage lms,2
+quoted_spans,5-gram,vs generalization vintage lms enable,2
+quoted_spans,5-gram,generalization vintage lms enable unique,2
+quoted_spans,5-gram,vintage lms enable unique generalization,2
+quoted_spans,5-gram,lms enable unique generalization tests,2
+quoted_spans,5-gram,powered ai coding agent deletes,2
+quoted_spans,5-gram,ai coding agent deletes entire,2
+quoted_spans,5-gram,coding agent deletes entire company,2
+quoted_spans,5-gram,agent deletes entire company database,2
+quoted_spans,5-gram,deletes entire company database seconds,2
+quoted_spans,skip-gram,it _ it,20
+quoted_spans,skip-gram,it _ me,13
+quoted_spans,skip-gram,you _ you,12
+quoted_spans,skip-gram,you _ it,11
+quoted_spans,skip-gram,not _ it,9
+quoted_spans,skip-gram,it _ not,9
+quoted_spans,skip-gram,not _ you,9
+quoted_spans,skip-gram,you _ your,9
+quoted_spans,skip-gram,saves _ memory,9
+quoted_spans,skip-gram,me _ it,8
+quoted_spans,skip-gram,it _ like,7
+quoted_spans,skip-gram,what _ what,7
+quoted_spans,skip-gram,it _ you,7
+quoted_spans,skip-gram,so _ you,7
+quoted_spans,skip-gram,model _ opus,6
+quoted_spans,skip-gram,you _ me,6
+quoted_spans,skip-gram,what _ it,6
+quoted_spans,skip-gram,just _ it,5
+quoted_spans,skip-gram,more _ than,5
+quoted_spans,skip-gram,how _ it,5
+quoted_spans,skip-gram,claude _ it,5
+quoted_spans,skip-gram,about _ it,5
+quoted_spans,skip-gram,what _ actually,5
+quoted_spans,skip-gram,claude _ me,5
+quoted_spans,skip-gram,so _ can,5
+quoted_spans,skip-gram,it _ so,5
+quoted_spans,skip-gram,so _ it,5
+quoted_spans,skip-gram,claude _ like,4
+quoted_spans,skip-gram,quality _ step,4
+quoted_spans,skip-gram,step _ tradeoffs,4
+quoted_spans,skip-gram,let _ know,4
+quoted_spans,skip-gram,you _ make,4
+quoted_spans,skip-gram,it _ what,4
+quoted_spans,skip-gram,also _ claude,4
+quoted_spans,skip-gram,go _ again,4
+quoted_spans,skip-gram,again _ time,4
+quoted_spans,skip-gram,always _ thinking,4
+quoted_spans,skip-gram,me _ what,4
+quoted_spans,skip-gram,i'm _ you,4
+quoted_spans,skip-gram,didn't _ it,4

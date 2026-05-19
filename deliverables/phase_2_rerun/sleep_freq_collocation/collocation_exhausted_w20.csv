@@ -1,0 +1,12 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+exhausted,pro,7,29,805,8.2073
+exhausted,wrong,5,29,681,7.9632
+exhausted,days,5,29,741,7.8414
+exhausted,limits,5,29,863,7.6215
+exhausted,usage,6,29,1637,6.9609
+exhausted,people,5,29,1941,6.4522
+exhausted,get,5,29,1986,6.4191
+exhausted,anthropic,7,29,3007,6.3061
+exhausted,work,5,29,2502,6.0859
+exhausted,like,9,29,4525,6.079
+exhausted,claude,12,29,16093,4.6636

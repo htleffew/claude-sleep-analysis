@@ -1,0 +1,301 @@
+Stopword_Regime,Type,Term,Count
+topic,4-gram,automatic triggered minutes official,26
+topic,4-gram,triggered minutes official system,26
+topic,4-gram,minutes official system status,26
+topic,4-gram,official system status update,26
+topic,4-gram,system status update incident,26
+topic,4-gram,check progress incident resolved,26
+topic,4-gram,progress incident resolved check,26
+topic,4-gram,incident resolved check performance,26
+topic,4-gram,resolved check performance megathread,26
+topic,4-gram,check performance megathread reporting,26
+topic,4-gram,low medium high xhigh,19
+topic,4-gram,status update incident elevated,17
+topic,4-gram,mar mar mar mar,17
+topic,4-gram,apr apr apr apr,16
+topic,4-gram,scope discipline diff minimality,13
+topic,4-gram,craft discipline avg cost,12
+topic,4-gram,discipline avg cost task,12
+topic,4-gram,experiencing elevated error rates,12
+topic,4-gram,step image step image,10
+topic,4-gram,medium high xhigh max,10
+topic,4-gram,instruction adherence scope discipline,10
+topic,4-gram,footprint risk mean craft,10
+topic,4-gram,risk mean craft discipline,10
+topic,4-gram,mean craft discipline avg,10
+topic,4-gram,avg cost task mean,10
+topic,4-gram,cost task mean mean,10
+topic,4-gram,task mean mean duration,10
+topic,4-gram,code disable adaptive thinking,10
+topic,4-gram,image step image step,9
+topic,4-gram,status update elevated errors,9
+topic,4-gram,update incident elevated errors,9
+topic,4-gram,status update elevated error,8
+topic,4-gram,update incident elevated error,8
+topic,4-gram,opus automatic triggered minutes,8
+topic,4-gram,opus check progress incident,8
+topic,4-gram,simplicity coherence intentionality robustness,8
+topic,4-gram,adherence scope discipline diff,8
+topic,4-gram,task pass pp equivalent,8
+topic,4-gram,pass pp equivalent pp,8
+topic,4-gram,pp equivalent pp code,8
+topic,4-gram,equivalent pp code review,8
+topic,4-gram,pp code review pass,8
+topic,4-gram,code review pass pp,8
+topic,4-gram,review pass pp footprint,8
+topic,4-gram,pass pp footprint risk,8
+topic,4-gram,pp footprint risk mean,8
+topic,4-gram,styles writing styles writing,8
+topic,4-gram,cache read cache creation,7
+topic,4-gram,read cache creation ratio,7
+topic,4-gram,vm service running service,7
+topic,5-gram,automatic triggered minutes official system,26
+topic,5-gram,triggered minutes official system status,26
+topic,5-gram,minutes official system status update,26
+topic,5-gram,official system status update incident,26
+topic,5-gram,check progress incident resolved check,26
+topic,5-gram,progress incident resolved check performance,26
+topic,5-gram,incident resolved check performance megathread,26
+topic,5-gram,resolved check performance megathread reporting,26
+topic,5-gram,system status update incident elevated,17
+topic,5-gram,mar mar mar mar mar,15
+topic,5-gram,apr apr apr apr apr,13
+topic,5-gram,craft discipline avg cost task,12
+topic,5-gram,low medium high xhigh max,10
+topic,5-gram,footprint risk mean craft discipline,10
+topic,5-gram,risk mean craft discipline avg,10
+topic,5-gram,mean craft discipline avg cost,10
+topic,5-gram,discipline avg cost task mean,10
+topic,5-gram,avg cost task mean mean,10
+topic,5-gram,cost task mean mean duration,10
+topic,5-gram,step image step image step,9
+topic,5-gram,image step image step image,9
+topic,5-gram,status update incident elevated errors,9
+topic,5-gram,status update incident elevated error,8
+topic,5-gram,opus automatic triggered minutes official,8
+topic,5-gram,opus check progress incident resolved,8
+topic,5-gram,instruction adherence scope discipline diff,8
+topic,5-gram,adherence scope discipline diff minimality,8
+topic,5-gram,task pass pp equivalent pp,8
+topic,5-gram,pass pp equivalent pp code,8
+topic,5-gram,pp equivalent pp code review,8
+topic,5-gram,equivalent pp code review pass,8
+topic,5-gram,pp code review pass pp,8
+topic,5-gram,code review pass pp footprint,8
+topic,5-gram,review pass pp footprint risk,8
+topic,5-gram,pass pp footprint risk mean,8
+topic,5-gram,pp footprint risk mean craft,8
+topic,5-gram,cache read cache creation ratio,7
+topic,5-gram,vm service running service failed,7
+topic,5-gram,service running service failed start,7
+topic,5-gram,styles writing styles writing styles,7
+topic,5-gram,writing styles writing styles writing,7
+topic,5-gram,turn cache read cache creation,6
+topic,5-gram,node modules code cli js,6
+topic,5-gram,elevated error rates requests models,6
+topic,5-gram,status update elevated errors opus,6
+topic,5-gram,update elevated errors opus automatic,6
+topic,5-gram,elevated errors opus automatic triggered,6
+topic,5-gram,errors opus automatic triggered minutes,6
+topic,5-gram,update incident elevated errors opus,6
+topic,5-gram,incident elevated errors opus check,6
+topic,skip-gram,opus _ opus,179
+topic,skip-gram,code _ code,138
+topic,skip-gram,it's _ it's,83
+topic,skip-gram,sonnet _ opus,78
+topic,skip-gram,i'm _ i'm,69
+topic,skip-gram,isn't _ it's,64
+topic,skip-gram,opus _ sonnet,55
+topic,skip-gram,sonnet _ sonnet,52
+topic,skip-gram,usage _ usage,51
+topic,skip-gram,built _ code,50
+topic,skip-gram,opus _ thinking,49
+topic,skip-gram,happy _ questions,45
+topic,skip-gram,i'm _ it's,44
+topic,skip-gram,code _ it's,44
+topic,skip-gram,md _ md,43
+topic,skip-gram,plan _ plan,42
+topic,skip-gram,status _ elevated,41
+topic,skip-gram,code _ codex,39
+topic,skip-gram,session _ session,39
+topic,skip-gram,mar _ mar,38
+topic,skip-gram,code _ opus,37
+topic,skip-gram,apr _ apr,37
+topic,skip-gram,agent _ agent,35
+topic,skip-gram,it's _ i'm,35
+topic,skip-gram,code _ coding,35
+topic,skip-gram,code _ app,34
+topic,skip-gram,new _ new,34
+topic,skip-gram,different _ different,33
+topic,skip-gram,don't _ i'm,33
+topic,skip-gram,opus _ context,33
+topic,skip-gram,know _ know,33
+topic,skip-gram,real _ real,33
+topic,skip-gram,free _ source,32
+topic,skip-gram,work _ code,32
+topic,skip-gram,design _ design,32
+topic,skip-gram,gpt _ opus,32
+topic,skip-gram,opus _ effort,31
+topic,skip-gram,opus _ it's,31
+topic,skip-gram,code _ work,31
+topic,skip-gram,codex _ code,31
+topic,skip-gram,i'm _ don't,31
+topic,skip-gram,update _ elevated,31
+topic,skip-gram,code _ pass,30
+topic,skip-gram,don't _ don't,30
+topic,skip-gram,code _ agent,30
+topic,skip-gram,don't _ it's,30
+topic,skip-gram,you're _ you're,29
+topic,skip-gram,code _ usage,29
+topic,skip-gram,code _ agents,29
+topic,skip-gram,code _ pro,29
+disclosure,4-gram,automatic post triggered within,26
+disclosure,4-gram,post triggered within minutes,26
+disclosure,4-gram,triggered within minutes official,26
+disclosure,4-gram,within minutes official claude,26
+disclosure,4-gram,minutes official claude system,26
+disclosure,4-gram,official claude system status,26
+disclosure,4-gram,claude system status update,26
+disclosure,4-gram,system status update incident,26
+disclosure,4-gram,check progress whether not,26
+disclosure,4-gram,progress whether not incident,26
+disclosure,4-gram,whether not incident resolved,26
+disclosure,4-gram,not incident resolved yet,26
+disclosure,4-gram,incident resolved yet here,26
+disclosure,4-gram,resolved yet here also,26
+disclosure,4-gram,yet here also check,26
+disclosure,4-gram,here also check performance,26
+disclosure,4-gram,also check performance megathread,26
+disclosure,4-gram,check performance megathread see,26
+disclosure,4-gram,performance megathread see what,26
+disclosure,4-gram,megathread see what others,26
+disclosure,4-gram,see what others reporting,26
+disclosure,4-gram,happy answer questions about,19
+disclosure,4-gram,i've using claude code,19
+disclosure,4-gram,low medium high xhigh,19
+disclosure,4-gram,claude status update elevated,17
+disclosure,4-gram,status update incident elevated,17
+disclosure,4-gram,mar mar mar mar,17
+disclosure,4-gram,apr apr apr apr,16
+disclosure,4-gram,you use claude code,14
+disclosure,4-gram,let me know what,14
+disclosure,4-gram,scope discipline diff minimality,13
+disclosure,4-gram,what happens when you,12
+disclosure,4-gram,elevated errors claude opus,12
+disclosure,4-gram,craft discipline avg cost,12
+disclosure,4-gram,claude ai experiencing elevated,12
+disclosure,4-gram,ai experiencing elevated error,12
+disclosure,4-gram,experiencing elevated error rates,12
+disclosure,4-gram,what it looks like,10
+disclosure,4-gram,step image step image,10
+disclosure,4-gram,anthropic ai claude code,10
+disclosure,4-gram,using claude code heavily,10
+disclosure,4-gram,please let me know,10
+disclosure,4-gram,medium high xhigh max,10
+disclosure,4-gram,instruction adherence scope discipline,10
+disclosure,4-gram,footprint risk mean craft,10
+disclosure,4-gram,risk mean craft discipline,10
+disclosure,4-gram,mean craft discipline avg,10
+disclosure,4-gram,discipline avg cost task,10
+disclosure,4-gram,avg cost task mean,10
+disclosure,4-gram,cost task mean mean,10
+disclosure,5-gram,automatic post triggered within minutes,26
+disclosure,5-gram,post triggered within minutes official,26
+disclosure,5-gram,triggered within minutes official claude,26
+disclosure,5-gram,within minutes official claude system,26
+disclosure,5-gram,minutes official claude system status,26
+disclosure,5-gram,official claude system status update,26
+disclosure,5-gram,claude system status update incident,26
+disclosure,5-gram,check progress whether not incident,26
+disclosure,5-gram,progress whether not incident resolved,26
+disclosure,5-gram,whether not incident resolved yet,26
+disclosure,5-gram,not incident resolved yet here,26
+disclosure,5-gram,incident resolved yet here also,26
+disclosure,5-gram,resolved yet here also check,26
+disclosure,5-gram,yet here also check performance,26
+disclosure,5-gram,here also check performance megathread,26
+disclosure,5-gram,also check performance megathread see,26
+disclosure,5-gram,check performance megathread see what,26
+disclosure,5-gram,performance megathread see what others,26
+disclosure,5-gram,megathread see what others reporting,26
+disclosure,5-gram,system status update incident elevated,17
+disclosure,5-gram,mar mar mar mar mar,15
+disclosure,5-gram,apr apr apr apr apr,13
+disclosure,5-gram,claude ai experiencing elevated error,12
+disclosure,5-gram,ai experiencing elevated error rates,12
+disclosure,5-gram,low medium high xhigh max,10
+disclosure,5-gram,footprint risk mean craft discipline,10
+disclosure,5-gram,risk mean craft discipline avg,10
+disclosure,5-gram,mean craft discipline avg cost,10
+disclosure,5-gram,craft discipline avg cost task,10
+disclosure,5-gram,discipline avg cost task mean,10
+disclosure,5-gram,avg cost task mean mean,10
+disclosure,5-gram,cost task mean mean duration,10
+disclosure,5-gram,claude code disable adaptive thinking,10
+disclosure,5-gram,step image step image step,9
+disclosure,5-gram,image step image step image,9
+disclosure,5-gram,let me know what you,9
+disclosure,5-gram,claude status update elevated errors,9
+disclosure,5-gram,status update elevated errors claude,9
+disclosure,5-gram,status update incident elevated errors,9
+disclosure,5-gram,update incident elevated errors claude,9
+disclosure,5-gram,claude status update claude ai,9
+disclosure,5-gram,system status update incident claude,9
+disclosure,5-gram,status update incident claude ai,9
+disclosure,5-gram,me know what you think,8
+disclosure,5-gram,claude status update elevated error,8
+disclosure,5-gram,status update incident elevated error,8
+disclosure,5-gram,opus automatic post triggered within,8
+disclosure,5-gram,opus check progress whether not,8
+disclosure,5-gram,instruction adherence scope discipline diff,8
+disclosure,5-gram,adherence scope discipline diff minimality,8
+disclosure,skip-gram,it _ it,855
+disclosure,skip-gram,you _ it,464
+disclosure,skip-gram,claude _ it,398
+disclosure,skip-gram,it _ like,368
+disclosure,skip-gram,it _ me,347
+disclosure,skip-gram,claude _ claude,331
+disclosure,skip-gram,it _ you,326
+disclosure,skip-gram,no _ no,307
+disclosure,skip-gram,not _ it,304
+disclosure,skip-gram,you _ you,304
+disclosure,skip-gram,it _ claude,300
+disclosure,skip-gram,just _ it,260
+disclosure,skip-gram,you _ your,260
+disclosure,skip-gram,you _ claude,255
+disclosure,skip-gram,can _ it,231
+disclosure,skip-gram,it _ my,217
+disclosure,skip-gram,claude _ me,213
+disclosure,skip-gram,it _ what,209
+disclosure,skip-gram,more _ than,195
+disclosure,skip-gram,claude _ you,194
+disclosure,skip-gram,it _ not,190
+disclosure,skip-gram,how _ it,190
+disclosure,skip-gram,what _ it,177
+disclosure,skip-gram,claude _ my,176
+disclosure,skip-gram,so _ can,176
+disclosure,skip-gram,me _ it,168
+disclosure,skip-gram,my _ it,166
+disclosure,skip-gram,my _ claude,159
+disclosure,skip-gram,not _ not,158
+disclosure,skip-gram,when _ it,156
+disclosure,skip-gram,what _ you,155
+disclosure,skip-gram,my _ my,151
+disclosure,skip-gram,code _ it,150
+disclosure,skip-gram,they _ it,149
+disclosure,skip-gram,it _ just,148
+disclosure,skip-gram,it _ so,147
+disclosure,skip-gram,so _ it,145
+disclosure,skip-gram,your _ you,142
+disclosure,skip-gram,using _ code,141
+disclosure,skip-gram,we _ it,140
+disclosure,skip-gram,like _ it,131
+disclosure,skip-gram,claude _ just,130
+disclosure,skip-gram,me _ my,129
+disclosure,skip-gram,just _ claude,127
+disclosure,skip-gram,it _ your,126
+disclosure,skip-gram,about _ it,125
+disclosure,skip-gram,you _ me,125
+disclosure,skip-gram,claude _ not,125
+disclosure,skip-gram,not _ claude,125
+disclosure,skip-gram,it _ more,124

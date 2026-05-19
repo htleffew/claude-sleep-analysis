@@ -1,0 +1,4 @@
+cluster_id,n_contexts,pos_distribution,frac_code_block,frac_imperative,subreddit_distribution,top_subreddit,top_pos,type_distribution,top_type,provenance_distribution
+-1,41,"{""NOUN"": 34, ""VERB"": 7}",0.0,0.0244,"{""ClaudeAI"": 21, ""claudexplorers"": 8, ""ClaudeCode"": 8, ""Anthropic"": 4}",ClaudeAI,NOUN,"{""post"": 23, ""comment"": 18}",post,"{""arctic_shift:round2_fresh"": 14, ""canonical:round2_match"": 8, ""praw:round2_match"": 19}"
+0,5,"{""NOUN"": 5}",0.0,0.2,"{""ClaudeAI"": 3, ""ClaudeCode"": 2}",ClaudeAI,NOUN,"{""comment"": 4, ""post"": 1}",comment,"{""praw:round2_match"": 5}"
+1,22,"{""NOUN"": 18, ""VERB"": 4}",0.0,0.0455,"{""ClaudeAI"": 9, ""Anthropic"": 7, ""ClaudeCode"": 4, ""claudexplorers"": 2}",ClaudeAI,NOUN,"{""post"": 16, ""comment"": 6}",post,"{""arctic_shift:round2_fresh"": 16, ""praw:round2_match"": 6}"

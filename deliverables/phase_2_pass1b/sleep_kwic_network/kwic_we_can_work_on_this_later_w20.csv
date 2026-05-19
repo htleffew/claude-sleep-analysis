@@ -1,0 +1,2 @@
+post_id,type,retrieval_provenance,createdAt,subreddit,left_context,keyword,right_context
+1t37r61,comment,praw:round2_match,2026-05-04 05:18:50,ClaudeAI,mine refused to work after a while it kept saying go get some rest or,we can work on this later,their llm is garbage they couldn't handle everyone jumping to claude from everywhere else now that their source code got

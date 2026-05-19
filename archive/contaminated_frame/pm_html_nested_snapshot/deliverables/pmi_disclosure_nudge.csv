@@ -1,0 +1,5 @@
+Disclosure_Lexicon,N_posts,N_with_lexicon,N_with_nudge,N_with_both,P_nudge_given_lexicon,P_lexicon_given_nudge,PMI,NMPI,LogDice
+temporal,89982,6236,2279,784,0.1257,0.344,2.3115,0.3378,11.5589
+session,89982,2285,2279,170,0.0744,0.0746,1.5546,0.1718,10.2533
+affective,89982,3235,2279,196,0.0606,0.086,1.2583,0.1423,10.1858
+work_context,89982,12591,2279,411,0.0326,0.1803,0.3661,0.0471,9.8229

@@ -1,0 +1,13 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+bed,put,10,54,315,9.1786
+bed,night,6,54,189,9.1786
+bed,telling,5,54,200,8.834
+bed,trying,8,54,780,7.5486
+bed,sonnet,5,54,1382,6.0453
+bed,opus,9,54,3306,5.635
+bed,something,6,54,2331,5.5541
+bed,know,5,54,1979,5.5273
+bed,like,11,54,4525,5.4716
+bed,claude,27,54,16093,4.9367
+bed,anthropic,5,54,3007,4.9237
+bed,code,6,54,5953,4.2015

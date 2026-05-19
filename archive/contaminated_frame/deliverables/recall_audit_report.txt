@@ -1,0 +1,34 @@
+Quote Extractor Recall Audit (V2)
+==================================================
+Corpus rows analyzed: 89982
+Universe (posts with any nudge phrase or unigram): 2347
+  Canonical phrases only: 443
+  Unigram-only matches:   1904
+
+Stratified random sample: 400 posts (seed 20260516)
+
+Structural cue tallies in sample:
+  nudge_in_inline_quote           43  (10.8%)
+  attribution_phrase              21  (5.2%)
+  nudge_in_blockquote              3  (0.8%)
+  speaker_label                    2  (0.5%)
+
+Posts with >=1 structural cue: 62 (15.5%)
+Extractor captured nudge in quoted span: 97 (24.2%)
+Captured AND cue present: 58
+
+Recall lower bound (captured | cue): 0.935 (58/62)
+
+Interpretation
+--------------------------------------------------
+The recall lower bound is conservative because:
+ (a) the structural cue heuristic does not separate Claude-attributed
+     nudge phrases from user-voice nudge phrases, so the denominator
+     contains some posts where no model utterance exists;
+ (b) extractor V2 itself uses several of these structural cues, so
+     the test is partly internal-consistency rather than fully
+     independent recall measurement.
+
+A formal recall point estimate requires human-labeled ground truth
+on a stratified sample and is the principal outstanding methodological
+item flagged in the paper.

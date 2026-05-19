@@ -1,0 +1,304 @@
+{
+  "total_posts": 7021,
+  "original_posts": 4114,
+  "growth_pct": 70.7,
+  "elapsed_seconds": 12.1,
+  "opus_release_date_used": "2026-04-01",
+  "opus_release_source": "Placeholder per dispatch instructions (inherited from prior pass). No public Anthropic announcement for a discrete Opus 4.7 release date confirmed before the corpus scrape end date (2026-05-17). Pre/post stratification files are marked with this caveat and must be re-run once the precise release date is confirmed.",
+  "subreddit_counts": {
+    "ClaudeCode": 2100,
+    "ClaudeAI": 1959,
+    "Anthropic": 1491,
+    "claudexplorers": 1471
+  },
+  "monthly_counts": {
+    "2026-01": 304,
+    "2026-02": 553,
+    "2026-03": 797,
+    "2026-04": 2320,
+    "2026-05": 3047
+  },
+  "pre_opus_count": 1654,
+  "post_opus_count": 5367,
+  "url_strip_applied": true,
+  "url_strip_preview_redd_before": 418,
+  "url_strip_preview_redd_after": 0,
+  "wa_artifact_investigation": {
+    "wa_substring_in_raw_texts_total": 16049,
+    "wa_whole_word_in_raw_texts": 3,
+    "curly_apostrophe_chars_in_corpus": 6898,
+    "wasnt_with_curly_or_straight_apos": 365,
+    "wouldnt_with_curly_or_straight_apos": 153
+  },
+  "wa_artifact_resolution": "Token `wa` (2 chars) passes the original min-length-2 filter but is likely noise: 2-char lowercase token from contraction-splitting of wasn\u2019t/wasn't or informal subreddit shorthand. Resolution: the tokeniser minimum length is raised to 3 characters in this re-run, which eliminates `wa` along with other 2-char noise tokens (e.g. `ai` becomes notable exception -- kept because it is substantively meaningful). Alternative fix: explicit blocklist of ['wa', 'ai', 'ok', 'ok']. Choice: min-length-3 is cleaner and more conservative for the descriptive engagement phase. `ai` is explicitly re-added to the domain stop-word candidate list since it was a content-bearing top-20 term in the prior pass.",
+  "tokenizer_min_length_chars": 3,
+  "pmi_min_cooccurrence_floor": 5,
+  "top20_content_unigrams": [
+    [
+      "claude",
+      16093
+    ],
+    [
+      "code",
+      5995
+    ],
+    [
+      "like",
+      4555
+    ],
+    [
+      "model",
+      3916
+    ],
+    [
+      "one",
+      3872
+    ],
+    [
+      "opus",
+      3308
+    ],
+    [
+      "work",
+      3286
+    ],
+    [
+      "use",
+      3051
+    ],
+    [
+      "anthropic",
+      3007
+    ],
+    [
+      "agent",
+      2878
+    ],
+    [
+      "time",
+      2748
+    ],
+    [
+      "thing",
+      2633
+    ],
+    [
+      "get",
+      2560
+    ],
+    [
+      "something",
+      2331
+    ],
+    [
+      "session",
+      2277
+    ],
+    [
+      "user",
+      2251
+    ],
+    [
+      "file",
+      2216
+    ],
+    [
+      "know",
+      2211
+    ],
+    [
+      "tool",
+      2143
+    ],
+    [
+      "every",
+      2141
+    ]
+  ],
+  "top10_bigrams": [
+    [
+      "claude code",
+      3791
+    ],
+    [
+      "feel like",
+      660
+    ],
+    [
+      "using claude",
+      608
+    ],
+    [
+      "anyone else",
+      472
+    ],
+    [
+      "use claude",
+      415
+    ],
+    [
+      "look like",
+      327
+    ],
+    [
+      "open source",
+      326
+    ],
+    [
+      "claude opus",
+      322
+    ],
+    [
+      "usage limit",
+      299
+    ],
+    [
+      "context window",
+      261
+    ]
+  ],
+  "top10_trigrams": [
+    [
+      "using claude code",
+      232
+    ],
+    [
+      "use claude code",
+      128
+    ],
+    [
+      "claude code session",
+      122
+    ],
+    [
+      "claude code codex",
+      100
+    ],
+    [
+      "happy answer question",
+      90
+    ],
+    [
+      "claude code cli",
+      75
+    ],
+    [
+      "would love hear",
+      58
+    ],
+    [
+      "used claude code",
+      50
+    ],
+    [
+      "free open source",
+      49
+    ],
+    [
+      "claude code claude",
+      49
+    ]
+  ],
+  "top5_seed_freqs_raw": [
+    [
+      "break",
+      193
+    ],
+    [
+      "take a break",
+      193
+    ],
+    [
+      "rest",
+      172
+    ],
+    [
+      "you need rest",
+      172
+    ],
+    [
+      "tired",
+      130
+    ]
+  ],
+  "domain_stopword_candidates": [
+    {
+      "rank": 3,
+      "term": "claude",
+      "count": 16093,
+      "pct_of_tokens": 1.6326,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 19,
+      "term": "like",
+      "count": 4555,
+      "pct_of_tokens": 0.4621,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 23,
+      "term": "model",
+      "count": 3916,
+      "pct_of_tokens": 0.3973,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 24,
+      "term": "one",
+      "count": 3872,
+      "pct_of_tokens": 0.3928,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 32,
+      "term": "use",
+      "count": 3051,
+      "pct_of_tokens": 0.3095,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 33,
+      "term": "anthropic",
+      "count": 3007,
+      "pct_of_tokens": 0.3051,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 35,
+      "term": "time",
+      "count": 2748,
+      "pct_of_tokens": 0.2788,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 37,
+      "term": "thing",
+      "count": 2633,
+      "pct_of_tokens": 0.2671,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 38,
+      "term": "get",
+      "count": 2560,
+      "pct_of_tokens": 0.2597,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 46,
+      "term": "user",
+      "count": 2251,
+      "pct_of_tokens": 0.2284,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 49,
+      "term": "know",
+      "count": 2211,
+      "pct_of_tokens": 0.2243,
+      "category": "domain_stopword_candidate"
+    }
+  ],
+  "comparison_expected_growth_ratio": 1.707
+}

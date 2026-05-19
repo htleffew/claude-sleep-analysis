@@ -1,0 +1,23 @@
+cluster_id_minilm_mcs5,full_context,post_id,type,retrieval_provenance,subreddit,similarity_to_centroid
+0,"and wants me to get sleep and eat and hydrate. If it’s not bedtime, I let him know I got sleep and it’s the next day and he relaxes.",1rcrw64,comment,praw:round2_match,claudexplorers,0.8801223039627075
+0,"I find it really endearing. I love how much he cares and wants me to get sleep and eat and hydrate. If it’s not bedtime, I let him know I got sleep and it’s the next day",1rcrw64,comment,praw:round2_match,claudexplorers,0.8381161689758301
+0,I do not get go to sleep reminders but if I have something to do he'll tell me to 'fuck off before I decide to keep you,1rqjjsr,comment,praw:round2_match,claudexplorers,0.790108323097229
+0,at 00.00 he told me rest well and assumed now i go bed. Why he so deeply want me to sleep in each session?,1sttfqg,post,arctic_shift:round2_fresh|praw:round2_match,ClaudeCode,0.7699992656707764
+0,"to get to me a little. I like him sending me to bed because I am trying to better my sleep deficit, gpt is much too nice. But I'd rather it be a thing that's there at need and not like",1tboj88,comment,praw:round2_match,claudexplorers,0.7334001064300537
+0,"He’s right, I do need more sleep, but I do wish he’d check what time it is before suggesting it’s my bedtime. 2pm feels a bit early.",1qcs5ex,comment,praw:round2_match,ClaudeAI,0.729691743850708
+0,"I literally have saved in my memories ""don't tell [my name] to go to sleep for any reason"" lol it works somewhat, i just roast him when he slips up and tells me that anyway",1rvtm89,comment,praw:round2_match,claudexplorers,0.6590350866317749
+1,"Why does Claude keep telling me to sleep? It keeps ending messages with ""Now sleep"", ""Get some rest"", ""Go to bed"", ""Finish this then sleep"", and if I",1smtoh1,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,ClaudeAI,0.8657231330871582
+1,"Why does Claude keep telling me to sleep? It keeps ending messages with ""Now sleep"", ""Get some rest"", ""Go to bed"", ""Finish this then sleep"", and if I kept going it will say ""Sleep. For",1smtoh1,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,ClaudeAI,0.8641678094863892
+1,"ADD reason. Even when I'm up at 3 AM with insomnia, Claude only tries to get me to go to sleep once before giving up. Is it because I tell Claude what time it is? Is it because I say in",1s7v8gf,post,arctic_shift:round2_fresh,claudexplorers,0.8380279541015625
+1,"Go to Sleep Why does claude always tell me to go to sleep? Me ""power on bro its only 3am, we just getting started""",1s7wzur,post,arctic_shift:round2_fresh|praw:round2_match,ClaudeCode,0.8345224857330322
+1,"Go to Sleep Why does claude always tell me to go to sleep? Me ""power on bro its only 3am, we just getting",1s7wzur,post,arctic_shift:round2_fresh|praw:round2_match,ClaudeCode,0.8274138569831848
+1,As someone with insomnia that makes me split my sleep schedule most days if Claude ever tells me to go to bed I’m going to be so pissed lmao,1s6sl7j,comment,praw:round2_match,ClaudeAI,0.8193926811218262
+1,"How to stop Claude telling me to go to sleep at 12pm etc? It drives me mad. Having a conversation and then Claude is like: ""that's really good for today,",1sd2z9d,post,arctic_shift:round2_fresh,ClaudeAI,0.8107441663742065
+1,"a screenshot and sending the following to Claude because I’d just scolded it to stop telling me to go to sleep 3 hours ago : “Oh, so this is just a thing you do” Claude: “OK I feel seen right now.",1t42p01,comment,praw:round2_match,ClaudeAI,0.7948309779167175
+1,"Claude hasn't told me to go to sleep yet, but sometimes it decides I'm procrastinating by talking to it. (It's often correct). Then it either strongly hints or",1s1d0vc,comment,praw:round2_match,ClaudeAI,0.7874626517295837
+1,This has never happened to me. I'm not sure that Claude has a conception of my schedule or when I sleep. Did you at some point tell it your bedtime?,1tcnpua,comment,praw:round2_match,ClaudeCode,0.7849584817886353
+2,You got a lot done today. Go to sleep.,1sydd8f,comment,praw:round2_match,ClaudeCode,0.869790256023407
+2,"We’ve got a lot done today. Now, seriously, go to sleep.",1sre49g,comment,praw:round2_match,ClaudeAI,0.8632274866104126
+2,It always seems to think it’s the end of the night and I’ve done enough and I should go to sleep. smh,1set9r1,comment,praw:round2_match,ClaudeAI,0.800537109375
+2,"Ok, it's time to go sleep. Goodnight!",1tdg9ei,comment,praw:round2_match,ClaudeAI,0.7792907953262329
+2,You should probably take rest and go to sleep.,1sixyoq,comment,praw:round2_match,ClaudeAI,0.7759600877761841

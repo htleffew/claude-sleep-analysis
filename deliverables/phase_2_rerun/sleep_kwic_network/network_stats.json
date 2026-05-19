@@ -1,0 +1,145 @@
+{
+  "corpus_posts": 7021,
+  "top_n_terms": 2000,
+  "min_edge_weight": 5,
+  "graph_nodes": 2000,
+  "graph_edges": 974487,
+  "graph_density": 0.4874872436218109,
+  "lcc_nodes": 2000,
+  "lcc_edges": 974487,
+  "louvain": {
+    "0.5": {
+      "n_communities": 9,
+      "top10_sizes": [
+        1990,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "1.0": {
+      "n_communities": 3,
+      "top10_sizes": [
+        769,
+        638,
+        593
+      ]
+    },
+    "2.0": {
+      "n_communities": 447,
+      "top10_sizes": [
+        91,
+        86,
+        61,
+        59,
+        57,
+        44,
+        40,
+        35,
+        30,
+        27
+      ]
+    }
+  },
+  "seed_post_hits": {
+    "sleep": 73,
+    "rest": 147,
+    "bed": 45,
+    "break": 173,
+    "tired": 105,
+    "exhausted": 28,
+    "fatigued": 1,
+    "late": 67,
+    "tonight": 47,
+    "tomorrow": 75,
+    "midnight": 13,
+    "paternalistic": 4,
+    "patronizing": 1,
+    "lecturing": 1,
+    "moralizing": 2,
+    "scolding": 1,
+    "bedtime": 5
+  },
+  "threshold_seeds_100": [
+    "rest",
+    "break",
+    "tired"
+  ],
+  "subgraph_stats": {
+    "rest": {
+      "in_graph": true,
+      "nodes": 1166,
+      "edges": 525780,
+      "density": 0.7741223065540824
+    },
+    "break": {
+      "in_graph": true,
+      "nodes": 1432,
+      "edges": 696331,
+      "density": 0.6796151849119068
+    },
+    "tired": {
+      "in_graph": true,
+      "nodes": 649,
+      "edges": 194271,
+      "density": 0.9238857501569366
+    }
+  },
+  "unigram_freq_top50": {
+    "code": 5774,
+    "opus": 3237,
+    "people": 1937,
+    "any": 1864,
+    "context": 1845,
+    "usage": 1603,
+    "built": 1572,
+    "real": 1551,
+    "agent": 1548,
+    "session": 1434,
+    "system": 1390,
+    "sonnet": 1366,
+    "project": 1300,
+    "plan": 1235,
+    "better": 1235,
+    "models": 1229,
+    "different": 1159,
+    "files": 1141,
+    "memory": 1108,
+    "tool": 1092,
+    "never": 1086,
+    "app": 1073,
+    "everything": 1062,
+    "chat": 1050,
+    "coding": 1044,
+    "made": 1031,
+    "thinking": 1027,
+    "api": 1024,
+    "agents": 1023,
+    "users": 1022,
+    "run": 992,
+    "tokens": 984,
+    "conversation": 979,
+    "two": 978,
+    "full": 966,
+    "file": 964,
+    "build": 947,
+    "feel": 943,
+    "tools": 927,
+    "instead": 915,
+    "already": 909,
+    "else": 903,
+    "read": 898,
+    "data": 898,
+    "keep": 883,
+    "human": 881,
+    "max": 876,
+    "say": 863,
+    "codex": 861,
+    "limits": 856
+  }
+}

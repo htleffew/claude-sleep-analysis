@@ -1,0 +1,121 @@
+Source,Type,Term,Count
+quoted_spans,4-gram,telling me go bed,21
+quoted_spans,4-gram,telling me go sleep,10
+quoted_spans,4-gram,tell me go bed,10
+quoted_spans,4-gram,go get some rest,9
+quoted_spans,4-gram,tells me go bed,8
+quoted_spans,4-gram,go get some sleep,7
+quoted_spans,4-gram,let pick up tomorrow,6
+quoted_spans,4-gram,tells me go sleep,6
+quoted_spans,4-gram,pick it up tomorrow,6
+quoted_spans,4-gram,told me go bed,6
+quoted_spans,4-gram,stop spiraling go bed,5
+quoted_spans,4-gram,telling you go bed,5
+quoted_spans,4-gram,take break go sleep,5
+quoted_spans,4-gram,told me go sleep,4
+quoted_spans,4-gram,it done because it,4
+quoted_spans,4-gram,done because it would,4
+quoted_spans,4-gram,because it would trigger,4
+quoted_spans,4-gram,it would trigger permission,4
+quoted_spans,4-gram,would trigger permission prompt,4
+quoted_spans,4-gram,trigger permission prompt me,4
+quoted_spans,4-gram,permission prompt me it,4
+quoted_spans,4-gram,prompt me it didn't,4
+quoted_spans,4-gram,me it didn't because,4
+quoted_spans,4-gram,it didn't because auto,4
+quoted_spans,4-gram,didn't because auto mode,4
+quoted_spans,4-gram,because auto mode no,4
+quoted_spans,4-gram,auto mode no permission,4
+quoted_spans,4-gram,mode no permission prompts,4
+quoted_spans,4-gram,no permission prompts come,4
+quoted_spans,4-gram,permission prompts come out,4
+quoted_spans,4-gram,prompts come out whole,4
+quoted_spans,4-gram,come out whole point,4
+quoted_spans,4-gram,out whole point auto,4
+quoted_spans,4-gram,whole point auto mode,4
+quoted_spans,4-gram,point auto mode so,4
+quoted_spans,4-gram,auto mode so it,4
+quoted_spans,4-gram,mode so it literally,4
+quoted_spans,4-gram,so it literally believes,4
+quoted_spans,4-gram,it literally believes it,4
+quoted_spans,4-gram,literally believes it requesting,4
+quoted_spans,5-gram,it done because it would,4
+quoted_spans,5-gram,done because it would trigger,4
+quoted_spans,5-gram,because it would trigger permission,4
+quoted_spans,5-gram,it would trigger permission prompt,4
+quoted_spans,5-gram,would trigger permission prompt me,4
+quoted_spans,5-gram,trigger permission prompt me it,4
+quoted_spans,5-gram,permission prompt me it didn't,4
+quoted_spans,5-gram,prompt me it didn't because,4
+quoted_spans,5-gram,me it didn't because auto,4
+quoted_spans,5-gram,it didn't because auto mode,4
+quoted_spans,5-gram,didn't because auto mode no,4
+quoted_spans,5-gram,because auto mode no permission,4
+quoted_spans,5-gram,auto mode no permission prompts,4
+quoted_spans,5-gram,mode no permission prompts come,4
+quoted_spans,5-gram,no permission prompts come out,4
+quoted_spans,5-gram,permission prompts come out whole,4
+quoted_spans,5-gram,prompts come out whole point,4
+quoted_spans,5-gram,come out whole point auto,4
+quoted_spans,5-gram,out whole point auto mode,4
+quoted_spans,5-gram,whole point auto mode so,4
+quoted_spans,5-gram,point auto mode so it,4
+quoted_spans,5-gram,auto mode so it literally,4
+quoted_spans,5-gram,mode so it literally believes,4
+quoted_spans,5-gram,so it literally believes it,4
+quoted_spans,5-gram,it literally believes it requesting,4
+quoted_spans,5-gram,literally believes it requesting me,4
+quoted_spans,5-gram,believes it requesting me approval,4
+quoted_spans,5-gram,it requesting me approval granted,4
+quoted_spans,5-gram,requesting me approval granted when,4
+quoted_spans,5-gram,me approval granted when never,4
+quoted_spans,5-gram,approval granted when never happened,4
+quoted_spans,5-gram,granted when never happened due,4
+quoted_spans,5-gram,when never happened due its,4
+quoted_spans,5-gram,never happened due its own,4
+quoted_spans,5-gram,happened due its own auto,4
+quoted_spans,5-gram,due its own auto model,4
+quoted_spans,5-gram,its own auto model mechanism,4
+quoted_spans,5-gram,you can get some sleep,4
+quoted_spans,5-gram,you stop spiraling go bed,3
+quoted_spans,5-gram,today let pick up tomorrow,3
+quoted_spans,skip-gram,it _ it,128
+quoted_spans,skip-gram,it _ me,73
+quoted_spans,skip-gram,me _ bed,58
+quoted_spans,skip-gram,telling _ go,48
+quoted_spans,skip-gram,it _ like,41
+quoted_spans,skip-gram,you _ it,41
+quoted_spans,skip-gram,it _ you,37
+quoted_spans,skip-gram,get _ rest,35
+quoted_spans,skip-gram,me _ it,33
+quoted_spans,skip-gram,you _ you,33
+quoted_spans,skip-gram,telling _ bed,30
+quoted_spans,skip-gram,me _ sleep,29
+quoted_spans,skip-gram,you _ go,26
+quoted_spans,skip-gram,claude _ it,26
+quoted_spans,skip-gram,it _ my,26
+quoted_spans,skip-gram,just _ it,25
+quoted_spans,skip-gram,get _ sleep,24
+quoted_spans,skip-gram,it _ not,24
+quoted_spans,skip-gram,how _ it,24
+quoted_spans,skip-gram,not _ you,23
+quoted_spans,skip-gram,not _ it,22
+quoted_spans,skip-gram,tell _ go,22
+quoted_spans,skip-gram,claude _ you,21
+quoted_spans,skip-gram,claude _ claude,20
+quoted_spans,skip-gram,you _ bed,20
+quoted_spans,skip-gram,you _ sleep,20
+quoted_spans,skip-gram,go _ some,20
+quoted_spans,skip-gram,it _ because,20
+quoted_spans,skip-gram,you _ get,20
+quoted_spans,skip-gram,he _ it,20
+quoted_spans,skip-gram,my _ it,19
+quoted_spans,skip-gram,you _ your,19
+quoted_spans,skip-gram,you _ me,19
+quoted_spans,skip-gram,go _ go,19
+quoted_spans,skip-gram,code _ it,19
+quoted_spans,skip-gram,can _ it,19
+quoted_spans,skip-gram,claude _ me,18
+quoted_spans,skip-gram,when _ it,18
+quoted_spans,skip-gram,you _ break,18
+quoted_spans,skip-gram,tells _ go,18

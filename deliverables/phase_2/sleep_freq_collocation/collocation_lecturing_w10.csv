@@ -1,0 +1,9 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+lecturing,sweetheart,1,1,5,17.1492
+lecturing,search,1,1,204,11.7987
+lecturing,talking,1,1,222,11.6767
+lecturing,whole,1,1,272,11.3836
+lecturing,ask,1,1,457,10.6351
+lecturing,time,1,1,1420,8.9994
+lecturing,like,1,1,2681,8.0826
+lecturing,claude,1,1,10425,6.1233

@@ -1,0 +1,518 @@
+LCR scrape start: 2026-05-15 21:19:01.044016
+Window: 2025-08-01 to 2025-12-31
+
+--- ClaudeAI ---
+  page 1: 100 posts, oldest 2025-12-31
+  page 2: 100 posts, oldest 2025-12-30
+  page 3: 100 posts, oldest 2025-12-29
+  page 4: 100 posts, oldest 2025-12-28
+  page 5: 100 posts, oldest 2025-12-28
+  page 6: 100 posts, oldest 2025-12-27
+  page 7: 100 posts, oldest 2025-12-26
+  page 8: 100 posts, oldest 2025-12-25
+  page 9: 100 posts, oldest 2025-12-24
+  page 10: 100 posts, oldest 2025-12-23
+  page 11: 100 posts, oldest 2025-12-22
+  page 12: 100 posts, oldest 2025-12-21
+  page 13: 100 posts, oldest 2025-12-21
+  page 14: 100 posts, oldest 2025-12-20
+  page 15: 100 posts, oldest 2025-12-19
+  page 16: 100 posts, oldest 2025-12-18
+  page 17: 100 posts, oldest 2025-12-17
+  page 18: 100 posts, oldest 2025-12-17
+  page 19: 100 posts, oldest 2025-12-16
+  page 20: 100 posts, oldest 2025-12-15
+  page 21: 100 posts, oldest 2025-12-15
+  page 22: 100 posts, oldest 2025-12-14
+  page 23: 100 posts, oldest 2025-12-13
+  page 24: 100 posts, oldest 2025-12-12
+  page 25: 100 posts, oldest 2025-12-11
+  page 26: 100 posts, oldest 2025-12-11
+  page 27: 100 posts, oldest 2025-12-10
+  page 28: 100 posts, oldest 2025-12-09
+  page 29: 100 posts, oldest 2025-12-08
+  page 30: 100 posts, oldest 2025-12-07
+  page 31: 100 posts, oldest 2025-12-06
+  page 32: 100 posts, oldest 2025-12-05
+  page 33: 100 posts, oldest 2025-12-05
+  page 34: 100 posts, oldest 2025-12-04
+  page 35: 100 posts, oldest 2025-12-03
+  page 36: 100 posts, oldest 2025-12-02
+  page 37: 100 posts, oldest 2025-12-02
+  page 38: 100 posts, oldest 2025-12-01
+  page 39: 100 posts, oldest 2025-11-30
+  page 40: 100 posts, oldest 2025-11-30
+  page 41: 100 posts, oldest 2025-11-29
+  page 42: 100 posts, oldest 2025-11-28
+  page 43: 100 posts, oldest 2025-11-27
+  page 44: 100 posts, oldest 2025-11-26
+  page 45: 100 posts, oldest 2025-11-25
+  page 46: 100 posts, oldest 2025-11-25
+  page 47: 100 posts, oldest 2025-11-25
+  page 48: 100 posts, oldest 2025-11-24
+  page 49: 100 posts, oldest 2025-11-24
+  page 50: 100 posts, oldest 2025-11-23
+  page 51: 100 posts, oldest 2025-11-22
+  page 52: 100 posts, oldest 2025-11-21
+  page 53: 100 posts, oldest 2025-11-20
+  page 54: 100 posts, oldest 2025-11-19
+  page 55: 100 posts, oldest 2025-11-18
+  page 56: 100 posts, oldest 2025-11-18
+  page 57: 100 posts, oldest 2025-11-18
+  page 58: 100 posts, oldest 2025-11-17
+  page 59: 100 posts, oldest 2025-11-16
+  page 60: 100 posts, oldest 2025-11-15
+  page 61: 100 posts, oldest 2025-11-14
+  page 62: 100 posts, oldest 2025-11-13
+  page 63: 100 posts, oldest 2025-11-13
+  page 64: 100 posts, oldest 2025-11-12
+  page 65: 100 posts, oldest 2025-11-11
+  page 66: 100 posts, oldest 2025-11-10
+  page 67: 100 posts, oldest 2025-11-10
+  page 68: 100 posts, oldest 2025-11-09
+  page 69: 100 posts, oldest 2025-11-08
+  page 70: 100 posts, oldest 2025-11-07
+  page 71: 100 posts, oldest 2025-11-06
+  page 72: 100 posts, oldest 2025-11-05
+  page 73: 100 posts, oldest 2025-11-05
+  page 74: 100 posts, oldest 2025-11-04
+  page 75: 100 posts, oldest 2025-11-03
+  page 76: 100 posts, oldest 2025-11-02
+  page 77: 100 posts, oldest 2025-11-01
+  page 78: 100 posts, oldest 2025-10-31
+  page 79: 100 posts, oldest 2025-10-31
+  page 80: 100 posts, oldest 2025-10-30
+  page 81: 100 posts, oldest 2025-10-30
+  page 82: 100 posts, oldest 2025-10-29
+  page 83: 100 posts, oldest 2025-10-28
+  page 84: 100 posts, oldest 2025-10-27
+  page 85: 100 posts, oldest 2025-10-26
+  page 86: 100 posts, oldest 2025-10-25
+  page 87: 100 posts, oldest 2025-10-24
+  page 88: 100 posts, oldest 2025-10-24
+  page 89: 100 posts, oldest 2025-10-23
+  page 90: 100 posts, oldest 2025-10-22
+  page 91: 100 posts, oldest 2025-10-22
+  page 92: 100 posts, oldest 2025-10-21
+  page 93: 100 posts, oldest 2025-10-20
+  page 94: 100 posts, oldest 2025-10-19
+  page 95: 100 posts, oldest 2025-10-19
+  page 96: 100 posts, oldest 2025-10-18
+  page 97: 100 posts, oldest 2025-10-17
+  page 98: 100 posts, oldest 2025-10-16
+  page 99: 100 posts, oldest 2025-10-15
+  page 100: 100 posts, oldest 2025-10-14
+  page 101: 100 posts, oldest 2025-10-14
+  page 102: 100 posts, oldest 2025-10-13
+  page 103: 100 posts, oldest 2025-10-12
+  page 104: 100 posts, oldest 2025-10-11
+  page 105: 100 posts, oldest 2025-10-10
+  page 106: 100 posts, oldest 2025-10-10
+  page 107: 100 posts, oldest 2025-10-09
+  page 108: 100 posts, oldest 2025-10-09
+  page 109: 100 posts, oldest 2025-10-08
+  page 110: 100 posts, oldest 2025-10-07
+  page 111: 100 posts, oldest 2025-10-07
+  page 112: 100 posts, oldest 2025-10-06
+  page 113: 100 posts, oldest 2025-10-06
+  page 114: 100 posts, oldest 2025-10-05
+  page 115: 100 posts, oldest 2025-10-04
+  page 116: 100 posts, oldest 2025-10-03
+  page 117: 100 posts, oldest 2025-10-03
+  page 118: 100 posts, oldest 2025-10-03
+  page 119: 100 posts, oldest 2025-10-02
+  page 120: 100 posts, oldest 2025-10-02
+  page 121: 100 posts, oldest 2025-10-01
+  page 122: 100 posts, oldest 2025-10-01
+  page 123: 100 posts, oldest 2025-09-30
+  page 124: 100 posts, oldest 2025-09-30
+  page 125: 100 posts, oldest 2025-09-29
+  page 126: 100 posts, oldest 2025-09-29
+  page 127: 100 posts, oldest 2025-09-28
+  page 128: 100 posts, oldest 2025-09-27
+  page 129: 100 posts, oldest 2025-09-26
+  page 130: 100 posts, oldest 2025-09-24
+  page 131: 100 posts, oldest 2025-09-24
+  page 132: 100 posts, oldest 2025-09-23
+  page 133: 100 posts, oldest 2025-09-22
+  page 134: 100 posts, oldest 2025-09-21
+  page 135: 100 posts, oldest 2025-09-19
+  page 136: 100 posts, oldest 2025-09-18
+  page 137: 100 posts, oldest 2025-09-17
+  page 138: 100 posts, oldest 2025-09-16
+  page 139: 100 posts, oldest 2025-09-15
+  page 140: 100 posts, oldest 2025-09-15
+  page 141: 100 posts, oldest 2025-09-13
+  page 142: 100 posts, oldest 2025-09-12
+  page 143: 100 posts, oldest 2025-09-11
+  page 144: 100 posts, oldest 2025-09-11
+  page 145: 100 posts, oldest 2025-09-10
+  page 146: 100 posts, oldest 2025-09-09
+  page 147: 100 posts, oldest 2025-09-09
+  page 148: 100 posts, oldest 2025-09-08
+  page 149: 100 posts, oldest 2025-09-07
+  page 150: 100 posts, oldest 2025-09-06
+  page 151: 100 posts, oldest 2025-09-05
+  page 152: 100 posts, oldest 2025-09-05
+  page 153: 100 posts, oldest 2025-09-04
+  page 154: 100 posts, oldest 2025-09-04
+  page 155: 100 posts, oldest 2025-09-03
+  page 156: 100 posts, oldest 2025-09-02
+  page 157: 100 posts, oldest 2025-09-02
+  page 158: 100 posts, oldest 2025-09-01
+  page 159: 100 posts, oldest 2025-08-31
+  page 160: 100 posts, oldest 2025-08-30
+  page 161: 100 posts, oldest 2025-08-29
+  page 162: 100 posts, oldest 2025-08-29
+  page 163: 100 posts, oldest 2025-08-28
+  page 164: 100 posts, oldest 2025-08-28
+  page 165: 100 posts, oldest 2025-08-27
+  page 166: 100 posts, oldest 2025-08-26
+  page 167: 100 posts, oldest 2025-08-26
+  page 168: 100 posts, oldest 2025-08-25
+  page 169: 100 posts, oldest 2025-08-24
+  page 170: 100 posts, oldest 2025-08-23
+  page 171: 100 posts, oldest 2025-08-23
+  page 172: 100 posts, oldest 2025-08-22
+  page 173: 100 posts, oldest 2025-08-21
+  page 174: 100 posts, oldest 2025-08-21
+  page 175: 100 posts, oldest 2025-08-20
+  page 176: 100 posts, oldest 2025-08-19
+  page 177: 100 posts, oldest 2025-08-18
+  page 178: 100 posts, oldest 2025-08-18
+  page 179: 100 posts, oldest 2025-08-17
+  page 180: 100 posts, oldest 2025-08-16
+  page 181: 100 posts, oldest 2025-08-16
+  page 182: 100 posts, oldest 2025-08-15
+  page 183: 100 posts, oldest 2025-08-14
+  page 184: 100 posts, oldest 2025-08-14
+  page 185: 100 posts, oldest 2025-08-13
+  page 186: 100 posts, oldest 2025-08-12
+  page 187: 100 posts, oldest 2025-08-12
+  page 188: 100 posts, oldest 2025-08-11
+  page 189: 100 posts, oldest 2025-08-10
+  page 190: 100 posts, oldest 2025-08-09
+  page 191: 100 posts, oldest 2025-08-08
+  page 192: 100 posts, oldest 2025-08-08
+  page 193: 100 posts, oldest 2025-08-07
+  page 194: 100 posts, oldest 2025-08-06
+  page 195: 100 posts, oldest 2025-08-06
+  page 196: 100 posts, oldest 2025-08-05
+  page 197: 100 posts, oldest 2025-08-04
+  page 198: 100 posts, oldest 2025-08-04
+  page 199: 100 posts, oldest 2025-08-03
+  page 200: 100 posts, oldest 2025-08-02
+  page 201: 100 posts, oldest 2025-08-01
+  page 202: 84 posts, oldest 2025-08-01
+  collected 20184 posts from ClaudeAI
+  saved snapshot: data/lcr_posts_ClaudeAI.csv
+
+--- Anthropic ---
+  page 1: 100 posts, oldest 2025-12-23
+  page 2: 100 posts, oldest 2025-12-16
+  page 3: 100 posts, oldest 2025-12-08
+  page 4: 100 posts, oldest 2025-11-29
+  page 5: 100 posts, oldest 2025-11-24
+  page 6: 100 posts, oldest 2025-11-17
+  page 7: 100 posts, oldest 2025-11-10
+  page 8: 100 posts, oldest 2025-11-04
+  page 9: 100 posts, oldest 2025-10-28
+  page 10: 100 posts, oldest 2025-10-21
+  page 11: 100 posts, oldest 2025-10-14
+  page 12: 100 posts, oldest 2025-10-09
+  page 13: 100 posts, oldest 2025-10-06
+  page 14: 100 posts, oldest 2025-10-02
+  page 15: 100 posts, oldest 2025-09-29
+  page 16: 100 posts, oldest 2025-09-23
+  page 17: 100 posts, oldest 2025-09-18
+  page 18: 100 posts, oldest 2025-09-15
+  page 19: 100 posts, oldest 2025-09-12
+  page 20: 100 posts, oldest 2025-09-10
+  page 21: 100 posts, oldest 2025-09-08
+  page 22: 100 posts, oldest 2025-09-06
+  page 23: 100 posts, oldest 2025-09-04
+  page 24: 100 posts, oldest 2025-09-02
+  page 25: 100 posts, oldest 2025-08-30
+  page 26: 100 posts, oldest 2025-08-26
+  page 27: 100 posts, oldest 2025-08-21
+  page 28: 100 posts, oldest 2025-08-17
+  page 29: 100 posts, oldest 2025-08-11
+  page 30: 100 posts, oldest 2025-08-04
+  page 31: 54 posts, oldest 2025-08-01
+  collected 3054 posts from Anthropic
+  saved snapshot: data/lcr_posts_Anthropic.csv
+
+--- ClaudeCode ---
+  page 1: 100 posts, oldest 2025-12-30
+  page 2: 100 posts, oldest 2025-12-29
+  page 3: 100 posts, oldest 2025-12-27
+  page 4: 100 posts, oldest 2025-12-26
+  page 5: 100 posts, oldest 2025-12-24
+  page 6: 100 posts, oldest 2025-12-22
+  page 7: 100 posts, oldest 2025-12-21
+  page 8: 100 posts, oldest 2025-12-19
+  page 9: 100 posts, oldest 2025-12-18
+  page 10: 100 posts, oldest 2025-12-17
+  page 11: 100 posts, oldest 2025-12-15
+  page 12: 100 posts, oldest 2025-12-13
+  page 13: 100 posts, oldest 2025-12-11
+  page 14: 100 posts, oldest 2025-12-09
+  page 15: 100 posts, oldest 2025-12-08
+  page 16: 100 posts, oldest 2025-12-06
+  page 17: 100 posts, oldest 2025-12-04
+  page 18: 100 posts, oldest 2025-12-02
+  page 19: 100 posts, oldest 2025-11-30
+  page 20: 100 posts, oldest 2025-11-28
+  page 21: 100 posts, oldest 2025-11-26
+  page 22: 100 posts, oldest 2025-11-25
+  page 23: 100 posts, oldest 2025-11-24
+  page 24: 100 posts, oldest 2025-11-21
+  page 25: 100 posts, oldest 2025-11-20
+  page 26: 100 posts, oldest 2025-11-18
+  page 27: 100 posts, oldest 2025-11-16
+  page 28: 100 posts, oldest 2025-11-14
+  page 29: 100 posts, oldest 2025-11-12
+  page 30: 100 posts, oldest 2025-11-10
+  page 31: 100 posts, oldest 2025-11-08
+  page 32: 100 posts, oldest 2025-11-06
+  page 33: 100 posts, oldest 2025-11-05
+  page 34: 100 posts, oldest 2025-11-02
+  page 35: 100 posts, oldest 2025-10-31
+  page 36: 100 posts, oldest 2025-10-29
+  page 37: 100 posts, oldest 2025-10-26
+  page 38: 100 posts, oldest 2025-10-23
+  page 39: 100 posts, oldest 2025-10-21
+  page 40: 100 posts, oldest 2025-10-19
+  page 41: 100 posts, oldest 2025-10-17
+  page 42: 100 posts, oldest 2025-10-15
+  page 43: 100 posts, oldest 2025-10-13
+  page 44: 100 posts, oldest 2025-10-11
+  page 45: 100 posts, oldest 2025-10-09
+  page 46: 100 posts, oldest 2025-10-08
+  page 47: 100 posts, oldest 2025-10-06
+  page 48: 100 posts, oldest 2025-10-05
+  page 49: 100 posts, oldest 2025-10-03
+  page 50: 100 posts, oldest 2025-10-02
+  page 51: 100 posts, oldest 2025-10-01
+  page 52: 100 posts, oldest 2025-09-30
+  page 53: 100 posts, oldest 2025-09-30
+  page 54: 100 posts, oldest 2025-09-28
+  page 55: 100 posts, oldest 2025-09-25
+  page 56: 100 posts, oldest 2025-09-23
+  page 57: 100 posts, oldest 2025-09-22
+  page 58: 100 posts, oldest 2025-09-19
+  page 59: 100 posts, oldest 2025-09-17
+  page 60: 100 posts, oldest 2025-09-16
+  page 61: 100 posts, oldest 2025-09-13
+  page 62: 100 posts, oldest 2025-09-12
+  page 63: 100 posts, oldest 2025-09-10
+  page 64: 100 posts, oldest 2025-09-09
+  page 65: 100 posts, oldest 2025-09-07
+  page 66: 100 posts, oldest 2025-09-06
+  page 67: 100 posts, oldest 2025-09-04
+  page 68: 100 posts, oldest 2025-09-02
+  page 69: 100 posts, oldest 2025-09-01
+  page 70: 100 posts, oldest 2025-08-30
+  page 71: 100 posts, oldest 2025-08-29
+  page 72: 100 posts, oldest 2025-08-27
+  page 73: 100 posts, oldest 2025-08-25
+  page 74: 100 posts, oldest 2025-08-23
+  page 75: 100 posts, oldest 2025-08-21
+  page 76: 100 posts, oldest 2025-08-19
+  page 77: 100 posts, oldest 2025-08-17
+  page 78: 100 posts, oldest 2025-08-15
+  page 79: 100 posts, oldest 2025-08-13
+  page 80: 100 posts, oldest 2025-08-11
+  page 81: 100 posts, oldest 2025-08-08
+  page 82: 100 posts, oldest 2025-08-06
+  page 83: 100 posts, oldest 2025-08-04
+  page 84: 100 posts, oldest 2025-08-01
+  page 85: 29 posts, oldest 2025-08-01
+  collected 8429 posts from ClaudeCode
+  saved snapshot: data/lcr_posts_ClaudeCode.csv
+
+--- claudexplorers ---
+  page 1: 100 posts, oldest 2025-12-25
+  page 2: 100 posts, oldest 2025-12-19
+  page 3: 100 posts, oldest 2025-12-10
+  page 4: 100 posts, oldest 2025-12-03
+  page 5: 100 posts, oldest 2025-11-25
+  page 6: 100 posts, oldest 2025-11-18
+  page 7: 100 posts, oldest 2025-11-10
+  page 8: 100 posts, oldest 2025-11-04
+  page 9: 100 posts, oldest 2025-10-29
+  page 10: 100 posts, oldest 2025-10-24
+  page 11: 100 posts, oldest 2025-10-18
+  page 12: 100 posts, oldest 2025-10-13
+  page 13: 100 posts, oldest 2025-10-07
+  page 14: 100 posts, oldest 2025-10-02
+  page 15: 100 posts, oldest 2025-09-25
+  page 16: 99 posts, oldest 2025-08-17
+  collected 1599 posts from claudexplorers
+  saved snapshot: data/lcr_posts_claudexplorers.csv
+
+Total posts collected: 33266
+Posts passing LCR/Claude prefilter: 23829
+
+--- ClaudeAI comments (link_id-scoped) ---
+  fetched comments for 25/14238 posts; running total 123 comments
+  fetched comments for 50/14238 posts; running total 268 comments
+  fetched comments for 75/14238 posts; running total 513 comments
+  request error (attempt 1): HTTPSConnectionPool(host='arctic-shift.photon-reddit.com', port=443): Max retries exceeded with url: /api/comments/search?link_id=1pzxs7e&limit=50&after=1754006400&before=1767225599 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2657)')))
+  fetched comments for 100/14238 posts; running total 736 comments
+  fetched comments for 125/14238 posts; running total 981 comments
+  fetched comments for 150/14238 posts; running total 1206 comments
+  fetched comments for 175/14238 posts; running total 1482 comments
+  fetched comments for 200/14238 posts; running total 1695 comments
+  fetched comments for 225/14238 posts; running total 1932 comments
+  fetched comments for 250/14238 posts; running total 2196 comments
+  fetched comments for 275/14238 posts; running total 2467 comments
+  fetched comments for 300/14238 posts; running total 2731 comments
+  fetched comments for 325/14238 posts; running total 2957 comments
+  fetched comments for 350/14238 posts; running total 3152 comments
+  fetched comments for 375/14238 posts; running total 3342 comments
+  fetched comments for 400/14238 posts; running total 3605 comments
+  fetched comments for 425/14238 posts; running total 3841 comments
+  fetched comments for 450/14238 posts; running total 4075 comments
+  fetched comments for 475/14238 posts; running total 4352 comments
+  fetched comments for 500/14238 posts; running total 4603 comments
+  fetched comments for 525/14238 posts; running total 4874 comments
+  fetched comments for 550/14238 posts; running total 5174 comments
+  fetched comments for 575/14238 posts; running total 5547 comments
+  fetched comments for 600/14238 posts; running total 5853 comments
+  fetched comments for 625/14238 posts; running total 6185 comments
+  fetched comments for 650/14238 posts; running total 6572 comments
+  fetched comments for 675/14238 posts; running total 6795 comments
+  fetched comments for 700/14238 posts; running total 7137 comments
+  fetched comments for 725/14238 posts; running total 7441 comments
+  fetched comments for 750/14238 posts; running total 7702 comments
+  fetched comments for 775/14238 posts; running total 7942 comments
+  fetched comments for 800/14238 posts; running total 8124 comments
+  fetched comments for 825/14238 posts; running total 8297 comments
+  fetched comments for 850/14238 posts; running total 8622 comments
+  fetched comments for 875/14238 posts; running total 8807 comments
+  fetched comments for 900/14238 posts; running total 9117 comments
+  fetched comments for 925/14238 posts; running total 9372 comments
+  fetched comments for 950/14238 posts; running total 9630 comments
+  fetched comments for 975/14238 posts; running total 9962 comments
+  fetched comments for 1000/14238 posts; running total 10124 comments
+  fetched comments for 1025/14238 posts; running total 10319 comments
+  fetched comments for 1050/14238 posts; running total 10562 comments
+  fetched comments for 1075/14238 posts; running total 10706 comments
+  fetched comments for 1100/14238 posts; running total 10974 comments
+  fetched comments for 1125/14238 posts; running total 11215 comments
+  fetched comments for 1150/14238 posts; running total 11434 comments
+  fetched comments for 1175/14238 posts; running total 11712 comments
+  fetched comments for 1200/14238 posts; running total 12081 comments
+  fetched comments for 1225/14238 posts; running total 12243 comments
+  fetched comments for 1250/14238 posts; running total 12496 comments
+  fetched comments for 1275/14238 posts; running total 12764 comments
+  fetched comments for 1300/14238 posts; running total 13182 comments
+  fetched comments for 1325/14238 posts; running total 13418 comments
+  fetched comments for 1350/14238 posts; running total 13665 comments
+  fetched comments for 1375/14238 posts; running total 13812 comments
+  fetched comments for 1400/14238 posts; running total 14045 comments
+  fetched comments for 1425/14238 posts; running total 14288 comments
+  fetched comments for 1450/14238 posts; running total 14485 comments
+  fetched comments for 1475/14238 posts; running total 14846 comments
+  fetched comments for 1500/14238 posts; running total 15023 comments
+  fetched comments for 1525/14238 posts; running total 15263 comments
+  fetched comments for 1550/14238 posts; running total 15540 comments
+  fetched comments for 1575/14238 posts; running total 15852 comments
+  fetched comments for 1600/14238 posts; running total 16052 comments
+  fetched comments for 1625/14238 posts; running total 16206 comments
+  fetched comments for 1650/14238 posts; running total 16447 comments
+  fetched comments for 1675/14238 posts; running total 16660 comments
+  fetched comments for 1700/14238 posts; running total 16934 comments
+  fetched comments for 1725/14238 posts; running total 17091 comments
+  fetched comments for 1750/14238 posts; running total 17277 comments
+  fetched comments for 1775/14238 posts; running total 17504 comments
+  fetched comments for 1800/14238 posts; running total 17715 comments
+  fetched comments for 1825/14238 posts; running total 17888 comments
+  fetched comments for 1850/14238 posts; running total 18167 comments
+  fetched comments for 1875/14238 posts; running total 18553 comments
+  fetched comments for 1900/14238 posts; running total 18772 comments
+  fetched comments for 1925/14238 posts; running total 19034 comments
+  fetched comments for 1950/14238 posts; running total 19281 comments
+  fetched comments for 1975/14238 posts; running total 19620 comments
+  fetched comments for 2000/14238 posts; running total 19775 comments
+  fetched comments for 2025/14238 posts; running total 19988 comments
+  fetched comments for 2050/14238 posts; running total 20230 comments
+  fetched comments for 2075/14238 posts; running total 20416 comments
+  fetched comments for 2100/14238 posts; running total 20718 comments
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  HTTP 521: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-

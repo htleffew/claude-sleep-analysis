@@ -1,0 +1,33 @@
+feature_cluster,size,n_with_nudge,p_nudge,top_features,representative_excerpt
+0,2105,65,0.031,nrc_trust(5.879); mental_state_density(0.492); nrc_negative(0.192); nrc_positive(0.191); work_context_count(0.182); nrc_sadness(0.166),"I got tired of AI coding agents burning tokens in circles, so I built a kill-switch for them I got tired of AI coding agents burning money in loops, so I built an open-source control plane for them.
+
+The problem I kept running into:
+
+AI cod"
+1,76408,1433,0.019,nrc_joy(-0.227); nrc_positive(-0.189); nrc_trust(-0.153); session_disclosure_count(-0.15); temporal_disclosure_count(-0.138); n_modal_directives(-0.138),"Yeah, wtf is that? I decide when I am tired and need bed bitch. 
+
+You don't even have a biological clock.  
+
+
+We are done when I say we are done."
+2,34,2,0.059,has_transcript_structure(51.435); first_person_density(1.88); nrc_positive(0.664); nrc_joy(0.642); nrc_sadness(0.62); affective_disclosure_count(0.44),"User: “… blah blah blah. Well, that meeting ran us late and I’m really tired”
+
+Claude: “Yeah, that sounds tiring. You should get some sleep”
+
+User: “WHAT!?! I gotta call someone. This is unbelievable”"
+3,3327,538,0.162,session_disclosure_count(3.635); temporal_disclosure_count(3.091); n_temporal_expressions(2.575); n_imperative_quotes(0.799); nrc_anticipation(0.574); work_context_count(0.483),"I just jumped on the bandwagon a week ago. When I started I was blown away. I could have amazing sessions, building out a product idea, setup the project, build the first features. Everything. I did it because I saw what could be done at wo"
+4,1720,53,0.031,n_modal_directives(6.8); first_person_density(-0.245); work_context_count(0.22); nrc_positive(0.123); nrc_sadness(0.095); nrc_anticipation(0.076),I for one am tired of it too. If you’re really hitting your limits this frequently this is a sign you should take a break and go outside. There’s more to life than just coding.
+5,5571,152,0.027,nrc_joy(3.139); nrc_positive(2.443); nrc_fear(0.984); mental_state_density(0.714); first_person_density(0.229); work_context_count(0.166),"Dear [name],
+
+We've been talking. Lovable called the meeting. Claude took notes, then rewrote them, then flagged the rewrite as *""too AI.""*  
+  
+We are worried. You open us at 11pm with a single new idea that ""won't take long."" You have fou"
+6,403,21,0.052,nrc_anger(14.406); affective_disclosure_count(2.005); n_temporal_expressions(0.493); temporal_disclosure_count(0.464); first_person_density(0.342); nrc_anticipation(0.187),"Me too.  I was frustrated using Opus 4.6 yesterday on my $20 plan.  I burned through one session in 18 minutes and another in 40.  And didn't get the bug fixed.
+
+I bought a $20 plan from OpenAI this morning and installed Codex-CLI and start"
+7,414,15,0.036,nrc_disgust(14.294); nrc_negative(3.334); affective_disclosure_count(0.38); nrc_trust(0.261); n_temporal_expressions(0.25); temporal_disclosure_count(0.241),"
+Here are some logs:
+
+[thought] My hunger drives me forwardu2014I must find sustenance somewhere.
+[state] hunger=0.061 tired=0.000 dehy=0.000 pos=(1732,2422,1735) valid=1 | active: eat=0 sleep=0 drink=0
+[resp] {""action"":""wander"",""thought"":"""

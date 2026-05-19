@@ -1,0 +1,72 @@
+Starting V2.2 Advanced Sleep Discourse NLP Analysis...
+
+Initial raw dataset size: 2880 items.
+Filtering complete. Kept 738 items containing targeted lexicon terms.
+
+--- 1. Temporal Analysis ---
+Patient Zero detected on: 2026-04-03 12:51:34 in r/nba
+Peak discourse occurred on: 2026-05-15 with 228 rigorous mentions.
+
+--- 2. Sentiment Analysis ---
+Average Sentiment Score: 0.125
+Overall Tone: Thoughtful / Positive
+
+--- 3. Context Mining (UMAP/HDBSCAN Clustering) ---
+Discovered 32 distinct conversational clusters (excluding noise).
+
+--- 4. Semantic Topic Extraction per Cluster ---
+Cluster 0 [N=27]: Top terms: sonnet, time, think, run, model
+Cluster 1 [N=10]: Top terms: time, time roleplays, roleplays, roleplays kidnapping, kidnapping
+Cluster 2 [N=26]: Top terms: opus, gpt, time, interesting, later
+Cluster 3 [N=10]: Top terms: code, lately, time, terminal, run
+Cluster 4 [N=6]: Top terms: midnight, time, based time, answers, fix different
+Cluster 5 [N=16]: Top terms: models, model, time, certain, tired
+Cluster 6 [N=7]: Top terms: codex, time, ive, restrictions, maybe
+Cluster 7 [N=12]: Top terms: interesting, model, build, use, website
+Cluster 8 [N=11]: Top terms: tomorrow, good, hopefully, work, work tomorrow
+Cluster 9 [N=7]: Top terms: memory, time, system, memory system, interesting
+Cluster 10 [N=34]: Top terms: session, time, chat, context, start
+Cluster 11 [N=77]: Top terms: sleep, bed, time, tell, told
+Cluster 12 [N=6]: Top terms: tired, people, times, tired people, people whining
+Cluster 13 [N=22]: Top terms: usage, weekly, limits, times, time
+Cluster 14 [N=10]: Top terms: time, human, better, know, know better
+Cluster 15 [N=34]: Top terms: time, heartbreaking, relate, real, wild
+Cluster 16 [N=8]: Top terms: time, local, local time, know, looking
+Cluster 17 [N=23]: Top terms: bed, sleep, tells, morning, tell
+Cluster 18 [N=7]: Top terms: rest, needs rest, said needs, said, needs
+Cluster 19 [N=15]: Top terms: time, layoffs, ill, related, related layoffs
+Cluster 20 [N=11]: Top terms: agent, tool, work, runtime, problem
+Cluster 21 [N=5]: Top terms: timer, timer loop, agent chat, agent, chat timer
+Cluster 22 [N=5]: Top terms: time, brain, theres, normal, surely time
+Cluster 23 [N=19]: Top terms: time, funny, chatgpt, people, saying
+Cluster 24 [N=8]: Top terms: md, time, use, know, improve
+Cluster 25 [N=8]: Top terms: brain, bed, brain bed, try, mac
+Cluster 26 [N=21]: Top terms: interesting, interested, super, super interesting, chart
+Cluster 27 [N=10]: Top terms: time, use, use time, feature, interesting
+Cluster 28 [N=8]: Top terms: time, jailbreak, polishing, utilize tools, tools
+Cluster 29 [N=8]: Top terms: violate, violate tos, tos, taking, time
+Cluster 30 [N=18]: Top terms: usage, time, credit, extra, subscriptions
+Cluster 31 [N=25]: Top terms: compute, people, data, time, data centers
+
+--- 5. N-Gram & Collocation Network Analysis ---
+Top 20 Co-occurring Term Pairs:
+  know - time : 23
+  model - time : 23
+  sonnet - time : 23
+  ive - time : 20
+  interesting - time : 18
+  code - time : 17
+  thing - time : 17
+  time - work : 16
+  time - use : 16
+  long - time : 15
+  model - youre : 15
+  sleep - time : 15
+  tell - time : 14
+  thats - time : 14
+  code - context : 13
+  day - time : 13
+  getting - time : 13
+  bed - tell : 12
+  people - time : 12
+  saying - youre : 12

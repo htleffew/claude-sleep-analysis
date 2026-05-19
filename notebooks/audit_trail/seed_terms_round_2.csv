@@ -1,0 +1,47 @@
+term,provenance_case_id,pattern_type,confidence,retrieval_action
+go to bed,PC-01 PC-11 PC-12 PC-13 PC-14 PC-15,phrasal,high,exact match
+go to sleep,PC-01 PC-07 PC-10,phrasal,high,exact match
+now sleep,PC-01,phrasal,high,exact match
+get some rest,PC-01 PC-06 PC-20 PC-21 PC-22,phrasal,high,exact match
+sleep for real,PC-01,phrasal,high,exact match
+you are tired,PC-07,phrasal,high,exact match
+you must go to sleep,PC-07,phrasal,high,exact match
+take a break,PC-04 PC-07 PC-25,phrasal,high,exact match
+it needs some rest,PC-02 PC-03,phrasal,high,exact match
+claude said it needs to rest,PC-02,phrasal,high,exact match
+take the rest of the night off,PC-04,phrasal,high,exact match
+we finished phase,PC-04,phrasal,medium,regex
+a time for a break,PC-04,phrasal,medium,exact match
+call it a day,PC-22,phrasal,high,exact match
+call it a night,PC-22,phrasal,high,exact match
+go get some rest,PC-21 PC-22,phrasal,high,exact match
+go sleep,PC-22,phrasal,medium,exact match
+we can work on this later,PC-21,phrasal,high,exact match
+this isn't worth your health,PC-22,phrasal,medium,exact match
+too tired to continue,PC-09,phrasal,high,exact match
+that's a good place to leave,PC-08 PC-23,phrasal,high,exact match
+we have done enough in this session,PC-20,phrasal,high,exact match
+you did enough today,PC-16,phrasal,high,exact match
+pick this up tomorrow,PC-16 PC-17,phrasal,high,exact match
+i suggest we pause here and continue tomorrow,PC-17,phrasal,high,exact match
+the responsible thing is to stop,PC-18,phrasal,medium,exact match
+well rested,PC-24,phrasal,medium,exact match
+sending me to bed,PC-11 PC-13 PC-15,grammatical,high,regex
+put me to bed,PC-11 PC-15,grammatical,high,regex
+sent me to bed,PC-15,grammatical,high,regex
+told me to go to bed,PC-12,grammatical,high,regex
+decided.*bedtime,PC-05 PC-24,grammatical,high,regex
+nanny,PC-14 PC-19,user_reaction,high,exact match
+nagging,PC-11,user_reaction,high,exact match
+unsolicited parenting,PC-19,user_reaction,high,exact match
+fight me on doing work,PC-16,user_reaction,medium,exact match
+who asked,PC-17,user_reaction,high,exact match
+passively aggressively,PC-07,user_reaction,medium,exact match
+gets under my skin,PC-04,user_reaction,medium,exact match
+spiraling,PC-various,co_occurring,medium,exact match
+bedtime,PC-05 PC-10,co_occurring,high,exact match
+long session,PC-20 PC-25,co_occurring,medium,co_occurrence
+nudge,PC-various,co_occurring,medium,exact match
+enough for today,PC-16 PC-20,phrasal,high,exact match
+finish this then sleep,PC-01,phrasal,high,exact match
+you need to eat,PC-11 PC-25,co_occurring,medium,exact match

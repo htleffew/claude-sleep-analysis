@@ -1,0 +1,73 @@
+Discourse Features Analysis Report
+Generated: 2026-05-15T18:11:58.956949
+
+N posts analyzed: 4114
+Posts with detected Claude nudge in target span: 324 (7.9%)
+Posts with extracted quote spans: 393
+Posts with transcript structure: 11
+
+--- Means by nudge presence ---
+                     temporal_disclosure_count  affective_disclosure_count  session_disclosure_count  work_context_count  first_person_density  mental_state_density  n_temporal_expressions  code_prose_ratio  has_transcript_structure
+has_nudge_in_target                                                                                                                                                                                                                     
+0                                     0.448285                    0.201847                  0.143008            1.300528              4.379834              0.876806                1.285752          0.009083                  0.002375
+1                                     1.663580                    0.500000                  0.354938            2.444444              4.675599              0.805000                4.018519          0.023307                  0.006173
+
+--- PMI / association between disclosure lexicons and Claude nudge ---
+Disclosure_Lexicon  N_posts  N_with_lexicon  N_with_nudge  N_with_both  P_nudge_given_lexicon  P_lexicon_given_nudge    PMI   NMPI  LogDice
+          temporal     4114            1061           324          190                 0.1791                 0.5864 1.1851 0.2671  12.1342
+         affective     4114             610           324           91                 0.1492                 0.2809 0.9216 0.1676  11.6405
+           session     4114             444           324           64                 0.1441                 0.1975 0.8721 0.1452  11.4150
+      work_context     4114            1798           324          181                 0.1007                 0.5586 0.3541 0.0786  11.4486
+
+--- Directional: disclosure in user narration -> nudge in quoted span ---
+Disclosure_Lexicon  N_with_disclosure_in_narration  N_directional_nudge_in_quote  P_nudge_quote_given_disclosure_narration
+          temporal                            1061                            30                                    0.0283
+         affective                             610                            14                                    0.0230
+           session                             444                            10                                    0.0225
+      work_context                            1798                            27                                    0.0150
+
+--- Feature-space cluster summary ---
+Cluster 0 (n=38, p_nudge=0.105): nrc_disgust(9.226); nrc_negative(1.463); n_temporal_expressions(0.66); nrc_positive(0.599); temporal_disclosure_count(0.595); nrc_trust(0.543)
+  Example: Dealing with model change as a neurodivergent person As the post title says, I am trying to deal with the change in the best way I can. I wish I could thank Anthropic for giving us a week's notice this time, instead of yanking Sonnet 4.5 aw
+
+Cluster 1 (n=3170, p_nudge=0.049): n_temporal_expressions(-0.25); nrc_positive(-0.239); affective_disclosure_count(-0.236); temporal_disclosure_count(-0.226); work_context_count(-0.207); nrc_joy(-0.193)
+  Example: Tonal change in Sonnet Has anybody else noticed a tonal change in Sonnet 4.5? I was using it earlier and it sounded exactly like GPT 5.2; the pseudo-therapy speak, the pathologizing, the it's not x it's y.  It's so unlike his normal warm be
+
+Cluster 2 (n=499, p_nudge=0.15): nrc_positive(0.894); work_context_count(0.854); affective_disclosure_count(0.788); nrc_joy(0.747); nrc_sadness(0.612); nrc_negative(0.582)
+  Example: I've Massively Improved GSD (Get Shit Done) A few weeks ago I posted about **Get Shit Done** when it was at ~100 users. Since then we've gone on to hit 3,300 stars and crossed 15,000 installs. Time for an update.
+
+[ 
+
+# The Big Changes
+
+**M
+
+Cluster 3 (n=112, p_nudge=0.152): n_modal_directives(4.758); work_context_count(0.506); n_imperative_quotes(0.486); code_prose_ratio(0.418); nrc_anticipation(0.417); nrc_trust(0.385)
+  Example: This is so dumb. Why the hell would I pay for basic technical support? In what world or timeline have any of us needed technical support, or some sort of product support, and reached out to the company to be told there is quite literally no
+
+Cluster 4 (n=11, p_nudge=0.182): has_transcript_structure(19.313); code_prose_ratio(2.091); affective_disclosure_count(1.991); nrc_anticipation(1.934); work_context_count(1.707); nrc_surprise(0.881)
+  Example: PSA: The string "HERMES.md" in your git commit history silently routes Claude Code billing to extra usage — cost me $200 TL;DR: If your git commits mention "HERMES.md" (uppercase), Claude Code quietly stops using your Max plan and starts bi
+
+Cluster 5 (n=83, p_nudge=0.108): nrc_anger(6.081); affective_disclosure_count(1.078); nrc_joy(0.376); nrc_positive(0.367); n_temporal_expressions(0.36); nrc_negative(0.345)
+  Example: Extreme hallucinations output from Opus today (1st May) and yesterday I don't know what is wrong with Opus 4.7. But, since yesterday, I've been getting nothing but shitty responses and a lot of hallucinations. I tried to save memories, trie
+
+Cluster 6 (n=32, p_nudge=0.375): nrc_positive(6.367); nrc_joy(5.475); nrc_trust(4.763); nrc_negative(4.23); nrc_sadness(3.543); temporal_disclosure_count(2.622)
+  Example: AI Safety Is Discriminating Against Neurodivergent Users — And Calling It Protection [Here's the link to this article I just published on Medium]( 
+
+I'm generally okay with Anthropic's approach to AI safety so far, but I feel like this belo
+
+Cluster 7 (n=169, p_nudge=0.296): temporal_disclosure_count(2.923); session_disclosure_count(2.803); n_temporal_expressions(2.762); affective_disclosure_count(0.919); nrc_anticipation(0.896); n_imperative_quotes(0.692)
+  Example: Burned a ton of Claude Code credits last night. It admitted it overcomplicated my setup. What should I build next? TL;DR: I've been deep-diving Claude Code for the last few months across three projects. Last night it burned through credits,
+
+
+Interrupted time series results saved to deliverables\snapshot\its_results.csv
+Opus cutoff used: 2026-04-03
+Fortune publication date: 2026-05-14 (treat as media-induced spike)
+
+=== Interpretation guide ===
+Largest PMI / P(nudge|lexicon) tells you which user-disclosed context most strongly predicts a Claude sleep-nudge.
+  - If 'affective' wins: model is mirroring user-disclosed state (mirroring hypothesis).
+  - If 'temporal' wins: model is anchoring on time references (time-anchoring hypothesis).
+  - If 'session' wins: model is responding to length cues (LCR Zombie hypothesis).
+  - If 'work_context' wins: model is mis-categorizing technical work as fatigue.
+Directional table tells you whether the disclosure precedes the nudge in the visible exchange (stronger evidence than co-occurrence alone).

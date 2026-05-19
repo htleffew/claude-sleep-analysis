@@ -1,0 +1,6 @@
+post_id,type,retrieval_provenance,createdAt,subreddit,left_context,keyword,right_context
+1t32rzn,comment,praw:round2_match,2026-05-04 06:19:18,ClaudeAI,considering mention time or that,you are tired,or that this is getting
+1scy9bu,comment,praw:round2_match,2026-04-05 09:03:05,ClaudeCode,is actually pretty good if,you are tired,of babysitting prs all night
+1qvb3ye,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,2026-02-04 01:42:13,claudexplorers,thing claude yes but also,you are tired,go take a break now
+1qvb3ye,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,2026-02-04 01:42:13,claudexplorers,break now never tell claude,you are tired,for any reason claude won't
+1t32rzn,comment,praw:round2_match,2026-05-04 06:19:18,ClaudeAI,doesn't give a fuck if,you are tired,because that's it's default state

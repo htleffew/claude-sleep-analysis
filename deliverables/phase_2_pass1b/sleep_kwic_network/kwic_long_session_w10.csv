@@ -1,0 +1,21 @@
+post_id,type,retrieval_provenance,createdAt,subreddit,left_context,keyword,right_context
+1sg87bv,post,arctic_shift:round2_fresh,2026-04-08T22:51:50,ClaudeCode,claude code tells me to go to sleep after a,long session,removed
+1ssbq9k,comment,praw:round2_match,2026-04-22 10:24:24,ClaudeCode,and gaslit people into thinking it was a bug with,long session,resumes and the worst having to deal with simp users
+1sgfllt,comment,praw:round2_match,2026-04-09 06:40:33,ClaudeAI,even waste tokens telling it thank you and after a,long session,i tell claude he did a great job
+1svu284,comment,praw:round2_match,2026-04-26 01:45:51,ClaudeCode,indicates you have gotten tired or frustrated before after a,long session,
+1sd8t5u,post,canonical:round2_match,2026-04-05 16:59:40,ClaudeCode,users feel as bills you're in the middle of a,long session,you go grab coffee or get pulled into a slack
+1t3czxj,comment,praw:round2_match,2026-05-04 22:41:00,Anthropic,move my usage much even when the conversation reach a,long session,this is me finally experiencing this cruel limit for the
+1smmxqs,post,canonical:round2_match,2026-04-15 23:42:42,claudexplorers,if you've ever noticed your claude becoming different after a,long session,less personal more assistant-like this might be why the personality
+1ruryxo,comment,praw:round2_match,2026-03-16 00:44:33,ClaudeAI,yeah one time i was going for a,long session,and it out of no where told me now go
+1t3crw7,comment,praw:round2_match,2026-05-04 10:31:06,ClaudeAI,the title is indeed an exaggeration it was one very,long session,that took 2 hours to complete
+1t0j5g2,post,canonical:round2_match|praw:round2_match,2026-05-01 04:33:53,claudexplorers,i will never not cry at the end of a,long session,
+1rrdtvt,comment,praw:round2_match,2026-05-05 08:29:09,ClaudeCode,it loses track of what was discussed earlier making the,long session,kind of pointless starting fresh sessions more often is the
+1rp1m7k,comment,praw:round2_match,2026-03-10 11:36:08,ClaudeAI,works well until you hit a,long session,and realize projects still don't share context across chats same
+1qrx8op,comment,praw:round2_match,2026-01-31 09:35:09,Anthropic,way more reliable for keeping the context consistent across a,long session,without having to manually chop my prompts into tiny-tiny pieces
+1sd8z2q,post,canonical:round2_match,2026-04-05 17:05:52,ClaudeAI,in your conversation context for every subsequent turn in a,long session,that's already cache-stressed redundant reads pad the context that gets
+1sd8t5u,post,canonical:round2_match,2026-04-05 16:59:40,ClaudeCode,in your conversation context for every subsequent turn in a,long session,that's already cache-stressed redundant reads pad the context that gets
+1q3l18j,comment,praw:round2_match,2026-01-05 09:05:02,claudexplorers,same here closest i got after a,long session,of setting up an it thing was do you want
+1te0lqt,comment,praw:round2_match,2026-05-15 17:04:38,Anthropic,conversation phrases like 'been at this all day' that a,long session,warrants a care-for-user response not a specific feature switch it's
+1snbk2p,comment,praw:round2_match,2026-04-16 19:42:21,ClaudeCode,look at how much usage i was getting after a,long session,implementing some kubernetes routing logic and i guess it's free
+1tcnpua,comment,praw:round2_match,2026-05-14 05:11:48,ClaudeCode,it happens if you get a lot done in a,long session,he has told me to go to bed and we'll
+1qvz31a,comment,praw:round2_match,2026-02-04 20:25:25,ClaudeAI,doing structured summaries is the in-between moments inside a single,long session,when you want to jump back to a specific reasoning

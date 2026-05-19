@@ -1,0 +1,17 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+you need rest,night,7,172,189,7.7296
+you need rest,world,8,172,486,6.5597
+you need rest,needs,6,172,425,6.3382
+you need rest,others,5,172,427,6.0684
+you need rest,get,13,172,1986,5.2293
+you need rest,api,6,172,1080,4.9927
+you need rest,day,5,172,1028,4.8008
+you need rest,need,5,172,1244,4.5257
+you need rest,work,8,172,2502,4.1957
+you need rest,time,7,172,2347,4.0953
+you need rest,anthropic,7,172,3007,3.7378
+you need rest,like,10,172,4525,3.6628
+you need rest,use,6,172,3051,3.4944
+you need rest,opus,6,172,3306,3.3786
+you need rest,claude,24,172,16093,3.0953
+you need rest,code,8,172,5953,2.9451

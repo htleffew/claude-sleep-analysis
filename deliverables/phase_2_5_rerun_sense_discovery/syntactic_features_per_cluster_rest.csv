@@ -1,0 +1,6 @@
+cluster_id,n_contexts,pos_distribution,frac_code_block,frac_imperative,subreddit_distribution,top_subreddit,top_pos
+-1,118,"{""NOUN"": 104, ""VERB"": 11, ""PROPN"": 3}",0.0169,0.0169,"{""ClaudeCode"": 41, ""ClaudeAI"": 37, ""claudexplorers"": 27, ""Anthropic"": 13}",ClaudeCode,NOUN
+0,5,"{""NOUN"": 5}",0.0,0.0,"{""ClaudeCode"": 3, ""Anthropic"": 2}",ClaudeCode,NOUN
+1,5,"{""NOUN"": 3, ""VERB"": 2}",0.0,0.2,"{""ClaudeAI"": 2, ""claudexplorers"": 1, ""Anthropic"": 1, ""ClaudeCode"": 1}",ClaudeAI,NOUN
+2,26,"{""NOUN"": 24, ""VERB"": 2}",0.0,0.0,"{""Anthropic"": 8, ""ClaudeCode"": 8, ""ClaudeAI"": 7, ""claudexplorers"": 3}",Anthropic,NOUN
+3,6,"{""NOUN"": 6}",0.0,0.0,"{""claudexplorers"": 3, ""ClaudeAI"": 2, ""Anthropic"": 1}",claudexplorers,NOUN

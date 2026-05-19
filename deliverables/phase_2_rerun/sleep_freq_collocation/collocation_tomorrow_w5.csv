@@ -1,0 +1,16 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+tomorrow,wait,6,104,194,8.1954
+tomorrow,early,5,104,200,7.8884
+tomorrow,morning,5,104,216,7.7774
+tomorrow,today,9,104,742,6.845
+tomorrow,next,8,104,701,6.7571
+tomorrow,going,7,104,935,6.1489
+tomorrow,said,5,104,726,6.0285
+tomorrow,day,7,104,1028,6.0121
+tomorrow,sonnet,7,104,1382,5.5852
+tomorrow,also,6,104,1583,5.1669
+tomorrow,still,5,104,1555,4.9296
+tomorrow,new,5,104,1734,4.7724
+tomorrow,anthropic,6,104,3007,4.2412
+tomorrow,like,6,104,4525,3.6516
+tomorrow,claude,9,104,16093,2.4061

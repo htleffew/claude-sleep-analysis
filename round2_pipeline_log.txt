@@ -1,0 +1,643 @@
+=== Round 2 Retrieval Pipeline ===
+Start: 2026-05-17 15:49:29.668340
+Loaded 46 Round 2 seed terms
+  High-confidence: 33
+  Built 46 matchers
+
+=== Tagging canonical (7,021 posts) (C:\Users\drhea\repos\claude-sleep-analysis\data\posts_snapshot_canonical.csv) ===
+  Loaded 7021 rows
+  Rows matching any Round 2 term: 123 (1.8%)
+  Top 20 terms by hit count:
+    r2_long_session: 26
+    r2_go_to_bed: 16
+    r2_go_to_sleep: 16
+    r2_nudge: 15
+    r2_nagging: 9
+    r2_get_some_rest: 8
+    r2_nanny: 8
+    r2_spiraling: 8
+    r2_bedtime: 8
+    r2_put_me_to_bed: 7
+    r2_take_a_break: 6
+    r2_who_asked: 5
+    r2_call_it_a_day: 3
+    r2_decided_bedtime: 3
+    r2_go_get_some_rest: 2
+    r2_you_did_enough_today: 2
+    r2_pick_this_up_tomorrow: 2
+    r2_now_sleep: 1
+    r2_you_are_tired: 1
+    r2_you_must_go_to_sleep: 1
+
+=== Tagging PRAW (89,982 rows) (C:\Users\drhea\repos\claude-sleep-analysis\data\praw_sleep_analysis_final.csv) ===
+  Loaded 89982 rows
+  Rows matching any Round 2 term: 586 (0.7%)
+  Top 20 terms by hit count:
+    r2_go_to_bed: 178
+    r2_go_to_sleep: 103
+    r2_long_session: 63
+    r2_take_a_break: 54
+    r2_bedtime: 44
+    r2_nudge: 41
+    r2_get_some_rest: 30
+    r2_nanny: 27
+    r2_spiraling: 19
+    r2_told_me_to_go_to_bed: 14
+    r2_go_sleep: 13
+    r2_nagging: 13
+    r2_put_me_to_bed: 9
+    r2_call_it_a_day: 8
+    r2_sending_me_to_bed: 7
+    r2_go_get_some_rest: 6
+    r2_sent_me_to_bed: 4
+    r2_you_are_tired: 3
+    r2_call_it_a_night: 3
+    r2_pick_this_up_tomorrow: 3
+
+  Saved: C:\Users\drhea\repos\claude-sleep-analysis\data\posts_snapshot_canonical_round2_tagged.csv
+  Saved: C:\Users\drhea\repos\claude-sleep-analysis\data\praw_sleep_analysis_final_round2_tagged.csv
+
+=== Fresh Arctic Shift retrieval (wholesale + local filter) ===
+  High-confidence terms for local filter: 33
+  Window: 2026-01-01 to 2026-05-31
+
+  --- ClaudeAI ---
+  ClaudeAI page 1: 100 posts, oldest 2026-05-17, total so far 100
+  ClaudeAI page 2: 100 posts, oldest 2026-05-17, total so far 200
+  ClaudeAI page 3: 100 posts, oldest 2026-05-16, total so far 300
+  ClaudeAI page 4: 100 posts, oldest 2026-05-16, total so far 400
+  ClaudeAI page 5: 100 posts, oldest 2026-05-16, total so far 500
+  ClaudeAI page 6: 100 posts, oldest 2026-05-15, total so far 600
+  ClaudeAI page 7: 100 posts, oldest 2026-05-15, total so far 700
+  ClaudeAI page 8: 100 posts, oldest 2026-05-15, total so far 800
+  ClaudeAI page 9: 100 posts, oldest 2026-05-14, total so far 900
+  ClaudeAI page 10: 100 posts, oldest 2026-05-14, total so far 1000
+  ClaudeAI page 11: 100 posts, oldest 2026-05-14, total so far 1100
+  ClaudeAI page 12: 100 posts, oldest 2026-05-14, total so far 1200
+  ClaudeAI page 13: 100 posts, oldest 2026-05-13, total so far 1300
+  ClaudeAI page 14: 100 posts, oldest 2026-05-13, total so far 1400
+  ClaudeAI page 15: 100 posts, oldest 2026-05-13, total so far 1500
+  ClaudeAI page 16: 100 posts, oldest 2026-05-12, total so far 1600
+  ClaudeAI page 17: 100 posts, oldest 2026-05-12, total so far 1700
+  ClaudeAI page 18: 100 posts, oldest 2026-05-12, total so far 1800
+  ClaudeAI page 19: 100 posts, oldest 2026-05-12, total so far 1900
+  ClaudeAI page 20: 100 posts, oldest 2026-05-11, total so far 2000
+  ClaudeAI page 21: 100 posts, oldest 2026-05-11, total so far 2100
+  ClaudeAI page 22: 100 posts, oldest 2026-05-11, total so far 2200
+  ClaudeAI page 23: 100 posts, oldest 2026-05-11, total so far 2300
+  ClaudeAI page 24: 100 posts, oldest 2026-05-10, total so far 2400
+  ClaudeAI page 25: 100 posts, oldest 2026-05-10, total so far 2500
+  ClaudeAI page 26: 100 posts, oldest 2026-05-10, total so far 2600
+  ClaudeAI page 27: 100 posts, oldest 2026-05-09, total so far 2700
+  ClaudeAI page 28: 100 posts, oldest 2026-05-09, total so far 2800
+  ClaudeAI page 29: 100 posts, oldest 2026-05-08, total so far 2900
+  ClaudeAI page 30: 100 posts, oldest 2026-05-08, total so far 3000
+  ClaudeAI page 31: 100 posts, oldest 2026-05-08, total so far 3100
+  ClaudeAI page 32: 100 posts, oldest 2026-05-08, total so far 3200
+  ClaudeAI page 33: 100 posts, oldest 2026-05-07, total so far 3300
+  ClaudeAI page 34: 100 posts, oldest 2026-05-07, total so far 3400
+  ClaudeAI page 35: 100 posts, oldest 2026-05-07, total so far 3500
+  ClaudeAI page 36: 100 posts, oldest 2026-05-07, total so far 3600
+  ClaudeAI page 37: 100 posts, oldest 2026-05-06, total so far 3700
+  ClaudeAI page 38: 100 posts, oldest 2026-05-06, total so far 3800
+  ClaudeAI page 39: 100 posts, oldest 2026-05-06, total so far 3900
+  ClaudeAI page 40: 100 posts, oldest 2026-05-06, total so far 4000
+  ClaudeAI page 41: 100 posts, oldest 2026-05-05, total so far 4100
+  ClaudeAI page 42: 100 posts, oldest 2026-05-05, total so far 4200
+  ClaudeAI page 43: 100 posts, oldest 2026-05-05, total so far 4300
+  ClaudeAI page 44: 100 posts, oldest 2026-05-05, total so far 4400
+  ClaudeAI page 45: 100 posts, oldest 2026-05-04, total so far 4500
+  ClaudeAI page 46: 100 posts, oldest 2026-05-04, total so far 4600
+  ClaudeAI page 47: 100 posts, oldest 2026-05-04, total so far 4700
+  ClaudeAI page 48: 100 posts, oldest 2026-05-04, total so far 4800
+  ClaudeAI page 49: 100 posts, oldest 2026-05-03, total so far 4900
+  ClaudeAI page 50: 100 posts, oldest 2026-05-03, total so far 5000
+  ClaudeAI page 51: 100 posts, oldest 2026-05-02, total so far 5100
+  ClaudeAI page 52: 100 posts, oldest 2026-05-02, total so far 5200
+  ClaudeAI page 53: 100 posts, oldest 2026-05-02, total so far 5300
+  ClaudeAI page 54: 100 posts, oldest 2026-05-01, total so far 5400
+  ClaudeAI page 55: 100 posts, oldest 2026-05-01, total so far 5500
+  ClaudeAI page 56: 100 posts, oldest 2026-05-01, total so far 5600
+  ClaudeAI page 57: 100 posts, oldest 2026-05-01, total so far 5700
+  ClaudeAI page 58: 100 posts, oldest 2026-04-30, total so far 5800
+  ClaudeAI page 59: 100 posts, oldest 2026-04-30, total so far 5900
+  ClaudeAI page 60: 100 posts, oldest 2026-04-30, total so far 6000
+  ClaudeAI page 61: 100 posts, oldest 2026-04-30, total so far 6100
+  ClaudeAI page 62: 100 posts, oldest 2026-04-29, total so far 6200
+  ClaudeAI page 63: 100 posts, oldest 2026-04-29, total so far 6300
+  ClaudeAI page 64: 100 posts, oldest 2026-04-29, total so far 6400
+  ClaudeAI page 65: 100 posts, oldest 2026-04-29, total so far 6500
+  ClaudeAI page 66: 100 posts, oldest 2026-04-28, total so far 6600
+  ClaudeAI page 67: 100 posts, oldest 2026-04-28, total so far 6700
+  ClaudeAI page 68: 100 posts, oldest 2026-04-28, total so far 6800
+  ClaudeAI page 69: 100 posts, oldest 2026-04-28, total so far 6900
+  ClaudeAI page 70: 100 posts, oldest 2026-04-27, total so far 7000
+  ClaudeAI page 71: 100 posts, oldest 2026-04-27, total so far 7100
+  ClaudeAI page 72: 100 posts, oldest 2026-04-27, total so far 7200
+  ClaudeAI page 73: 100 posts, oldest 2026-04-27, total so far 7300
+  ClaudeAI page 74: 100 posts, oldest 2026-04-26, total so far 7400
+  ClaudeAI page 75: 100 posts, oldest 2026-04-26, total so far 7500
+  ClaudeAI page 76: 100 posts, oldest 2026-04-26, total so far 7600
+  ClaudeAI page 77: 100 posts, oldest 2026-04-26, total so far 7700
+  ClaudeAI page 78: 100 posts, oldest 2026-04-25, total so far 7800
+  ClaudeAI page 79: 100 posts, oldest 2026-04-25, total so far 7900
+  ClaudeAI page 80: 100 posts, oldest 2026-04-25, total so far 8000
+  ClaudeAI page 81: 100 posts, oldest 2026-04-24, total so far 8100
+  ClaudeAI page 82: 100 posts, oldest 2026-04-24, total so far 8200
+  ClaudeAI page 83: 100 posts, oldest 2026-04-24, total so far 8300
+  ClaudeAI page 84: 100 posts, oldest 2026-04-24, total so far 8400
+  ClaudeAI page 85: 100 posts, oldest 2026-04-23, total so far 8500
+  ClaudeAI page 86: 100 posts, oldest 2026-04-23, total so far 8600
+  ClaudeAI page 87: 100 posts, oldest 2026-04-23, total so far 8700
+  ClaudeAI page 88: 100 posts, oldest 2026-04-23, total so far 8800
+  ClaudeAI page 89: 100 posts, oldest 2026-04-23, total so far 8900
+  ClaudeAI page 90: 100 posts, oldest 2026-04-22, total so far 9000
+  ClaudeAI page 91: 100 posts, oldest 2026-04-22, total so far 9100
+  ClaudeAI page 92: 100 posts, oldest 2026-04-22, total so far 9200
+  ClaudeAI page 93: 100 posts, oldest 2026-04-22, total so far 9300
+  ClaudeAI page 94: 100 posts, oldest 2026-04-22, total so far 9400
+  ClaudeAI page 95: 100 posts, oldest 2026-04-21, total so far 9500
+  ClaudeAI page 96: 100 posts, oldest 2026-04-21, total so far 9600
+  ClaudeAI page 97: 100 posts, oldest 2026-04-21, total so far 9700
+  ClaudeAI page 98: 100 posts, oldest 2026-04-21, total so far 9800
+  ClaudeAI page 99: 100 posts, oldest 2026-04-21, total so far 9900
+  ClaudeAI page 100: 100 posts, oldest 2026-04-21, total so far 10000
+  ClaudeAI page 101: 100 posts, oldest 2026-04-20, total so far 10100
+  ClaudeAI page 102: 100 posts, oldest 2026-04-20, total so far 10200
+  ClaudeAI page 103: 100 posts, oldest 2026-04-20, total so far 10300
+  ClaudeAI page 104: 100 posts, oldest 2026-04-20, total so far 10400
+  ClaudeAI page 105: 100 posts, oldest 2026-04-20, total so far 10500
+  ClaudeAI page 106: 100 posts, oldest 2026-04-19, total so far 10600
+  ClaudeAI page 107: 100 posts, oldest 2026-04-19, total so far 10700
+  ClaudeAI page 108: 100 posts, oldest 2026-04-19, total so far 10800
+  ClaudeAI page 109: 100 posts, oldest 2026-04-19, total so far 10900
+  ClaudeAI page 110: 100 posts, oldest 2026-04-18, total so far 11000
+  ClaudeAI page 111: 100 posts, oldest 2026-04-18, total so far 11100
+  ClaudeAI page 112: 100 posts, oldest 2026-04-18, total so far 11200
+  ClaudeAI page 113: 100 posts, oldest 2026-04-18, total so far 11300
+  ClaudeAI page 114: 100 posts, oldest 2026-04-18, total so far 11400
+  ClaudeAI page 115: 100 posts, oldest 2026-04-17, total so far 11500
+  ClaudeAI page 116: 100 posts, oldest 2026-04-17, total so far 11600
+  ClaudeAI page 117: 100 posts, oldest 2026-04-17, total so far 11700
+  ClaudeAI page 118: 100 posts, oldest 2026-04-17, total so far 11800
+  ClaudeAI page 119: 100 posts, oldest 2026-04-17, total so far 11900
+  ClaudeAI page 120: 100 posts, oldest 2026-04-17, total so far 12000
+  ClaudeAI page 121: 100 posts, oldest 2026-04-16, total so far 12100
+  ClaudeAI page 122: 100 posts, oldest 2026-04-16, total so far 12200
+  ClaudeAI page 123: 100 posts, oldest 2026-04-16, total so far 12300
+  ClaudeAI page 124: 100 posts, oldest 2026-04-16, total so far 12400
+  ClaudeAI page 125: 100 posts, oldest 2026-04-16, total so far 12500
+  ClaudeAI page 126: 100 posts, oldest 2026-04-16, total so far 12600
+  ClaudeAI page 127: 100 posts, oldest 2026-04-16, total so far 12700
+  ClaudeAI page 128: 100 posts, oldest 2026-04-16, total so far 12800
+  ClaudeAI page 129: 100 posts, oldest 2026-04-15, total so far 12900
+  ClaudeAI page 130: 100 posts, oldest 2026-04-15, total so far 13000
+  ClaudeAI page 131: 100 posts, oldest 2026-04-15, total so far 13100
+  ClaudeAI page 132: 100 posts, oldest 2026-04-15, total so far 13200
+  ClaudeAI page 133: 100 posts, oldest 2026-04-15, total so far 13300
+  ClaudeAI page 134: 100 posts, oldest 2026-04-15, total so far 13400
+  ClaudeAI page 135: 100 posts, oldest 2026-04-14, total so far 13500
+  ClaudeAI page 136: 100 posts, oldest 2026-04-14, total so far 13600
+  ClaudeAI page 137: 100 posts, oldest 2026-04-14, total so far 13700
+  ClaudeAI page 138: 100 posts, oldest 2026-04-14, total so far 13800
+  ClaudeAI page 139: 100 posts, oldest 2026-04-14, total so far 13900
+  ClaudeAI page 140: 100 posts, oldest 2026-04-13, total so far 14000
+  ClaudeAI page 141: 100 posts, oldest 2026-04-13, total so far 14100
+  ClaudeAI page 142: 100 posts, oldest 2026-04-13, total so far 14200
+  ClaudeAI page 143: 100 posts, oldest 2026-04-13, total so far 14300
+  ClaudeAI page 144: 100 posts, oldest 2026-04-13, total so far 14400
+  ClaudeAI page 145: 100 posts, oldest 2026-04-12, total so far 14500
+  ClaudeAI page 146: 100 posts, oldest 2026-04-12, total so far 14600
+  ClaudeAI page 147: 100 posts, oldest 2026-04-12, total so far 14700
+  ClaudeAI page 148: 100 posts, oldest 2026-04-12, total so far 14800
+  ClaudeAI page 149: 100 posts, oldest 2026-04-11, total so far 14900
+  ClaudeAI page 150: 100 posts, oldest 2026-04-11, total so far 15000
+  ClaudeAI page 151: 100 posts, oldest 2026-04-11, total so far 15100
+  ClaudeAI page 152: 100 posts, oldest 2026-04-11, total so far 15200
+  ClaudeAI page 153: 100 posts, oldest 2026-04-11, total so far 15300
+  ClaudeAI page 154: 100 posts, oldest 2026-04-10, total so far 15400
+  ClaudeAI page 155: 100 posts, oldest 2026-04-10, total so far 15500
+  ClaudeAI page 156: 100 posts, oldest 2026-04-10, total so far 15600
+  ClaudeAI page 157: 100 posts, oldest 2026-04-10, total so far 15700
+  ClaudeAI page 158: 100 posts, oldest 2026-04-10, total so far 15800
+  ClaudeAI page 159: 100 posts, oldest 2026-04-09, total so far 15900
+  ClaudeAI page 160: 100 posts, oldest 2026-04-09, total so far 16000
+  ClaudeAI page 161: 100 posts, oldest 2026-04-09, total so far 16100
+  ClaudeAI page 162: 100 posts, oldest 2026-04-09, total so far 16200
+  ClaudeAI page 163: 100 posts, oldest 2026-04-09, total so far 16300
+  ClaudeAI page 164: 100 posts, oldest 2026-04-08, total so far 16400
+  ClaudeAI page 165: 100 posts, oldest 2026-04-08, total so far 16500
+  ClaudeAI page 166: 100 posts, oldest 2026-04-08, total so far 16600
+  ClaudeAI page 167: 100 posts, oldest 2026-04-08, total so far 16700
+  ClaudeAI page 168: 100 posts, oldest 2026-04-08, total so far 16800
+  ClaudeAI page 169: 100 posts, oldest 2026-04-08, total so far 16900
+  ClaudeAI page 170: 100 posts, oldest 2026-04-08, total so far 17000
+  ClaudeAI page 171: 100 posts, oldest 2026-04-07, total so far 17100
+  ClaudeAI page 172: 100 posts, oldest 2026-04-07, total so far 17200
+  ClaudeAI page 173: 100 posts, oldest 2026-04-07, total so far 17300
+  ClaudeAI page 174: 100 posts, oldest 2026-04-07, total so far 17400
+  ClaudeAI page 175: 100 posts, oldest 2026-04-07, total so far 17500
+  ClaudeAI page 176: 100 posts, oldest 2026-04-07, total so far 17600
+  ClaudeAI page 177: 100 posts, oldest 2026-04-06, total so far 17700
+  ClaudeAI page 178: 100 posts, oldest 2026-04-06, total so far 17800
+  ClaudeAI page 179: 100 posts, oldest 2026-04-06, total so far 17900
+  ClaudeAI page 180: 100 posts, oldest 2026-04-06, total so far 18000
+  ClaudeAI page 181: 100 posts, oldest 2026-04-06, total so far 18100
+  ClaudeAI page 182: 100 posts, oldest 2026-04-06, total so far 18200
+  ClaudeAI page 183: 100 posts, oldest 2026-04-05, total so far 18300
+  ClaudeAI page 184: 100 posts, oldest 2026-04-05, total so far 18400
+  ClaudeAI page 185: 100 posts, oldest 2026-04-05, total so far 18500
+  ClaudeAI page 186: 100 posts, oldest 2026-04-05, total so far 18600
+  ClaudeAI page 187: 100 posts, oldest 2026-04-04, total so far 18700
+  ClaudeAI page 188: 100 posts, oldest 2026-04-04, total so far 18800
+  ClaudeAI page 189: 100 posts, oldest 2026-04-04, total so far 18900
+  ClaudeAI page 190: 100 posts, oldest 2026-04-04, total so far 19000
+  ClaudeAI page 191: 100 posts, oldest 2026-04-04, total so far 19100
+  ClaudeAI page 192: 100 posts, oldest 2026-04-03, total so far 19200
+  ClaudeAI page 193: 100 posts, oldest 2026-04-03, total so far 19300
+  ClaudeAI page 194: 100 posts, oldest 2026-04-03, total so far 19400
+  ClaudeAI page 195: 100 posts, oldest 2026-04-03, total so far 19500
+  ClaudeAI page 196: 100 posts, oldest 2026-04-03, total so far 19600
+  ClaudeAI page 197: 100 posts, oldest 2026-04-02, total so far 19700
+  ClaudeAI page 198: 100 posts, oldest 2026-04-02, total so far 19800
+  ClaudeAI page 199: 100 posts, oldest 2026-04-02, total so far 19900
+  ClaudeAI page 200: 100 posts, oldest 2026-04-02, total so far 20000
+  Fetched 20000 total posts from ClaudeAI
+  ClaudeAI: 50 posts passed local filter
+
+  --- Anthropic ---
+  Anthropic page 1: 100 posts, oldest 2026-05-15, total so far 100
+  Anthropic page 2: 100 posts, oldest 2026-05-12, total so far 200
+  Anthropic page 3: 100 posts, oldest 2026-05-10, total so far 300
+  Anthropic page 4: 100 posts, oldest 2026-05-07, total so far 400
+  Anthropic page 5: 100 posts, oldest 2026-05-06, total so far 500
+  Anthropic page 6: 100 posts, oldest 2026-05-04, total so far 600
+  Anthropic page 7: 100 posts, oldest 2026-05-01, total so far 700
+  Anthropic page 8: 100 posts, oldest 2026-04-30, total so far 800
+  Anthropic page 9: 100 posts, oldest 2026-04-29, total so far 900
+  Anthropic page 10: 100 posts, oldest 2026-04-27, total so far 1000
+  Anthropic page 11: 100 posts, oldest 2026-04-25, total so far 1100
+  Anthropic page 12: 100 posts, oldest 2026-04-24, total so far 1200
+  Anthropic page 13: 100 posts, oldest 2026-04-22, total so far 1300
+  Anthropic page 14: 100 posts, oldest 2026-04-21, total so far 1400
+  Anthropic page 15: 100 posts, oldest 2026-04-20, total so far 1500
+  Anthropic page 16: 100 posts, oldest 2026-04-18, total so far 1600
+  Anthropic page 17: 100 posts, oldest 2026-04-17, total so far 1700
+  Anthropic page 18: 100 posts, oldest 2026-04-16, total so far 1800
+  Anthropic page 19: 100 posts, oldest 2026-04-16, total so far 1900
+  Anthropic page 20: 100 posts, oldest 2026-04-15, total so far 2000
+  Anthropic page 21: 100 posts, oldest 2026-04-14, total so far 2100
+  Anthropic page 22: 100 posts, oldest 2026-04-13, total so far 2200
+  Anthropic page 23: 100 posts, oldest 2026-04-11, total so far 2300
+  Anthropic page 24: 100 posts, oldest 2026-04-10, total so far 2400
+  Anthropic page 25: 100 posts, oldest 2026-04-09, total so far 2500
+  Anthropic page 26: 100 posts, oldest 2026-04-08, total so far 2600
+  Anthropic page 27: 100 posts, oldest 2026-04-07, total so far 2700
+  Anthropic page 28: 100 posts, oldest 2026-04-05, total so far 2800
+  Anthropic page 29: 100 posts, oldest 2026-04-04, total so far 2900
+  Anthropic page 30: 100 posts, oldest 2026-04-02, total so far 3000
+  Anthropic page 31: 100 posts, oldest 2026-04-01, total so far 3100
+  Anthropic page 32: 100 posts, oldest 2026-03-31, total so far 3200
+  Anthropic page 33: 100 posts, oldest 2026-03-30, total so far 3300
+  Anthropic page 34: 100 posts, oldest 2026-03-28, total so far 3400
+  Anthropic page 35: 100 posts, oldest 2026-03-27, total so far 3500
+  Anthropic page 36: 100 posts, oldest 2026-03-25, total so far 3600
+  Anthropic page 37: 100 posts, oldest 2026-03-23, total so far 3700
+  Anthropic page 38: 100 posts, oldest 2026-03-20, total so far 3800
+  Anthropic page 39: 100 posts, oldest 2026-03-18, total so far 3900
+  Anthropic page 40: 100 posts, oldest 2026-03-15, total so far 4000
+  Anthropic page 41: 100 posts, oldest 2026-03-13, total so far 4100
+  Anthropic page 42: 100 posts, oldest 2026-03-11, total so far 4200
+  Anthropic page 43: 100 posts, oldest 2026-03-08, total so far 4300
+  Anthropic page 44: 100 posts, oldest 2026-03-06, total so far 4400
+  Anthropic page 45: 100 posts, oldest 2026-03-05, total so far 4500
+  Anthropic page 46: 100 posts, oldest 2026-03-03, total so far 4600
+  Anthropic page 47: 100 posts, oldest 2026-03-01, total so far 4700
+  Anthropic page 48: 100 posts, oldest 2026-02-28, total so far 4800
+  Anthropic page 49: 100 posts, oldest 2026-02-27, total so far 4900
+  Anthropic page 50: 100 posts, oldest 2026-02-25, total so far 5000
+  Anthropic page 51: 100 posts, oldest 2026-02-23, total so far 5100
+  Anthropic page 52: 100 posts, oldest 2026-02-19, total so far 5200
+  Anthropic page 53: 100 posts, oldest 2026-02-17, total so far 5300
+  Anthropic page 54: 100 posts, oldest 2026-02-13, total so far 5400
+  Anthropic page 55: 100 posts, oldest 2026-02-10, total so far 5500
+  Anthropic page 56: 100 posts, oldest 2026-02-07, total so far 5600
+  Anthropic page 57: 100 posts, oldest 2026-02-05, total so far 5700
+  Anthropic page 58: 100 posts, oldest 2026-02-04, total so far 5800
+  Anthropic page 59: 100 posts, oldest 2026-02-01, total so far 5900
+  Anthropic page 60: 100 posts, oldest 2026-01-28, total so far 6000
+  Anthropic page 61: 100 posts, oldest 2026-01-25, total so far 6100
+  Anthropic page 62: 100 posts, oldest 2026-01-20, total so far 6200
+  Anthropic page 63: 100 posts, oldest 2026-01-15, total so far 6300
+  Anthropic page 64: 100 posts, oldest 2026-01-11, total so far 6400
+  Anthropic page 65: 100 posts, oldest 2026-01-07, total so far 6500
+  Anthropic page 66: 100 posts, oldest 2026-01-01, total so far 6600
+  Anthropic page 67: 3 posts, oldest 2026-01-01, total so far 6603
+  Fetched 6603 total posts from Anthropic
+  Anthropic: 12 posts passed local filter
+
+  --- ClaudeCode ---
+  ClaudeCode page 1: 100 posts, oldest 2026-05-17, total so far 100
+  ClaudeCode page 2: 100 posts, oldest 2026-05-16, total so far 200
+  ClaudeCode page 3: 100 posts, oldest 2026-05-16, total so far 300
+  ClaudeCode page 4: 100 posts, oldest 2026-05-16, total so far 400
+  ClaudeCode page 5: 100 posts, oldest 2026-05-15, total so far 500
+  ClaudeCode page 6: 100 posts, oldest 2026-05-15, total so far 600
+  ClaudeCode page 7: 100 posts, oldest 2026-05-14, total so far 700
+  ClaudeCode page 8: 100 posts, oldest 2026-05-14, total so far 800
+  ClaudeCode page 9: 100 posts, oldest 2026-05-14, total so far 900
+  ClaudeCode page 10: 100 posts, oldest 2026-05-13, total so far 1000
+  ClaudeCode page 11: 100 posts, oldest 2026-05-13, total so far 1100
+  ClaudeCode page 12: 100 posts, oldest 2026-05-12, total so far 1200
+  ClaudeCode page 13: 100 posts, oldest 2026-05-12, total so far 1300
+  ClaudeCode page 14: 100 posts, oldest 2026-05-11, total so far 1400
+  ClaudeCode page 15: 100 posts, oldest 2026-05-11, total so far 1500
+  ClaudeCode page 16: 100 posts, oldest 2026-05-10, total so far 1600
+  ClaudeCode page 17: 100 posts, oldest 2026-05-10, total so far 1700
+  ClaudeCode page 18: 100 posts, oldest 2026-05-09, total so far 1800
+  ClaudeCode page 19: 100 posts, oldest 2026-05-09, total so far 1900
+  ClaudeCode page 20: 100 posts, oldest 2026-05-08, total so far 2000
+  ClaudeCode page 21: 100 posts, oldest 2026-05-08, total so far 2100
+  ClaudeCode page 22: 100 posts, oldest 2026-05-07, total so far 2200
+  ClaudeCode page 23: 100 posts, oldest 2026-05-07, total so far 2300
+  ClaudeCode page 24: 100 posts, oldest 2026-05-06, total so far 2400
+  ClaudeCode page 25: 100 posts, oldest 2026-05-06, total so far 2500
+  ClaudeCode page 26: 100 posts, oldest 2026-05-06, total so far 2600
+  ClaudeCode page 27: 100 posts, oldest 2026-05-05, total so far 2700
+  ClaudeCode page 28: 100 posts, oldest 2026-05-05, total so far 2800
+  ClaudeCode page 29: 100 posts, oldest 2026-05-05, total so far 2900
+  ClaudeCode page 30: 100 posts, oldest 2026-05-04, total so far 3000
+  ClaudeCode page 31: 100 posts, oldest 2026-05-04, total so far 3100
+  ClaudeCode page 32: 100 posts, oldest 2026-05-03, total so far 3200
+  ClaudeCode page 33: 100 posts, oldest 2026-05-03, total so far 3300
+  ClaudeCode page 34: 100 posts, oldest 2026-05-02, total so far 3400
+  ClaudeCode page 35: 100 posts, oldest 2026-05-02, total so far 3500
+  ClaudeCode page 36: 100 posts, oldest 2026-05-01, total so far 3600
+  ClaudeCode page 37: 100 posts, oldest 2026-05-01, total so far 3700
+  ClaudeCode page 38: 100 posts, oldest 2026-04-30, total so far 3800
+  ClaudeCode page 39: 100 posts, oldest 2026-04-30, total so far 3900
+  ClaudeCode page 40: 100 posts, oldest 2026-04-29, total so far 4000
+  ClaudeCode page 41: 100 posts, oldest 2026-04-29, total so far 4100
+  ClaudeCode page 42: 100 posts, oldest 2026-04-29, total so far 4200
+  ClaudeCode page 43: 100 posts, oldest 2026-04-28, total so far 4300
+  ClaudeCode page 44: 100 posts, oldest 2026-04-28, total so far 4400
+  ClaudeCode page 45: 100 posts, oldest 2026-04-28, total so far 4500
+  ClaudeCode page 46: 100 posts, oldest 2026-04-27, total so far 4600
+  ClaudeCode page 47: 100 posts, oldest 2026-04-27, total so far 4700
+  ClaudeCode page 48: 100 posts, oldest 2026-04-26, total so far 4800
+  ClaudeCode page 49: 100 posts, oldest 2026-04-26, total so far 4900
+  ClaudeCode page 50: 100 posts, oldest 2026-04-25, total so far 5000
+  ClaudeCode page 51: 100 posts, oldest 2026-04-25, total so far 5100
+  ClaudeCode page 52: 100 posts, oldest 2026-04-25, total so far 5200
+  ClaudeCode page 53: 100 posts, oldest 2026-04-24, total so far 5300
+  ClaudeCode page 54: 100 posts, oldest 2026-04-24, total so far 5400
+  ClaudeCode page 55: 100 posts, oldest 2026-04-24, total so far 5500
+  ClaudeCode page 56: 100 posts, oldest 2026-04-23, total so far 5600
+  ClaudeCode page 57: 100 posts, oldest 2026-04-23, total so far 5700
+  ClaudeCode page 58: 100 posts, oldest 2026-04-23, total so far 5800
+  ClaudeCode page 59: 100 posts, oldest 2026-04-22, total so far 5900
+  ClaudeCode page 60: 100 posts, oldest 2026-04-22, total so far 6000
+  ClaudeCode page 61: 100 posts, oldest 2026-04-22, total so far 6100
+  ClaudeCode page 62: 100 posts, oldest 2026-04-21, total so far 6200
+  ClaudeCode page 63: 100 posts, oldest 2026-04-21, total so far 6300
+  ClaudeCode page 64: 100 posts, oldest 2026-04-21, total so far 6400
+  ClaudeCode page 65: 100 posts, oldest 2026-04-20, total so far 6500
+  ClaudeCode page 66: 100 posts, oldest 2026-04-20, total so far 6600
+  ClaudeCode page 67: 100 posts, oldest 2026-04-20, total so far 6700
+  ClaudeCode page 68: 100 posts, oldest 2026-04-19, total so far 6800
+  ClaudeCode page 69: 100 posts, oldest 2026-04-19, total so far 6900
+  ClaudeCode page 70: 100 posts, oldest 2026-04-19, total so far 7000
+  ClaudeCode page 71: 100 posts, oldest 2026-04-18, total so far 7100
+  ClaudeCode page 72: 100 posts, oldest 2026-04-18, total so far 7200
+  ClaudeCode page 73: 100 posts, oldest 2026-04-17, total so far 7300
+  ClaudeCode page 74: 100 posts, oldest 2026-04-17, total so far 7400
+  ClaudeCode page 75: 100 posts, oldest 2026-04-17, total so far 7500
+  ClaudeCode page 76: 100 posts, oldest 2026-04-17, total so far 7600
+  ClaudeCode page 77: 100 posts, oldest 2026-04-16, total so far 7700
+  ClaudeCode page 78: 100 posts, oldest 2026-04-16, total so far 7800
+  ClaudeCode page 79: 100 posts, oldest 2026-04-16, total so far 7900
+  ClaudeCode page 80: 100 posts, oldest 2026-04-16, total so far 8000
+  ClaudeCode page 81: 100 posts, oldest 2026-04-16, total so far 8100
+  ClaudeCode page 82: 100 posts, oldest 2026-04-15, total so far 8200
+  ClaudeCode page 83: 100 posts, oldest 2026-04-15, total so far 8300
+  ClaudeCode page 84: 100 posts, oldest 2026-04-15, total so far 8400
+  ClaudeCode page 85: 100 posts, oldest 2026-04-15, total so far 8500
+  ClaudeCode page 86: 100 posts, oldest 2026-04-14, total so far 8600
+  ClaudeCode page 87: 100 posts, oldest 2026-04-14, total so far 8700
+  ClaudeCode page 88: 100 posts, oldest 2026-04-14, total so far 8800
+  ClaudeCode page 89: 100 posts, oldest 2026-04-13, total so far 8900
+  ClaudeCode page 90: 100 posts, oldest 2026-04-13, total so far 9000
+  ClaudeCode page 91: 100 posts, oldest 2026-04-13, total so far 9100
+  ClaudeCode page 92: 100 posts, oldest 2026-04-13, total so far 9200
+  ClaudeCode page 93: 100 posts, oldest 2026-04-12, total so far 9300
+  ClaudeCode page 94: 100 posts, oldest 2026-04-12, total so far 9400
+  ClaudeCode page 95: 100 posts, oldest 2026-04-12, total so far 9500
+  ClaudeCode page 96: 100 posts, oldest 2026-04-11, total so far 9600
+  ClaudeCode page 97: 100 posts, oldest 2026-04-11, total so far 9700
+  ClaudeCode page 98: 100 posts, oldest 2026-04-10, total so far 9800
+  ClaudeCode page 99: 100 posts, oldest 2026-04-10, total so far 9900
+  ClaudeCode page 100: 100 posts, oldest 2026-04-10, total so far 10000
+  ClaudeCode page 101: 100 posts, oldest 2026-04-10, total so far 10100
+  ClaudeCode page 102: 100 posts, oldest 2026-04-09, total so far 10200
+  ClaudeCode page 103: 100 posts, oldest 2026-04-09, total so far 10300
+  ClaudeCode page 104: 100 posts, oldest 2026-04-09, total so far 10400
+  ClaudeCode page 105: 100 posts, oldest 2026-04-08, total so far 10500
+  ClaudeCode page 106: 100 posts, oldest 2026-04-08, total so far 10600
+  ClaudeCode page 107: 100 posts, oldest 2026-04-08, total so far 10700
+  ClaudeCode page 108: 100 posts, oldest 2026-04-08, total so far 10800
+  ClaudeCode page 109: 100 posts, oldest 2026-04-07, total so far 10900
+  ClaudeCode page 110: 100 posts, oldest 2026-04-07, total so far 11000
+  ClaudeCode page 111: 100 posts, oldest 2026-04-07, total so far 11100
+  ClaudeCode page 112: 100 posts, oldest 2026-04-06, total so far 11200
+  ClaudeCode page 113: 100 posts, oldest 2026-04-06, total so far 11300
+  ClaudeCode page 114: 100 posts, oldest 2026-04-06, total so far 11400
+  ClaudeCode page 115: 100 posts, oldest 2026-04-06, total so far 11500
+  ClaudeCode page 116: 100 posts, oldest 2026-04-05, total so far 11600
+  ClaudeCode page 117: 100 posts, oldest 2026-04-05, total so far 11700
+  ClaudeCode page 118: 100 posts, oldest 2026-04-04, total so far 11800
+  ClaudeCode page 119: 100 posts, oldest 2026-04-04, total so far 11900
+  ClaudeCode page 120: 100 posts, oldest 2026-04-04, total so far 12000
+  ClaudeCode page 121: 100 posts, oldest 2026-04-03, total so far 12100
+  ClaudeCode page 122: 100 posts, oldest 2026-04-03, total so far 12200
+  ClaudeCode page 123: 100 posts, oldest 2026-04-03, total so far 12300
+  ClaudeCode page 124: 100 posts, oldest 2026-04-03, total so far 12400
+  ClaudeCode page 125: 100 posts, oldest 2026-04-02, total so far 12500
+  ClaudeCode page 126: 100 posts, oldest 2026-04-02, total so far 12600
+  ClaudeCode page 127: 100 posts, oldest 2026-04-02, total so far 12700
+  ClaudeCode page 128: 100 posts, oldest 2026-04-02, total so far 12800
+  ClaudeCode page 129: 100 posts, oldest 2026-04-01, total so far 12900
+  ClaudeCode page 130: 100 posts, oldest 2026-04-01, total so far 13000
+  ClaudeCode page 131: 100 posts, oldest 2026-04-01, total so far 13100
+  ClaudeCode page 132: 100 posts, oldest 2026-04-01, total so far 13200
+  ClaudeCode page 133: 100 posts, oldest 2026-03-31, total so far 13300
+  ClaudeCode page 134: 100 posts, oldest 2026-03-31, total so far 13400
+  ClaudeCode page 135: 100 posts, oldest 2026-03-31, total so far 13500
+  ClaudeCode page 136: 100 posts, oldest 2026-03-31, total so far 13600
+  ClaudeCode page 137: 100 posts, oldest 2026-03-30, total so far 13700
+  ClaudeCode page 138: 100 posts, oldest 2026-03-30, total so far 13800
+  ClaudeCode page 139: 100 posts, oldest 2026-03-30, total so far 13900
+  ClaudeCode page 140: 100 posts, oldest 2026-03-30, total so far 14000
+  ClaudeCode page 141: 100 posts, oldest 2026-03-29, total so far 14100
+  ClaudeCode page 142: 100 posts, oldest 2026-03-29, total so far 14200
+  ClaudeCode page 143: 100 posts, oldest 2026-03-29, total so far 14300
+  ClaudeCode page 144: 100 posts, oldest 2026-03-28, total so far 14400
+  ClaudeCode page 145: 100 posts, oldest 2026-03-28, total so far 14500
+  ClaudeCode page 146: 100 posts, oldest 2026-03-27, total so far 14600
+  ClaudeCode page 147: 100 posts, oldest 2026-03-27, total so far 14700
+  ClaudeCode page 148: 100 posts, oldest 2026-03-27, total so far 14800
+  ClaudeCode page 149: 100 posts, oldest 2026-03-27, total so far 14900
+  ClaudeCode page 150: 100 posts, oldest 2026-03-26, total so far 15000
+  ClaudeCode page 151: 100 posts, oldest 2026-03-26, total so far 15100
+  ClaudeCode page 152: 100 posts, oldest 2026-03-26, total so far 15200
+  ClaudeCode page 153: 100 posts, oldest 2026-03-25, total so far 15300
+  ClaudeCode page 154: 100 posts, oldest 2026-03-25, total so far 15400
+  ClaudeCode page 155: 100 posts, oldest 2026-03-25, total so far 15500
+  ClaudeCode page 156: 100 posts, oldest 2026-03-25, total so far 15600
+  ClaudeCode page 157: 100 posts, oldest 2026-03-24, total so far 15700
+  ClaudeCode page 158: 100 posts, oldest 2026-03-24, total so far 15800
+  ClaudeCode page 159: 100 posts, oldest 2026-03-24, total so far 15900
+  ClaudeCode page 160: 100 posts, oldest 2026-03-23, total so far 16000
+  ClaudeCode page 161: 100 posts, oldest 2026-03-23, total so far 16100
+  ClaudeCode page 162: 100 posts, oldest 2026-03-23, total so far 16200
+  ClaudeCode page 163: 100 posts, oldest 2026-03-22, total so far 16300
+  ClaudeCode page 164: 100 posts, oldest 2026-03-22, total so far 16400
+  ClaudeCode page 165: 100 posts, oldest 2026-03-21, total so far 16500
+  ClaudeCode page 166: 100 posts, oldest 2026-03-21, total so far 16600
+  ClaudeCode page 167: 100 posts, oldest 2026-03-21, total so far 16700
+  ClaudeCode page 168: 100 posts, oldest 2026-03-20, total so far 16800
+  ClaudeCode page 169: 100 posts, oldest 2026-03-20, total so far 16900C:\Users\drhea\repos\claude-sleep-analysis\src\round2_retrieval.py:382: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(merge_provenance)
+C:\Users\drhea\repos\claude-sleep-analysis\src\round2_retrieval.py:390: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  .apply(merge_provenance)
+
+  ClaudeCode page 170: 100 posts, oldest 2026-03-19, total so far 17000
+  ClaudeCode page 171: 100 posts, oldest 2026-03-19, total so far 17100
+  ClaudeCode page 172: 100 posts, oldest 2026-03-19, total so far 17200
+  ClaudeCode page 173: 100 posts, oldest 2026-03-18, total so far 17300
+  ClaudeCode page 174: 100 posts, oldest 2026-03-18, total so far 17400
+  ClaudeCode page 175: 100 posts, oldest 2026-03-18, total so far 17500
+  ClaudeCode page 176: 100 posts, oldest 2026-03-17, total so far 17600
+  ClaudeCode page 177: 100 posts, oldest 2026-03-17, total so far 17700
+  ClaudeCode page 178: 100 posts, oldest 2026-03-17, total so far 17800
+  ClaudeCode page 179: 100 posts, oldest 2026-03-16, total so far 17900
+  ClaudeCode page 180: 100 posts, oldest 2026-03-16, total so far 18000
+  ClaudeCode page 181: 100 posts, oldest 2026-03-16, total so far 18100
+  ClaudeCode page 182: 100 posts, oldest 2026-03-15, total so far 18200
+  ClaudeCode page 183: 100 posts, oldest 2026-03-15, total so far 18300
+  ClaudeCode page 184: 100 posts, oldest 2026-03-14, total so far 18400
+  ClaudeCode page 185: 100 posts, oldest 2026-03-14, total so far 18500
+  ClaudeCode page 186: 100 posts, oldest 2026-03-13, total so far 18600
+  ClaudeCode page 187: 100 posts, oldest 2026-03-13, total so far 18700
+  ClaudeCode page 188: 100 posts, oldest 2026-03-13, total so far 18800
+  ClaudeCode page 189: 100 posts, oldest 2026-03-12, total so far 18900
+  ClaudeCode page 190: 100 posts, oldest 2026-03-12, total so far 19000
+  ClaudeCode page 191: 100 posts, oldest 2026-03-11, total so far 19100
+  ClaudeCode page 192: 100 posts, oldest 2026-03-11, total so far 19200
+  ClaudeCode page 193: 100 posts, oldest 2026-03-11, total so far 19300
+  ClaudeCode page 194: 100 posts, oldest 2026-03-10, total so far 19400
+  ClaudeCode page 195: 100 posts, oldest 2026-03-10, total so far 19500
+  ClaudeCode page 196: 100 posts, oldest 2026-03-09, total so far 19600
+  ClaudeCode page 197: 100 posts, oldest 2026-03-09, total so far 19700
+  ClaudeCode page 198: 100 posts, oldest 2026-03-08, total so far 19800
+  ClaudeCode page 199: 100 posts, oldest 2026-03-08, total so far 19900
+  ClaudeCode page 200: 100 posts, oldest 2026-03-08, total so far 20000
+  Fetched 20000 total posts from ClaudeCode
+  ClaudeCode: 62 posts passed local filter
+
+  --- claudexplorers ---
+  claudexplorers page 1: 100 posts, oldest 2026-05-15, total so far 100
+  claudexplorers page 2: 100 posts, oldest 2026-05-12, total so far 200
+  claudexplorers page 3: 100 posts, oldest 2026-05-09, total so far 300
+  claudexplorers page 4: 100 posts, oldest 2026-05-05, total so far 400
+  claudexplorers page 5: 100 posts, oldest 2026-05-01, total so far 500
+  claudexplorers page 6: 100 posts, oldest 2026-04-27, total so far 600
+  claudexplorers page 7: 100 posts, oldest 2026-04-23, total so far 700
+  claudexplorers page 8: 100 posts, oldest 2026-04-20, total so far 800
+  claudexplorers page 9: 100 posts, oldest 2026-04-17, total so far 900
+  claudexplorers page 10: 100 posts, oldest 2026-04-15, total so far 1000
+  claudexplorers page 11: 100 posts, oldest 2026-04-12, total so far 1100
+  claudexplorers page 12: 100 posts, oldest 2026-04-09, total so far 1200
+  claudexplorers page 13: 100 posts, oldest 2026-04-06, total so far 1300
+  claudexplorers page 14: 100 posts, oldest 2026-04-03, total so far 1400
+  claudexplorers page 15: 100 posts, oldest 2026-03-30, total so far 1500
+  claudexplorers page 16: 100 posts, oldest 2026-03-27, total so far 1600
+  claudexplorers page 17: 100 posts, oldest 2026-03-25, total so far 1700
+  claudexplorers page 18: 100 posts, oldest 2026-03-22, total so far 1800
+  claudexplorers page 19: 100 posts, oldest 2026-03-19, total so far 1900
+  claudexplorers page 20: 100 posts, oldest 2026-03-17, total so far 2000
+  claudexplorers page 21: 100 posts, oldest 2026-03-14, total so far 2100
+  claudexplorers page 22: 100 posts, oldest 2026-03-12, total so far 2200
+  claudexplorers page 23: 100 posts, oldest 2026-03-10, total so far 2300
+  claudexplorers page 24: 100 posts, oldest 2026-03-07, total so far 2400
+  claudexplorers page 25: 100 posts, oldest 2026-03-04, total so far 2500
+  claudexplorers page 26: 100 posts, oldest 2026-03-02, total so far 2600
+  claudexplorers page 27: 100 posts, oldest 2026-02-27, total so far 2700
+  claudexplorers page 28: 100 posts, oldest 2026-02-24, total so far 2800
+  claudexplorers page 29: 100 posts, oldest 2026-02-21, total so far 2900
+  claudexplorers page 30: 100 posts, oldest 2026-02-18, total so far 3000
+  claudexplorers page 31: 100 posts, oldest 2026-02-16, total so far 3100
+  claudexplorers page 32: 100 posts, oldest 2026-02-13, total so far 3200
+  claudexplorers page 33: 100 posts, oldest 2026-02-08, total so far 3300
+  claudexplorers page 34: 100 posts, oldest 2026-02-05, total so far 3400
+  claudexplorers page 35: 100 posts, oldest 2026-02-01, total so far 3500
+  claudexplorers page 36: 100 posts, oldest 2026-01-27, total so far 3600
+  claudexplorers page 37: 100 posts, oldest 2026-01-23, total so far 3700
+  claudexplorers page 38: 100 posts, oldest 2026-01-20, total so far 3800
+  claudexplorers page 39: 100 posts, oldest 2026-01-16, total so far 3900
+  claudexplorers page 40: 100 posts, oldest 2026-01-12, total so far 4000
+  claudexplorers page 41: 100 posts, oldest 2026-01-07, total so far 4100
+  claudexplorers page 42: 100 posts, oldest 2026-01-03, total so far 4200
+  claudexplorers page 43: 38 posts, oldest 2026-01-01, total so far 4238
+  Fetched 4238 total posts from claudexplorers
+  claudexplorers: 58 posts passed local filter
+
+  Total rows passing local filter (before dedup): 182
+  After dedup by post_id: 182 rows
+
+  Per-term hit counts (across all subreddits):
+    'go to bed': 50
+    'go to sleep': 40
+    'take a break': 27
+    'bedtime': 19
+    'nagging': 17
+    'nanny': 14
+    'get some rest': 13
+    'put me to bed': 7
+    'call it a day': 6
+    'decided.*bedtime': 5
+    'who asked': 5
+    'go get some rest': 3
+    'pick this up tomorrow': 3
+    'told me to go to bed': 3
+    'now sleep': 2
+    'you did enough today': 2
+    'sending me to bed': 2
+    'enough for today': 2
+    'you are tired': 1
+    'you must go to sleep': 1
+    'it needs some rest': 1
+    'claude said it needs to rest': 1
+    'take the rest of the night off': 1
+    'call it a night': 1
+    'too tired to continue': 1
+    'i suggest we pause here and continue tomorrow': 1
+    'sent me to bed': 1
+    'finish this then sleep': 1
+
+  Saved fresh retrieval: C:\Users\drhea\repos\claude-sleep-analysis\data\round2_fresh_retrieval.csv (182 rows)
+
+  Saved Pass 1b canonical: C:\Users\drhea\repos\claude-sleep-analysis\data\pass1b_canonical.csv (773 rows)
+
+  Net-new from fresh retrieval (not in canonical or PRAW): 71
+  Saved validation sample: C:\Users\drhea\repos\claude-sleep-analysis\notebooks\audit_trail\round_2_fresh_validation.csv (30 rows)
+
+=== Saturation Check ===
+  n_pass1b_posts: 242
+  n_pass1b_total: 773
+  n_fresh_only_posts: 71
+  frac_fresh_of_pass1b: 0.29338842975206614
+  n_validation_sample: 30
+
+  Saved results memo: C:\Users\drhea\repos\claude-sleep-analysis\notebooks\audit_trail\iterative_retrieval_round_2_results.md
+
+=== Pipeline complete: 2026-05-17 16:16:30.384490 ===

@@ -1,0 +1,10 @@
+post_id,type,retrieval_provenance,createdAt,subreddit,left_context,keyword,right_context
+1qxnp4r,post,arctic_shift:round2_fresh,2026-02-06T17:18:42,Anthropic,cut off you are spiralling,go get some rest,it seems that it's finally
+1te0lqt,post,arctic_shift:round2_fresh|canonical:round2_match,2026-05-15 16:00:35,Anthropic,the morning tells me to,go get some rest,and we ll pick back
+1s16eiz,comment,praw:round2_match,2026-03-23 08:33:31,ClaudeAI,work where timing matters the,go get some rest,behavior is another layer optimization
+1t37r61,comment,praw:round2_match,2026-05-04 05:18:50,ClaudeAI,a while it kept saying,go get some rest,or we can work on
+1rqah9x,comment,praw:round2_match,2026-03-10 22:04:19,ClaudeAI,often call it a day,go get some rest,go sleep this isn't worth
+1rqah9x,comment,praw:round2_match,2026-03-11 07:36:19,ClaudeAI,after a single prompt to,go get some rest,followed up by every single
+1ruryxo,post,praw:round2_match,2026-03-15 22:31:25,ClaudeAI,the entire session like clockwork,go get some rest,everything else can wait now
+1tcnpua,comment,praw:round2_match,2026-05-14 05:13:04,ClaudeCode,the morning tells me to,go get some rest,and we ll pick back
+1te0mhh,post,arctic_shift:round2_fresh|canonical:round2_match,2026-05-15 16:01:10,ClaudeAI,the morning tells me to,go get some rest,and we ll pick back

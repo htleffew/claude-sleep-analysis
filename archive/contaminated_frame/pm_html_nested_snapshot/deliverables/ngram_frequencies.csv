@@ -1,0 +1,61 @@
+Type,Term,Count
+Unigram,bed,36
+Unigram,sleep,34
+Unigram,time,25
+Unigram,people,20
+Unigram,ve,20
+Unigram,tired,18
+Unigram,rest,16
+Unigram,don,15
+Unigram,telling,14
+Unigram,chat,14
+Unigram,opus,13
+Unigram,work,13
+Unigram,know,13
+Unigram,new,13
+Unigram,model,12
+Unigram,going,11
+Unigram,use,11
+Unigram,stop,10
+Unigram,ll,10
+Unigram,way,10
+Bigram,don know,5
+Bigram,telling sleep,4
+Bigram,gets tired,4
+Bigram,need rest,4
+Bigram,vibe check,3
+Bigram,stop telling,3
+Bigram,telling bed,3
+Bigram,new chat,3
+Bigram,rote pattern,3
+Bigram,pattern matching,3
+Bigram,ve gotten,3
+Bigram,people use,3
+Bigram,real time,3
+Bigram,personal way,3
+Bigram,got tired,2
+Bigram,pretty sure,2
+Bigram,night sleep,2
+Bigram,starts telling,2
+Bigram,bed lol,2
+Bigram,concept time,2
+Trigram,rote pattern matching,3
+Trigram,starts telling bed,2
+Trigram,stop spiraling bed,2
+Trigram,pattern matching develops,2
+Trigram,vibeclaude real time,2
+Trigram,real time vibe,2
+Trigram,time vibe check,2
+Trigram,click vc icon,2
+Trigram,speak personal way,2
+Trigram,intern gets tired,2
+Trigram,start new session,2
+Trigram,gpt xhigh good,1
+Trigram,xhigh good love,1
+Trigram,good love cc,1
+Trigram,love cc especially,1
+Trigram,cc especially opus,1
+Trigram,especially opus nerfed,1
+Trigram,opus nerfed thinking,1
+Trigram,nerfed thinking came,1
+Trigram,thinking came opus,1

@@ -1,0 +1,39 @@
+LCR Cross-Corpus Replication Report
+======================================================================
+Generated: 2026-05-15T22:52:28.911971
+
+Corpus: data/lcr_corpus.csv
+N rows: 31078
+Date range: 2025-08-01 to 2025-12-31
+
+LCR payload detection:
+  Posts with LCR payload in target span: 714 (2.3%)
+
+Sub-payload composition (among payload-positive posts):
+  psychiatric_count         mean=0.57  any=203/714
+  help_directive_count      mean=0.65  any=316/714
+  concern_framing_count     mean=0.57  any=252/714
+  soft_directive_count      mean=0.03  any=17/714
+
+PMI for LCR payload vs disclosure lexicons:
+                corpus Disclosure_Lexicon  N_posts  N_with_lexicon  N_with_payload  N_with_both  P_payload_given_lexicon  P_lexicon_given_payload  Lift    PMI   NMPI
+LCR-era (Aug-Dec 2025)          affective    31078            3191             714          210                   0.0658                   0.2941 2.864 1.5183 0.2106
+LCR-era (Aug-Dec 2025)           temporal    31078            5189             714          254                   0.0489                   0.3557 2.131 1.0913 0.1574
+LCR-era (Aug-Dec 2025)            session    31078            2349             714          109                   0.0464                   0.1527 2.020 1.0142 0.1244
+LCR-era (Aug-Dec 2025)       work_context    31078           14383             714          425                   0.0295                   0.5952 1.286 0.3631 0.0586
+
+Cross-corpus comparison (main = sleep-nudge, LCR = pathologizing):
+Disclosure_Lexicon  P_target_given_lex_MAIN  PMI_MAIN  P_target_given_lex_LCR  PMI_LCR
+          temporal                   0.1257    2.3115                  0.0489   1.0913
+           session                   0.0744    1.5546                  0.0464   1.0142
+         affective                   0.0606    1.2583                  0.0658   1.5183
+      work_context                   0.0326    0.3661                  0.0295   0.3631
+
+Main corpus PMI rank: ['temporal', 'session', 'affective', 'work_context']
+LCR  corpus PMI rank: ['affective', 'temporal', 'session', 'work_context']
+
+==> Rank order differs across payloads.
+    The structural properties hold but the trigger features
+    differ across payloads. This refines rather than supports
+    the simple continuity claim and is itself an empirically
+    interesting finding.

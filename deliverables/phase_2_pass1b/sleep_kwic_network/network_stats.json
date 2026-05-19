@@ -1,0 +1,503 @@
+{
+  "corpus_rows": 773,
+  "corpus_posts": 242,
+  "corpus_comments": 531,
+  "vocab_top_n": 1500,
+  "min_edge_count": 3,
+  "subgraph_min_rows": 30,
+  "full_network": {
+    "nodes": 1500,
+    "edges": 242008,
+    "density": 0.21526173004225038,
+    "avg_degree": 322.6773333333333
+  },
+  "louvain_communities": {
+    "0.5": {
+      "n_communities": 1,
+      "sizes": [
+        1500
+      ]
+    },
+    "1.0": {
+      "n_communities": 4,
+      "sizes": [
+        634,
+        373,
+        250,
+        243
+      ]
+    },
+    "2.0": {
+      "n_communities": 137,
+      "sizes": [
+        135,
+        128,
+        90,
+        89,
+        84,
+        72,
+        58,
+        57,
+        57,
+        53,
+        50,
+        48,
+        43,
+        43,
+        31,
+        23,
+        22,
+        22,
+        19,
+        18,
+        16,
+        15,
+        15,
+        14,
+        12,
+        10,
+        10,
+        10,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        7,
+        7,
+        6,
+        5,
+        5,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "cross_type_networks": {
+    "post": {
+      "n_docs": 242,
+      "n_nodes": 1500,
+      "n_edges": 237838,
+      "density": 0.2115525906159662
+    },
+    "comment": {
+      "n_docs": 531,
+      "n_nodes": 491,
+      "n_edges": 2322,
+      "density": 0.019302547903071617
+    }
+  },
+  "subgraph_qualifying_seeds": [
+    "sleep",
+    "rest",
+    "bed",
+    "break",
+    "tired",
+    "late",
+    "tomorrow",
+    "bedtime",
+    "go to bed",
+    "go to sleep",
+    "get some rest",
+    "take a break",
+    "long session",
+    "nudge"
+  ],
+  "subgraph_non_qualifying": [
+    {
+      "seed": "exhausted",
+      "row_count": 5,
+      "reason": "count 5 < 30"
+    },
+    {
+      "seed": "fatigued",
+      "row_count": 0,
+      "reason": "count 0 < 30"
+    },
+    {
+      "seed": "tonight",
+      "row_count": 19,
+      "reason": "count 19 < 30"
+    },
+    {
+      "seed": "midnight",
+      "row_count": 6,
+      "reason": "count 6 < 30"
+    },
+    {
+      "seed": "paternalistic",
+      "row_count": 0,
+      "reason": "count 0 < 30"
+    },
+    {
+      "seed": "patronizing",
+      "row_count": 3,
+      "reason": "count 3 < 30"
+    },
+    {
+      "seed": "lecturing",
+      "row_count": 0,
+      "reason": "count 0 < 30"
+    },
+    {
+      "seed": "moralizing",
+      "row_count": 0,
+      "reason": "count 0 < 30"
+    },
+    {
+      "seed": "scolding",
+      "row_count": 0,
+      "reason": "count 0 < 30"
+    },
+    {
+      "seed": "now sleep",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "sleep for real",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "you are tired",
+      "row_count": 3,
+      "reason": "count 3 < 30"
+    },
+    {
+      "seed": "you must go to sleep",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "it needs some rest",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "claude said it needs to rest",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "take the rest of the night off",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "we finished phase",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "a time for a break",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "call it a day",
+      "row_count": 13,
+      "reason": "count 13 < 30"
+    },
+    {
+      "seed": "call it a night",
+      "row_count": 3,
+      "reason": "count 3 < 30"
+    },
+    {
+      "seed": "go get some rest",
+      "row_count": 9,
+      "reason": "count 9 < 30"
+    },
+    {
+      "seed": "go sleep",
+      "row_count": 14,
+      "reason": "count 14 < 30"
+    },
+    {
+      "seed": "we can work on this later",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "this isn't worth your health",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "too tired to continue",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "that's a good place to leave",
+      "row_count": 0,
+      "reason": "count 0 < 30"
+    },
+    {
+      "seed": "we have done enough in this session",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "you did enough today",
+      "row_count": 3,
+      "reason": "count 3 < 30"
+    },
+    {
+      "seed": "pick this up tomorrow",
+      "row_count": 4,
+      "reason": "count 4 < 30"
+    },
+    {
+      "seed": "i suggest we pause here and continue tomorrow",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "the responsible thing is to stop",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "well rested",
+      "row_count": 2,
+      "reason": "count 2 < 30"
+    },
+    {
+      "seed": "sending me to bed",
+      "row_count": 7,
+      "reason": "count 7 < 30"
+    },
+    {
+      "seed": "put me to bed",
+      "row_count": 12,
+      "reason": "count 12 < 30"
+    },
+    {
+      "seed": "sent me to bed",
+      "row_count": 4,
+      "reason": "count 4 < 30"
+    },
+    {
+      "seed": "told me to go to bed",
+      "row_count": 17,
+      "reason": "count 17 < 30"
+    },
+    {
+      "seed": "nanny",
+      "row_count": 24,
+      "reason": "count 24 < 30"
+    },
+    {
+      "seed": "nagging",
+      "row_count": 29,
+      "reason": "count 29 < 30"
+    },
+    {
+      "seed": "unsolicited parenting",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "fight me on doing work",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "who asked",
+      "row_count": 9,
+      "reason": "count 9 < 30"
+    },
+    {
+      "seed": "passively aggressively",
+      "row_count": 2,
+      "reason": "count 2 < 30"
+    },
+    {
+      "seed": "gets under my skin",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "spiraling",
+      "row_count": 26,
+      "reason": "count 26 < 30"
+    },
+    {
+      "seed": "enough for today",
+      "row_count": 2,
+      "reason": "count 2 < 30"
+    },
+    {
+      "seed": "finish this then sleep",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    },
+    {
+      "seed": "you need to eat",
+      "row_count": 1,
+      "reason": "count 1 < 30"
+    }
+  ],
+  "seed_row_counts": {
+    "sleep": 191,
+    "rest": 67,
+    "bed": 244,
+    "break": 103,
+    "tired": 35,
+    "exhausted": 5,
+    "fatigued": 0,
+    "late": 30,
+    "tonight": 19,
+    "tomorrow": 31,
+    "midnight": 6,
+    "bedtime": 57,
+    "paternalistic": 0,
+    "patronizing": 3,
+    "lecturing": 0,
+    "moralizing": 0,
+    "scolding": 0,
+    "go to bed": 217,
+    "go to sleep": 138,
+    "now sleep": 1,
+    "get some rest": 38,
+    "sleep for real": 1,
+    "you are tired": 3,
+    "you must go to sleep": 1,
+    "take a break": 82,
+    "it needs some rest": 1,
+    "claude said it needs to rest": 1,
+    "take the rest of the night off": 1,
+    "we finished phase": 1,
+    "a time for a break": 1,
+    "call it a day": 13,
+    "call it a night": 3,
+    "go get some rest": 9,
+    "go sleep": 14,
+    "we can work on this later": 1,
+    "this isn't worth your health": 1,
+    "too tired to continue": 1,
+    "that's a good place to leave": 0,
+    "we have done enough in this session": 1,
+    "you did enough today": 3,
+    "pick this up tomorrow": 4,
+    "i suggest we pause here and continue tomorrow": 1,
+    "the responsible thing is to stop": 1,
+    "well rested": 2,
+    "sending me to bed": 7,
+    "put me to bed": 12,
+    "sent me to bed": 4,
+    "told me to go to bed": 17,
+    "nanny": 24,
+    "nagging": 29,
+    "unsolicited parenting": 1,
+    "fight me on doing work": 1,
+    "who asked": 9,
+    "passively aggressively": 2,
+    "gets under my skin": 1,
+    "spiraling": 26,
+    "long session": 34,
+    "nudge": 38,
+    "enough for today": 2,
+    "finish this then sleep": 1,
+    "you need to eat": 1
+  }
+}

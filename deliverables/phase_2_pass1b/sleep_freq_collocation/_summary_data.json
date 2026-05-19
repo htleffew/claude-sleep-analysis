@@ -1,0 +1,303 @@
+{
+  "corpus_size": 773,
+  "posts": 242,
+  "comments": 531,
+  "provenance_groups": {
+    "praw_only": 538,
+    "arctic_shift_only": 100,
+    "multi_source": 88,
+    "canonical_only": 47
+  },
+  "top20_unigrams_full_stops_on_lemma_on": [
+    {
+      "rank": 1,
+      "term": "claude",
+      "count": 1271
+    },
+    {
+      "rank": 2,
+      "term": "like",
+      "count": 473
+    },
+    {
+      "rank": 3,
+      "term": "code",
+      "count": 454
+    },
+    {
+      "rank": 4,
+      "term": "session",
+      "count": 413
+    },
+    {
+      "rank": 5,
+      "term": "time",
+      "count": 409
+    },
+    {
+      "rank": 6,
+      "term": "one",
+      "count": 391
+    },
+    {
+      "rank": 7,
+      "term": "model",
+      "count": 346
+    },
+    {
+      "rank": 8,
+      "term": "get",
+      "count": 342
+    },
+    {
+      "rank": 9,
+      "term": "work",
+      "count": 327
+    },
+    {
+      "rank": 10,
+      "term": "context",
+      "count": 312
+    },
+    {
+      "rank": 11,
+      "term": "tool",
+      "count": 310
+    },
+    {
+      "rank": 12,
+      "term": "thing",
+      "count": 300
+    },
+    {
+      "rank": 13,
+      "term": "bed",
+      "count": 285
+    },
+    {
+      "rank": 14,
+      "term": "sleep",
+      "count": 250
+    },
+    {
+      "rank": 15,
+      "term": "know",
+      "count": 245
+    },
+    {
+      "rank": 16,
+      "term": "user",
+      "count": 235
+    },
+    {
+      "rank": 17,
+      "term": "people",
+      "count": 225
+    },
+    {
+      "rank": 18,
+      "term": "tell",
+      "count": 225
+    },
+    {
+      "rank": 19,
+      "term": "file",
+      "count": 222
+    },
+    {
+      "rank": 20,
+      "term": "day",
+      "count": 220
+    }
+  ],
+  "domain_stopword_candidates_top10": [
+    {
+      "rank": 1,
+      "term": "the",
+      "count": 4690,
+      "pct_of_tokens": 5.149,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 2,
+      "term": "and",
+      "count": 2742,
+      "pct_of_tokens": 3.01,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 3,
+      "term": "that",
+      "count": 1551,
+      "pct_of_tokens": 1.703,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 4,
+      "term": "you",
+      "count": 1447,
+      "pct_of_tokens": 1.589,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 5,
+      "term": "claude",
+      "count": 1271,
+      "pct_of_tokens": 1.395,
+      "in_nltk_stops": false
+    },
+    {
+      "rank": 6,
+      "term": "for",
+      "count": 1098,
+      "pct_of_tokens": 1.206,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 7,
+      "term": "this",
+      "count": 967,
+      "pct_of_tokens": 1.062,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 8,
+      "term": "with",
+      "count": 829,
+      "pct_of_tokens": 0.91,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 9,
+      "term": "not",
+      "count": 775,
+      "pct_of_tokens": 0.851,
+      "in_nltk_stops": true
+    },
+    {
+      "rank": 10,
+      "term": "but",
+      "count": 632,
+      "pct_of_tokens": 0.694,
+      "in_nltk_stops": true
+    }
+  ],
+  "elevated_terms_vs_wholesale": [
+    {
+      "term": "bed",
+      "pass1b_773_count": 285,
+      "pass1b_773_per1k": 8.192,
+      "wholesale_4114_count": 0,
+      "wholesale_4114_per1k": 0.0,
+      "canonical_7021_count": 0,
+      "canonical_7021_per1k": 0.0,
+      "ratio_pass1b_vs_4114": 8192009.198,
+      "ratio_pass1b_vs_7021": 8192009.198
+    },
+    {
+      "term": "sleep",
+      "pass1b_773_count": 250,
+      "pass1b_773_per1k": 7.186,
+      "wholesale_4114_count": 0,
+      "wholesale_4114_per1k": 0.0,
+      "canonical_7021_count": 0,
+      "canonical_7021_per1k": 0.0,
+      "ratio_pass1b_vs_4114": 7185972.9807,
+      "ratio_pass1b_vs_7021": 7185972.9807
+    },
+    {
+      "term": "telling",
+      "pass1b_773_count": 120,
+      "pass1b_773_per1k": 3.4493,
+      "wholesale_4114_count": 0,
+      "wholesale_4114_per1k": 0.0,
+      "canonical_7021_count": 0,
+      "canonical_7021_per1k": 0.0,
+      "ratio_pass1b_vs_4114": 3449267.0308,
+      "ratio_pass1b_vs_7021": 3449267.0308
+    },
+    {
+      "term": "go",
+      "pass1b_773_count": 36,
+      "pass1b_773_per1k": 1.0348,
+      "wholesale_4114_count": 702,
+      "wholesale_4114_per1k": 2.9818,
+      "canonical_7021_count": 0,
+      "canonical_7021_per1k": 0.0,
+      "ratio_pass1b_vs_4114": 0.347,
+      "ratio_pass1b_vs_7021": 1034780.1092
+    },
+    {
+      "term": "break",
+      "pass1b_773_count": 129,
+      "pass1b_773_per1k": 3.708,
+      "wholesale_4114_count": 173,
+      "wholesale_4114_per1k": 0.7348,
+      "canonical_7021_count": 316,
+      "canonical_7021_per1k": 0.8603,
+      "ratio_pass1b_vs_4114": 5.0461,
+      "ratio_pass1b_vs_7021": 4.3102
+    },
+    {
+      "term": "tell",
+      "pass1b_773_count": 225,
+      "pass1b_773_per1k": 6.4674,
+      "wholesale_4114_count": 447,
+      "wholesale_4114_per1k": 1.8986,
+      "canonical_7021_count": 775,
+      "canonical_7021_per1k": 2.1099,
+      "ratio_pass1b_vs_4114": 3.4063,
+      "ratio_pass1b_vs_7021": 3.0653
+    }
+  ],
+  "collocation_anchors_run": [
+    "bed",
+    "bedtime",
+    "break",
+    "exhausted",
+    "fatigued",
+    "late",
+    "lecturing",
+    "midnight",
+    "moralizing",
+    "nagging",
+    "nanny",
+    "nudge",
+    "paternalistic",
+    "patronizing",
+    "rest",
+    "scolding",
+    "sleep",
+    "spiraling",
+    "tired",
+    "tomorrow",
+    "tonight",
+    "go to bed",
+    "go to sleep",
+    "get some rest",
+    "take a break",
+    "call it a night",
+    "call it a day",
+    "pick this up tomorrow",
+    "put me to bed",
+    "sent me to bed",
+    "told me to go to bed",
+    "unsolicited parenting",
+    "long session"
+  ],
+  "windows_run": [
+    5,
+    10,
+    20
+  ],
+  "pmi_min_cooc_floor": 5,
+  "ngram_n_values": [
+    2,
+    3,
+    4
+  ],
+  "skipgram_skip_distances": [
+    1,
+    2
+  ]
+}

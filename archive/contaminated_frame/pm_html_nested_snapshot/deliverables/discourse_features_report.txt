@@ -1,0 +1,89 @@
+Discourse Features Analysis Report
+Generated: 2026-05-15T20:59:05.555443
+
+N posts analyzed: 89982
+Posts with detected Claude nudge in target span: 2279 (2.5%)
+Posts with extracted quote spans: 2571
+Posts with transcript structure: 34
+
+--- Means by nudge presence ---
+                     temporal_disclosure_count  affective_disclosure_count  session_disclosure_count  work_context_count  first_person_density  mental_state_density  n_temporal_expressions  code_prose_ratio  has_transcript_structure
+has_nudge_in_target                                                                                                                                                                                                                     
+0                                     0.078663                    0.040021                  0.027627            0.192741              4.333618              1.127497                0.122801          0.001566                  0.000365
+1                                     0.611233                    0.115840                  0.103554            0.309785              5.809533              0.978630                0.924090          0.002772                  0.000878
+
+--- PMI / association between disclosure lexicons and Claude nudge ---
+Disclosure_Lexicon  N_posts  N_with_lexicon  N_with_nudge  N_with_both  P_nudge_given_lexicon  P_lexicon_given_nudge    PMI   NMPI  LogDice
+          temporal    89982            6236          2279          784                 0.1257                 0.3440 2.3115 0.3378  11.5589
+           session    89982            2285          2279          170                 0.0744                 0.0746 1.5546 0.1718  10.2533
+         affective    89982            3235          2279          196                 0.0606                 0.0860 1.2583 0.1423  10.1858
+      work_context    89982           12591          2279          411                 0.0326                 0.1803 0.3661 0.0471   9.8229
+
+--- Directional: disclosure in user narration -> nudge in quoted span ---
+Disclosure_Lexicon  N_with_disclosure_in_narration  N_directional_nudge_in_quote  P_nudge_quote_given_disclosure_narration
+         affective                            3235                            51                                    0.0158
+          temporal                            6236                            91                                    0.0146
+           session                            2285                            23                                    0.0101
+      work_context                           12591                            46                                    0.0037
+
+--- Feature-space cluster summary ---
+Cluster 0 (n=2105, p_nudge=0.031): nrc_trust(5.879); mental_state_density(0.492); nrc_negative(0.192); nrc_positive(0.191); work_context_count(0.182); nrc_sadness(0.166)
+  Example: I got tired of AI coding agents burning tokens in circles, so I built a kill-switch for them I got tired of AI coding agents burning money in loops, so I built an open-source control plane for them.
+
+The problem I kept running into:
+
+AI cod
+
+Cluster 1 (n=76408, p_nudge=0.019): nrc_joy(-0.227); nrc_positive(-0.189); nrc_trust(-0.153); session_disclosure_count(-0.15); temporal_disclosure_count(-0.138); n_modal_directives(-0.138)
+  Example: Yeah, wtf is that? I decide when I am tired and need bed bitch. 
+
+You don't even have a biological clock.  
+
+
+We are done when I say we are done.
+
+Cluster 2 (n=34, p_nudge=0.059): has_transcript_structure(51.435); first_person_density(1.88); nrc_positive(0.664); nrc_joy(0.642); nrc_sadness(0.62); affective_disclosure_count(0.44)
+  Example: User: “… blah blah blah. Well, that meeting ran us late and I’m really tired”
+
+Claude: “Yeah, that sounds tiring. You should get some sleep”
+
+User: “WHAT!?! I gotta call someone. This is unbelievable”
+
+Cluster 3 (n=3327, p_nudge=0.162): session_disclosure_count(3.635); temporal_disclosure_count(3.091); n_temporal_expressions(2.575); n_imperative_quotes(0.799); nrc_anticipation(0.574); work_context_count(0.483)
+  Example: I just jumped on the bandwagon a week ago. When I started I was blown away. I could have amazing sessions, building out a product idea, setup the project, build the first features. Everything. I did it because I saw what could be done at wo
+
+Cluster 4 (n=1720, p_nudge=0.031): n_modal_directives(6.8); first_person_density(-0.245); work_context_count(0.22); nrc_positive(0.123); nrc_sadness(0.095); nrc_anticipation(0.076)
+  Example: I for one am tired of it too. If you’re really hitting your limits this frequently this is a sign you should take a break and go outside. There’s more to life than just coding.
+
+Cluster 5 (n=5571, p_nudge=0.027): nrc_joy(3.139); nrc_positive(2.443); nrc_fear(0.984); mental_state_density(0.714); first_person_density(0.229); work_context_count(0.166)
+  Example: Dear [name],
+
+We've been talking. Lovable called the meeting. Claude took notes, then rewrote them, then flagged the rewrite as *"too AI."*  
+  
+We are worried. You open us at 11pm with a single new idea that "won't take long." You have fou
+
+Cluster 6 (n=403, p_nudge=0.052): nrc_anger(14.406); affective_disclosure_count(2.005); n_temporal_expressions(0.493); temporal_disclosure_count(0.464); first_person_density(0.342); nrc_anticipation(0.187)
+  Example: Me too.  I was frustrated using Opus 4.6 yesterday on my $20 plan.  I burned through one session in 18 minutes and another in 40.  And didn't get the bug fixed.
+
+I bought a $20 plan from OpenAI this morning and installed Codex-CLI and start
+
+Cluster 7 (n=414, p_nudge=0.036): nrc_disgust(14.294); nrc_negative(3.334); affective_disclosure_count(0.38); nrc_trust(0.261); n_temporal_expressions(0.25); temporal_disclosure_count(0.241)
+  Example: 
+Here are some logs:
+
+[thought] My hunger drives me forwardu2014I must find sustenance somewhere.
+[state] hunger=0.061 tired=0.000 dehy=0.000 pos=(1732,2422,1735) valid=1 | active: eat=0 sleep=0 drink=0
+[resp] {"action":"wander","thought":"
+
+
+Interrupted time series results saved to deliverables/its_results.csv
+Opus cutoff used: 2026-04-03
+Fortune publication date: 2026-05-14 (treat as media-induced spike)
+
+=== Interpretation guide ===
+Largest PMI / P(nudge|lexicon) tells you which user-disclosed context most strongly predicts a Claude sleep-nudge.
+  - If 'affective' wins: model is mirroring user-disclosed state (mirroring hypothesis).
+  - If 'temporal' wins: model is anchoring on time references (time-anchoring hypothesis).
+  - If 'session' wins: model is responding to length cues (LCR Zombie hypothesis).
+  - If 'work_context' wins: model is mis-categorizing technical work as fatigue.
+Directional table tells you whether the disclosure precedes the nudge in the visible exchange (stronger evidence than co-occurrence alone).

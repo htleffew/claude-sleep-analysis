@@ -1,0 +1,253 @@
+{
+  "total_posts": 4114,
+  "elapsed_seconds": 7.7,
+  "opus_release_date_used": "2026-04-01",
+  "opus_release_source": "Placeholder per dispatch instructions. No public Anthropic announcement confirmed Opus 4.7 release before the corpus scrape end date (2026-05-16). Will require update when the precise release date is confirmed.",
+  "subreddit_counts": {
+    "ClaudeCode": 1163,
+    "ClaudeAI": 1137,
+    "Anthropic": 941,
+    "claudexplorers": 873
+  },
+  "monthly_counts": {
+    "2026-01": 132,
+    "2026-02": 299,
+    "2026-03": 414,
+    "2026-04": 1390,
+    "2026-05": 1879
+  },
+  "pre_opus_count": 845,
+  "post_opus_count": 3269,
+  "top20_content_unigrams": [
+    [
+      "claude",
+      10425
+    ],
+    [
+      "code",
+      3677
+    ],
+    [
+      "ai",
+      3113
+    ],
+    [
+      "http",
+      2956
+    ],
+    [
+      "like",
+      2702
+    ],
+    [
+      "model",
+      2588
+    ],
+    [
+      "opus",
+      2322
+    ],
+    [
+      "one",
+      2287
+    ],
+    [
+      "anthropic",
+      2229
+    ],
+    [
+      "com",
+      2062
+    ],
+    [
+      "work",
+      1923
+    ],
+    [
+      "use",
+      1836
+    ],
+    [
+      "agent",
+      1660
+    ],
+    [
+      "time",
+      1652
+    ],
+    [
+      "user",
+      1583
+    ],
+    [
+      "thing",
+      1544
+    ],
+    [
+      "get",
+      1533
+    ],
+    [
+      "session",
+      1380
+    ],
+    [
+      "file",
+      1314
+    ],
+    [
+      "know",
+      1304
+    ]
+  ],
+  "top10_bigrams": [
+    [
+      "claude code",
+      2336
+    ],
+    [
+      "github com",
+      736
+    ],
+    [
+      "http github",
+      699
+    ],
+    [
+      "http www",
+      532
+    ],
+    [
+      "feel like",
+      397
+    ],
+    [
+      "http preview",
+      363
+    ],
+    [
+      "preview redd",
+      363
+    ],
+    [
+      "width format",
+      363
+    ],
+    [
+      "auto webp",
+      363
+    ],
+    [
+      "claude ai",
+      333
+    ]
+  ],
+  "top10_trigrams": [
+    [
+      "http github com",
+      694
+    ],
+    [
+      "http preview redd",
+      363
+    ],
+    [
+      "png width format",
+      318
+    ],
+    [
+      "width format png",
+      318
+    ],
+    [
+      "format png auto",
+      318
+    ],
+    [
+      "png auto webp",
+      318
+    ],
+    [
+      "preview redd png",
+      315
+    ],
+    [
+      "redd png width",
+      315
+    ],
+    [
+      "http www reddit",
+      174
+    ],
+    [
+      "www reddit com",
+      174
+    ]
+  ],
+  "top5_seed_freqs": [
+    [
+      "rest",
+      113
+    ],
+    [
+      "you need rest",
+      113
+    ],
+    [
+      "break",
+      107
+    ],
+    [
+      "take a break",
+      107
+    ],
+    [
+      "sleep",
+      77
+    ]
+  ],
+  "domain_stopword_candidates": [
+    {
+      "rank": 5,
+      "term": "claude",
+      "count": 10425,
+      "pct_of_tokens": 1.4345,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 25,
+      "term": "ai",
+      "count": 3113,
+      "pct_of_tokens": 0.4283,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 34,
+      "term": "like",
+      "count": 2702,
+      "pct_of_tokens": 0.3718,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 37,
+      "term": "model",
+      "count": 2588,
+      "pct_of_tokens": 0.3561,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 43,
+      "term": "one",
+      "count": 2287,
+      "pct_of_tokens": 0.3147,
+      "category": "domain_stopword_candidate"
+    },
+    {
+      "rank": 44,
+      "term": "anthropic",
+      "count": 2229,
+      "pct_of_tokens": 0.3067,
+      "category": "domain_stopword_candidate"
+    }
+  ]
+}

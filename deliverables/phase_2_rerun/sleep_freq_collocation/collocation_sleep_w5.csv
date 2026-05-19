@@ -1,0 +1,15 @@
+anchor,collocate,co_occurrences,anchor_freq,collocate_freq,pmi
+sleep,telling,11,105,200,9.0121
+sleep,rest,5,105,172,8.0922
+sleep,brain,5,105,211,7.7974
+sleep,memories,5,105,213,7.7838
+sleep,morning,5,105,216,7.7636
+sleep,tell,5,105,613,6.2587
+sleep,else,5,105,911,5.6872
+sleep,anyone,6,105,1391,5.3396
+sleep,get,6,105,1986,4.8259
+sleep,want,5,105,1662,4.8198
+sleep,time,5,105,2347,4.3219
+sleep,claude,27,105,16093,3.9773
+sleep,anthropic,5,105,3007,3.9644
+sleep,code,5,105,5953,2.9791

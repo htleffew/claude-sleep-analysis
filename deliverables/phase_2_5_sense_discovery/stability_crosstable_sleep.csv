@@ -1,0 +1,7 @@
+,minilm_mcs5,minilm_mcs10,minilm_mcs20,mpnet_mcs5,mpnet_mcs10,mpnet_mcs20
+minilm_mcs5,1.0,0.0,0.0,0.22282197958845107,0.0,0.0
+minilm_mcs10,0.0,1.0,1.0,0.0,1.0,1.0
+minilm_mcs20,0.0,1.0,1.0,0.0,1.0,1.0
+mpnet_mcs5,0.22282197958845107,0.0,0.0,1.0,0.0,0.0
+mpnet_mcs10,0.0,1.0,1.0,0.0,1.0,1.0
+mpnet_mcs20,0.0,1.0,1.0,0.0,1.0,1.0

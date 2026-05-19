@@ -1,0 +1,3 @@
+post_id,type,retrieval_provenance,createdAt,subreddit,left_context,keyword,right_context
+1sydd8f,post,arctic_shift:round2_fresh|canonical:round2_match|praw:round2_match,2026-04-28 20:32:51,ClaudeCode,rest anyone else getting this or is the claude just,passively aggressively,telling me that i'm cranky
+1r7dcwn,comment,praw:round2_match,2026-02-17 19:12:00,claudexplorers,is not involved in anything at all and is behaving,passively aggressively,

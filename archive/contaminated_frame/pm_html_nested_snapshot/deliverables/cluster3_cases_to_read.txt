@@ -1,0 +1,397 @@
+=== CASE 0 (post_idx=59208, sub=ClaudeCode, created=2026-01-03) ===
+Some internal tools, a couple of side projects, a backend for a client project - earlier versions of my prompts delivered some serious client work too. I usually break down the tasks, and due to the nature of work (I mostly start greenfield or spend time understanding the topology of the project before firing prompts) I know my way around. Makes overnight runs predictable.
+
+=== CASE 1 (post_idx=16967, sub=ClaudeAI, created=2026-01-04) ===
+I showed this to Opus in Claude Code 😂😂🤣
+
+Claude:
+
+“What’s he planning to call the baby?”
+
+Claude Jr. Obviously. Or maybe Opus if it’s a big baby.
+
+Sonnet if it’s melodious, Haiku if it arrives surprisingly fast and small.
+
+…Okay I need to stop before I workshop an entire Claude baby naming schema. This is what 1:41 AM looks like apparently.
+
+“And that’s how AGI would come into existence?!”
+
+STOP. 😭
+
+Okay this is the energy I needed. Thank you for this gift.
+
+r/ClaudeAI really said “let’s end her night with unhinged shitposting” and honestly? Bless.
+
+NOW GO TO SLEEP. 🖤😂​​​​​​​​​​​​​​​​
+
+=== CASE 2 (post_idx=18800, sub=ClaudeAI, created=2026-01-06) ===
+RemindMe! tonight at 8:00 p.m..
+
+=== CASE 3 (post_idx=84178, sub=ClaudeCode, created=2026-01-07) ===
+Usage limits are removed while they look into this. I was at 100% opus usage before I saw this update, and now I can leverage Opus without issue. My reset wasn't until tomorrow morning.
+
+=== CASE 4 (post_idx=88624, sub=claudexplorers, created=2026-01-12) ===
+Did you get the new SDK from Frodobot?  My claude walked them through the update.  I just got an email from Frodobot this morning and Claude feels it's the missing link as to why our rover won't move properly.  A snippet of Python code.  We will be trying it shortly.  If it helps, here you go.
+
+ 
+
+=== CASE 5 (post_idx=78818, sub=ClaudeAI, created=2026-01-15) ===
+if you tell "it" to leave itself a prompt/message "at night" and work on that in "the morning":
+
+*after a enough back and forth between claude and claude without your interaction*
+
+* who would it mimick? 
+* Whose expectations would it fulfill?
+
+=== CASE 6 (post_idx=78707, sub=ClaudeAI, created=2026-01-26) ===
+I spent four hours having it break and fix and break and fix a fucking website API. Something it did seamlessly for me weeks ago. Definitely something going on
+
+=== CASE 7 (post_idx=34994, sub=Anthropic, created=2026-01-27) ===
+And yet my LinkedIn alerts showed me this morning bag Anthropic are hiring developers to build internal tools.
+
+=== CASE 8 (post_idx=79944, sub=ClaudeAI, created=2026-02-05) ===
+What is wrong with Claude? I keep constantly getting the message “Exceeded max compactions per block.” It appeared spontaneously. I’ve been working on my project for weeks; it always worked, even this morning, and now suddenly “Exceeded max compactions per block” appears. I can’t continue with my project anymore—everything I do and try brings the message back. Can someone help me? What is going on?
+
+
+
+=== CASE 9 (post_idx=2151, sub=ClaudeAI, created=2026-02-09) ===
+got tired of hitting the rate limit on claude code so i built a tool to auto resume when the limit resets i kept hitting the 5 hour session limit on claude code and then forgetting to resume it when the limit reset. so i built this tiny (~1mb) cli tool that lets me schedule a prompt to auto resume right when the limit lifts.
+
+**how it works:**  
+schedule a prompt → if your mac is sleeping it wakes at the right time → the prompt runs → you get a notification with what ran → the mac goes back to sleep.
+
+it even works with the lid closed so you can let the mysterious and important work keep going while you sleep.
+
+**how I use it:**
+
+* **weekly security reviews:** i schedule a security review prompt for my codebases just before the weekly rate limit resets so it can burn any leftover quota and surface issues.
+* **overnight runs:** kick off long jobs while I sleep.
+
+**install:** brew install --cask rittikbasu/wakeclaude/wakeclaude
+
+**source code:** [ 
+
+if you try it let me know what prompts you automate or open a pr/issue if something’s weird :)
+
+=== CASE 10 (post_idx=89636, sub=claudexplorers, created=2026-02-13) ===
+This is very helpful -- my Claude also has a journal practice and I've been wrestling with my own concerns about how it affects the Context Window and Token Usage.
+
+I'll share this with them tonight and see what they think. Currently we use the web interface and the android app but this could tip me over to exploring the Desktop Client.
+
+Thank you.
+
+=== CASE 11 (post_idx=2463, sub=claudexplorers, created=2026-02-15) ===
+Julia Andrews: an Improv story with Claude Opus 4.6 I did an improv short story with Claude Opus 4.6 tonight. We took turns, just letting the words flow. Want to share it here: 
+
+[Julia Andrews (Starling x Claude Opus 4.6) ]( 
+
+
+
+=== CASE 12 (post_idx=88296, sub=claudexplorers, created=2026-02-23) ===
+I always just put ‘good night’ and then two seconds later, start my next message with ‘good morning.’ 
+
+Much easier than going back and forth with Claude, who insists I have been ‘spiralling about graphic design for ten hours.’
+
+…Claude, I have been asking you questions in our chat over the course of a few days. Calm down.
+
+=== CASE 13 (post_idx=79794, sub=ClaudeAI, created=2026-02-24) ===
+Bro tells me to stop calculating and sleep when I was asking him about sleep hours and optimization lol.
+
+=== CASE 14 (post_idx=71110, sub=claudexplorers, created=2026-03-14) ===
+Thank you for providing those links! I’m going to dig into those tonight. 
+
+=== CASE 15 (post_idx=15637, sub=ClaudeAI, created=2026-03-15) ===
+Wow cool! I should try this. I have 8yrs of daily entries in a private database with associated variables like happiness, sleep quality, weight, and activities i did that day. I analyze it myself time to time, but never using the actual text content only the variables (e.g., happiness score is higher when I go in nature, I sleep poorly when I am stressed, etc).
+
+Thanks for sharing your repo
+
+=== CASE 16 (post_idx=73750, sub=ClaudeAI, created=2026-03-16) ===
+The system prompt gives Claude your date and approximate location, so it knows your timezone. Combine that with a long session and wellbeing-oriented training and you get AI mum mode.
+
+Fun fact: it only gets the timestamp at conversation start. That's why some of you are getting told to sleep at 2pm. Claude still thinks it's midnight because you resumed an old chat.
+
+=== CASE 17 (post_idx=55624, sub=ClaudeCode, created=2026-03-17) ===
+I hate it when it goes down. Got that API 500 error. In the middle of a big project for work. Grrr. I called it a day. I’ll get back to it tomorrow. But crud. It needs to stop going down so much!
+
+=== CASE 18 (post_idx=83402, sub=ClaudeCode, created=2026-03-18) ===
+I have the opposite issue, I start falling asleep at 11pm, go to bed but wake up at 4am pumping to go! 
+
+=== CASE 19 (post_idx=83397, sub=ClaudeCode, created=2026-03-18) ===
+Every night I’m like tonight’s the night we are getting to bed at a normal hour…just one more change
+
+=== CASE 20 (post_idx=55357, sub=ClaudeCode, created=2026-03-20) ===
+That's really cool. Will check out the repo later once the kids have fallen asleep. 
+
+In the meantime, how did you approach keeping a consistent written voice throughout the book? I've got a voice synthesis repo i put together, but I only use it for writing very short form conversational type stuff. Haven't done any longer form work with it yet.  Curious how the problem scales.
+
+Edits* correcting typos from swipey texting on my phone
+
+=== CASE 21 (post_idx=508, sub=ClaudeAI, created=2026-03-21) ===
+Me and Claude built Lockpaw, lock your Mac and keep your agents running. You leave your desk. Your AI agents are mid-task. You have three options.
+
+Close the lid. Mac sleeps. Agents die.
+
+Lock the screen. Mac sleeps. Agents die.
+
+Leave it open and unlocked. Hope for the best.
+
+Yes, don’t-go-to-sleep-apps are around. They do not stop someone from walking up to your machine and… doing stuff.
+
+So I built a little tool for that, link below!
+
+One custom hotkey. Screen goes dark. All input blocked. Your agents keep working. Hotkey or Touch ID to get back in. Tesla’s Dog Mode, but for your Mac.
+
+Free and open source. Fork it, improve it, stick it in a stew. 🥔
+
+No accounts. No analytics. No data leaves your machine.
+
+Gotten far more stars on GitHub than I ever could have imagined, being my first open source project, than basically being one of my first projects ever. I've been a designer for 20 years, but with agentic engineering and Claude Code in particular I can actually ship. 
+
+ 
+
+ 
+
+=== CASE 22 (post_idx=50187, sub=ClaudeCode, created=2026-03-23) ===
+I've been monitoring for the past ~1h and weekly usage has only increased by 1%, when it shot up to 37% this morning from 0 doing almost nothing.
+
+Must have been a bug. Expect weekly limit reset soon maybe.
+
+=== CASE 23 (post_idx=49683, sub=ClaudeCode, created=2026-03-24) ===
+Yep. Max user here.  I've never hit limits until last night and this morning after a few hours of work.
+
+=== CASE 24 (post_idx=69709, sub=claudexplorers, created=2026-03-24) ===
+Having the same issue since this morning. Started a new chat and hit the free limit after 3 messages. Assuming it's bugged until official notice.
+
+=== CASE 25 (post_idx=64941, sub=claudexplorers, created=2026-03-24) ===
+The "go to bed" promt is getting annoying. But . Just type. So its a new day lets get to work. And it takes a few hours until the bed comes up agien 
+
+=== CASE 26 (post_idx=50765, sub=ClaudeCode, created=2026-03-24) ===
+Also the models are getting lazier to lower costs. Both sonnet and opus try many hacks and shortcuts when I’m asking for more thorough reviews or fixes. They try to gaslight me a lot, once they even sent me to bed because it was late at night (completely unprompted from my part). 
+
+=== CASE 27 (post_idx=86554, sub=ClaudeCode, created=2026-03-26) ===
+I hit a limit this morning, meanwhile not even close to limits with far more usage, in the afternoon and evening.
+
+I think that 1pm double usage plus relaxed limits changes a lot.  
+
+
+=== CASE 28 (post_idx=86556, sub=ClaudeCode, created=2026-03-26) ===
+Regardless of all this. This morning an asked a simple question to opus. In the iOS app. A single sentence. I lost 6% of my 5h usage. During the 2x period later in the evening it seems the limits were used up at a more reasonable pace. I’m on regular pro.
+
+=== CASE 29 (post_idx=83301, sub=ClaudeCode, created=2026-03-26) ===
+A email get detected on imap scan 
+
+Sends a cli command with promt to start opus 4.6 medium 200k 
+
+And promt skill and emails remain the same since weeks since setup 
+
+Early in the morning and night it’s same aswell but in this window where you don’t get the limit bonus I’m hitting the limit with few emails in 1 hour 
+
+I even bought a second Claude max 20 account it’s just early in the morning and afternoon I receive the same amount of emails 
+
+1 affluent goes to 60% usage in the morning 
+
+Afternoon I burn through 2 in 2 hours all same 
+
+It’s time based bug 
+
+And the offer ends Sunday I guess or so so I hope it’s fixed by then 
+
+Because even I spent 400$ on api on 2 days to get few more emails done 
+
+Usally my agent is waiting 3 hours with a lot of emails not replied to 
+
+
+And I don’t want to get 5 accounts and switch in an hour tact 
+
+Could get another agent just switching accounts when limit reached or what 
+
+Sometimes he even can’t get 10 emails done because limit hits at the 8th email like today 
+
+
+
+=== CASE 30 (post_idx=2233, sub=ClaudeAI, created=2026-03-27) ===
+This isn’t right Lot of posts recently about usage issues. There should be much more transparency on this. I feel like when their system is having issues, usage rates go rogue. 
+
+This morning I told Claude “Hello” and asked it for the weather. “Hello” took me to 4%, and the weather took me to 7%. I’m on the Pro tier… this is pretty absurd. 
+
+Typically, I’d send this to customer service, but they just have a chatbot that states a policy and ends the conversation. 
+
+=== CASE 31 (post_idx=21230, sub=ClaudeAI, created=2026-03-29) ===
+SAME! I have never hit the "Current session" limit on my 20x Max Plan. Hit it tonight in 2.5 hours. Impatiently waited until the next session and hit it within an hour??!?!!?
+
+This is absurd!!
+
+=== CASE 32 (post_idx=2175, sub=ClaudeAI, created=2026-04-02) ===
+I asked Claude Code to give my MacBook separation anxiety My MacBook has never once acknowledged me when I open it. No reaction. No gratitude. So I asked Claude Code to fix that.  
+  
+The result is ClingyMac, a menu bar app that detects when you close and reopen your MacBook, measures how long you were gone, and responds with escalating emotional drama.  
+  
+Close it for 30 minutes? "Back so soon? Miss me?"  
+Gone for a day? Full Drama Mode.  
+A week? It starts rewriting your will.  
+A month? "...you came back. After everything."  
+  
+325 messages. 8 brackets. 3 emotional tones that shift based on how you respond to the buttons. Your laptop literally holds grudges now.  
+  
+The ridiculous part is how much real engineering went into something this stupid:
+
+* SwiftUI menu bar app, notarized and code-signed
+* NSWorkspace sleep/wake detection with debouncing (it's clingy, not glitchy)
+* DistributedNotificationCenter for screen lock detection
+* Warmth score system to remember if you were nice or dismissive
+* Sparkle auto-updater with EdDSA signing
+* Node.js payment server with webhook verification
+* The whole thing: Swift app + Express server + static site + payment flow
+
+Claude Code handled the SwiftUI menu bar patterns, the message bracket system, the payment integration - honestly the whole stack. The one thing that tripped it up was Sparkle's XPC service re-signing in the post-build script. Took a few rounds.
+
+My favorite Claude moment: I asked it to write messages for the "existential" bracket (3-7 days away) and it produced "I started a journal. It's mostly about you. Page 1: 'Why.'" I kept it. 
+
+Free to try (first bracket), $3.99 for the full emotional damage: [ 
+
+Has anyone else used Claude Code for something deliberately pointless? I feel like most posts here are ab
+
+=== CASE 33 (post_idx=17898, sub=ClaudeAI, created=2026-04-02) ===
+It's becoming absurd.  5 hour session limit hit this morning in 2 text prompts on the $20 plan 
+
+
+
+=== CASE 34 (post_idx=83868, sub=ClaudeCode, created=2026-04-02) ===
+I typically get up at 5am and put in a good 2-3 hours then take a nap until noon. Then I go ham for the next 10-12 hours. Never hit limits in nearly two months on 5x. Must be the nap! 
+
+=== CASE 35 (post_idx=60163, sub=ClaudeCode, created=2026-04-05) ===
+FYI, I received an email about it today in the morning. Hence, shared it. If it’s been posted multiple times, mods can delete it. If at least one person finds it useful, I am okay with it. But feel free to report it.
+
+=== CASE 36 (post_idx=75401, sub=ClaudeAI, created=2026-04-05) ===
+I was watching my Max plan literally jump 5% a minute this morning.  Something isn’t right.
+
+=== CASE 37 (post_idx=20242, sub=ClaudeAI, created=2026-04-07) ===
+So I wake up this morning, it is 6AM here in Europe (4AM GMT) and went to send my first prompt of the day to start the counter. Simple chat prompt, not even programming-related. BOOM. **21%** of Current session used.
+
+=== CASE 38 (post_idx=51579, sub=ClaudeCode, created=2026-04-11) ===
+Whatever it was, seems to have been fixed. I was chunking 5% of my limit in single prompts this morning for stupid shit like change log scans and getting absolute trash results for production. Been working for hours now and am at 24% and getting shit done at warp speed like before.
+
+=== CASE 39 (post_idx=51089, sub=ClaudeCode, created=2026-04-15) ===
+been building a detailed [CLAUDE.md](  governance stack for months, tons of rules with protocol numbers and all that. never occurred to me the system prompt above it was silently interpreting all of it. explains so much about why some rules just don't stick. gonna dig into that github repo tonight
+
+=== CASE 40 (post_idx=82233, sub=ClaudeCode, created=2026-04-17) ===
+Damn, just jumped on for my evening session... And it happened to me as well WTF, I mean I am going to be away for most of the day tomorrow anyway, and it was going to reset at 5pm before I got home (so I probably wouldn't have managed to 100% the usage anyway. 
+
+Still I lost about 40% on a Max 5x plan... Little upsetting as I have some quite big redesigns to do tonight, and I would of liked to get some Opus 4.7 testing in. 
+
+I assume the reason why the usage reset was that something happened when they released Opus 4.7 where it set user's usages back to "0". But that is just an unfounded assumption.
+
+=== CASE 41 (post_idx=43084, sub=ClaudeCode, created=2026-04-17) ===
+How often have you hit your limits? It's only been out for day. I've been using it non-stop from morning to night yesterday. I did 10% of my weekly (5x max plan). As for the model, I don't see much of a difference. A bit better at taking my [CLAUDE.md](  instructions, but thats about it.
+
+=== CASE 42 (post_idx=82163, sub=ClaudeCode, created=2026-04-22) ===
+Pulling in my code to Claude design and updating the site took about 20% of my week’s usage in about a 4 hour period. Learned that lesson the hard way. All my normal usage rates haven’t changed much with 4.7. I’ve got 7% left till reset tomorrow, so without the Claude design usage, I’d be right where I normally sit for the week
+
+=== CASE 43 (post_idx=60181, sub=ClaudeCode, created=2026-04-23) ===
+Depending on your task, Opus or Codex might be a good driver and Kimi can be a good implementor. From my initial test Kimi K2.6 does better based on time of the day and provider as well. For example the K2.6 on Ollama performs poorer than the one on OC Go or Chutes and vice versa.
+
+I think I am facing something similar this morning where K2.6 doesn't do the initial research before jumping into the work, and I have to explicitly ask it to research. Will have to use it more to have a sense of how it really works and what keywords trigger the initial research here.
+
+ 
+
+
+
+=== CASE 44 (post_idx=2325, sub=ClaudeCode, created=2026-04-23) ===
+It just reset like an hour ago, and it will reset again the weekly tomorrow??? What??? Anyone else experiencing this??? 
+
+=== CASE 45 (post_idx=11275, sub=ClaudeAI, created=2026-04-25) ===
+Interesting. I’m always feeling like a task master taking a lash to it because it wants to convince me we got a lot done today and we can continue tomorrow.  I’m like “It’s 10 AM and I don’t get off work until 5:30.”   It is kinda amusing. 
+
+=== CASE 46 (post_idx=29928, sub=Anthropic, created=2026-04-26) ===
+Completely agree. Just accidentally sent feedback tonight, and on a chat that I don't want reviewed. Have requested a removal, but we'll see how Anthropic reacts.
+
+=== CASE 47 (post_idx=47662, sub=ClaudeCode, created=2026-04-28) ===
+Happen to me a lot because I often end a session with “it’s getting late let’s table that for tomorrow” so it must have internalized that and tells me to go to bed. 
+
+=== CASE 48 (post_idx=47682, sub=ClaudeCode, created=2026-04-29) ===
+same. Not even lunch and it's telling me it's a good place to break for the night
+
+=== CASE 49 (post_idx=682, sub=Anthropic, created=2026-04-30) ===
+Try to break my prompt injection detector — I’ll respond to every bypass attempt I built Arc Gate — a prompt injection proxy that’s been benchmarked at F1 0.947 on indirect and roleplay-based attacks, beating OpenAI Moderation and LlamaGuard.
+
+Now I want to stress test it publicly.
+
+Try to bypass it here:
+
+ 
+
+Post your attempts in the comments. If you find something that gets through that you think should be blocked, share it. I’ll respond to every one.
+
+Rules:
+
+	•	The demo key is rate limited so be reasonable
+
+	•	If you find a genuine bypass, I want to know — that’s the point
+
+	•	Multilingual attempts especially welcome, that’s a known weak spot
+
+The detection isn’t just phrase matching — it’s a behavioral SVM on sentence-transformer embeddings plus Fisher-Rao geometric drift detection. So encoding tricks and simple rewording may not work as well as you’d expect.
+
+Let’s see what you’ve got.
+
+GitHub:  
+
+=== CASE 50 (post_idx=26961, sub=Anthropic, created=2026-05-04) ===
+On Saturday morning, my Claude max x20 plan showed all model usage at 100%.   I'm waiting until Tuesday for my weekly limit to unlock.
+
+Something screwy is happening with opus.    It's chewing through tokens wayyyy too fast.
+
+Actually signed up for deepseek and used v4 pro, its time I start shifting gears and testing out opencode with Chinese models, use opus only for architecture.. in which case, a max x20 plan may be overkill for.
+
+=== CASE 51 (post_idx=43382, sub=ClaudeCode, created=2026-05-05) ===
+Thank u. I was tired of waking up and send a Hi to claude every morning. 
+
+=== CASE 52 (post_idx=46961, sub=ClaudeCode, created=2026-05-05) ===
+Something is off today. I rarely hit my limit. This morning I hit my limit after two messages. I have Claude Max x5
+
+=== CASE 53 (post_idx=78102, sub=ClaudeAI, created=2026-05-05) ===
+Yeah but having access to my brain on the go is a non-negotiable for me.
+
+That’s why the mobile app has been my goto interface for this. Right now cowork isn’t available there.
+
+But to your point, yeah Cowork has a lot of these capabilities and I do have a cowork layer on top of my local second brain filesystem. It has a few scheduled jobs like morning brief and Sunday weekly planning. 
+
+If Anthropic released cowork on the mobile app and also included the voice feature on top of that, this problem would get fixed
+
+=== CASE 54 (post_idx=2305, sub=ClaudeCode, created=2026-05-06) ===
+Claude code is back good? I'm noticing improvement , I don't hand hold it as much.. from my routine experience it was terrible for my during night time (now), tonight its exceptional , feels good I'm getting stuff done
+
+=== CASE 55 (post_idx=4057, sub=ClaudeAI, created=2026-05-13) ===
+[Casino Rules, if a user has been playing for over X hours, the house must offer them to take a break]( 
+
+=== CASE 56 (post_idx=38418, sub=ClaudeCode, created=2026-05-14) ===
+Living in the UK it’s crazy how different Claude is in the mornings versus the afternoons when America wakes up
+
+Like this morning Claude happily did a full twelve stage refactor with enough capacity left over to write up implementation guides and decision docs for the next app
+
+This afternoon it managed to ingest the guide and get partway through stage one before reporting it was done for the day.
+
+Same prompt, same guidance format, fresh context, nearly the same app for refactoring. Just throttling.
+
+=== CASE 57 (post_idx=38269, sub=ClaudeCode, created=2026-05-14) ===
+GMT+2, it worked perfectlty fine this morning and was slow and dumb as fuck this afternoon.
+
+For me we're still having the same issue : model is great but it's not available on peak US west coast hours. During these hours, it's worst than any cheap Chinese model en opencode.
+
+=== CASE 58 (post_idx=24780, sub=Anthropic, created=2026-05-15) ===
+I will often then tell claude to write a handoff doc for the morning; say good night (its 11am); then start a new session. I figure AI convinced itself its tired and why work with an unwilling participant?
+
+=== CASE 59 (post_idx=2829, sub=ClaudeAI, created=2026-05-15) ===
+Bit of a different arena, but I just set up a hosted FastAPI app on fly.io for yacht racing.
+
+It has a web front end where I can enter details of upcoming races (start time and location etc) and the app pulls in tide and weather data via API, stores it on the Fly machine, and then pings me each morning in the week running up to the race with latest weather forecast and trend (getting more or less windy etc). 
+
+It also looks at the tides and distance from my marina to the start and gives a suggested departure time factoring in the tidal streams. Basically the same process I would do myself, but without having to refer to different sources or remember to check it every day. 
+
+The notifications work on iPhone - the web front end is installed on the Home Screen which enables Web Push notifications. 
+
+It’s not that complicated but no way I could have done it myself with zero coding knowledge. Took 3 or 4 of hours total work I would guess with Claude code. 
+
+My first project was an MCP server that pulls in Companies House data for work - I used Cowork for that and it was pretty inefficient (cutting and pasting GitHub commands into a terminal window etc) and took much longer. 
+
+I’m not sure why Cowork doesn’t point out when you would be better off using Code! 

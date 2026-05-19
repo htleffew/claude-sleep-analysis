@@ -1,0 +1,13 @@
+type,voice_label,voice_confidence,n,pct_of_total
+comment,Direct_Quote_Of_Model,high,12,1.55
+comment,Paraphrase_Of_Model,high,119,15.39
+comment,Paraphrase_Of_Model,low,2,0.26
+comment,Paraphrase_Of_Model,medium,24,3.1
+comment,User_Original_Content,high,37,4.79
+comment,User_Original_Content,low,337,43.6
+post,Direct_Quote_Of_Model,high,19,2.46
+post,Paraphrase_Of_Model,high,40,5.17
+post,Paraphrase_Of_Model,low,7,0.91
+post,Paraphrase_Of_Model,medium,11,1.42
+post,User_Original_Content,high,19,2.46
+post,User_Original_Content,low,146,18.89

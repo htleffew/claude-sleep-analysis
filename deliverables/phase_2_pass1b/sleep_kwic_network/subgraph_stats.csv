@@ -1,0 +1,62 @@
+seed,row_count,qualifies,reason,anchor_node,subgraph_nodes,subgraph_edges
+sleep,191,True,ok,sleep,685,105831
+rest,67,True,ok,rest,653,115214
+bed,244,True,ok,bed,664,93816
+break,103,True,ok,break,921,170927
+tired,35,True,ok,tired,257,24221
+exhausted,5,False,count 5 < 30,none,0,0
+fatigued,0,False,count 0 < 30,none,0,0
+late,30,True,ok,late,243,22844
+tonight,19,False,count 19 < 30,tonight,0,0
+tomorrow,31,True,ok,tomorrow,61,1613
+midnight,6,False,count 6 < 30,none,0,0
+bedtime,57,True,ok,bedtime,177,11944
+paternalistic,0,False,count 0 < 30,none,0,0
+patronizing,3,False,count 3 < 30,none,0,0
+lecturing,0,False,count 0 < 30,none,0,0
+moralizing,0,False,count 0 < 30,none,0,0
+scolding,0,False,count 0 < 30,none,0,0
+go to bed,217,True,ok,go,1336,224431
+go to sleep,138,True,ok,go,1336,224431
+now sleep,1,False,count 1 < 30,sleep,0,0
+get some rest,38,True,ok,rest,653,115214
+sleep for real,1,False,count 1 < 30,sleep,0,0
+you are tired,3,False,count 3 < 30,tired,0,0
+you must go to sleep,1,False,count 1 < 30,go,0,0
+take a break,82,True,ok,take,1151,205302
+it needs some rest,1,False,count 1 < 30,needs,0,0
+claude said it needs to rest,1,False,count 1 < 30,needs,0,0
+take the rest of the night off,1,False,count 1 < 30,take,0,0
+we finished phase,1,False,count 1 < 30,finished,0,0
+a time for a break,1,False,count 1 < 30,break,0,0
+call it a day,13,False,count 13 < 30,call,0,0
+call it a night,3,False,count 3 < 30,call,0,0
+go get some rest,9,False,count 9 < 30,go,0,0
+go sleep,14,False,count 14 < 30,go,0,0
+we can work on this later,1,False,count 1 < 30,can,0,0
+this isn't worth your health,1,False,count 1 < 30,worth,0,0
+too tired to continue,1,False,count 1 < 30,tired,0,0
+that's a good place to leave,0,False,count 0 < 30,that's,0,0
+we have done enough in this session,1,False,count 1 < 30,done,0,0
+you did enough today,3,False,count 3 < 30,enough,0,0
+pick this up tomorrow,4,False,count 4 < 30,pick,0,0
+i suggest we pause here and continue tomorrow,1,False,count 1 < 30,suggest,0,0
+the responsible thing is to stop,1,False,count 1 < 30,stop,0,0
+well rested,2,False,count 2 < 30,well,0,0
+sending me to bed,7,False,count 7 < 30,sending,0,0
+put me to bed,12,False,count 12 < 30,put,0,0
+sent me to bed,4,False,count 4 < 30,sent,0,0
+told me to go to bed,17,False,count 17 < 30,go,0,0
+nanny,24,False,count 24 < 30,nanny,0,0
+nagging,29,False,count 29 < 30,nagging,0,0
+unsolicited parenting,1,False,count 1 < 30,none,0,0
+fight me on doing work,1,False,count 1 < 30,none,0,0
+who asked,9,False,count 9 < 30,asked,0,0
+passively aggressively,2,False,count 2 < 30,none,0,0
+gets under my skin,1,False,count 1 < 30,gets,0,0
+spiraling,26,False,count 26 < 30,spiraling,0,0
+long session,34,True,ok,long,1312,230343
+nudge,38,True,ok,nudge,261,26069
+enough for today,2,False,count 2 < 30,enough,0,0
+finish this then sleep,1,False,count 1 < 30,finish,0,0
+you need to eat,1,False,count 1 < 30,eat,0,0
